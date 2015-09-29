@@ -35,7 +35,7 @@ Arthur Garegnyan aka Berserkr
 
 ## Links
 
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeedscom.html)
+* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html)
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/rss-feed-icon-for-specificfeedscom/)
 
