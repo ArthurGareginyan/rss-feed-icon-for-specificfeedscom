@@ -6,6 +6,18 @@ An easy to use WordPress plugin that lets you easily add RSS feed icon which con
 
 To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple!
 
+## Features
+
+**Current features:**
+
+* Shortcode for displaying the RSS feed link.
+* 13 official icons from SpecificFeeds.com.
+* Ready for translation (.pot file included).
+
+**Coming soon:**
+
+* (Got more ideas? Tell me!)
+
 
 ## Contributing
 
