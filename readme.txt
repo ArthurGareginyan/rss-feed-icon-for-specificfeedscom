@@ -4,7 +4,7 @@ Tags: specificfeeds.com, specificfeeds, specific feeds, icon, rss, feed, rss fee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -103,7 +103,7 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 * [Developer Website](http://mycyberuniverse.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html)
-
+* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom)
 
 == Changelog ==
 = 1.2 =
