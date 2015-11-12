@@ -105,7 +105,13 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom)
 
+
 == Changelog ==
+= 1.3 =
+* Changed the style of title in plugin's page.
+* The stylesheet of plugin's page moved to separate file.
+* The name of plugin's page changed to "specificfeeds-icon.php".
+* The LICENSE file renamed to LICENSE.txt.
 = 1.2 =
 * specificfeeds.com icons have been optimised.
 * Minor fixes.
@@ -120,6 +126,11 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Upgrade Notice ==
+= 1.3 =
+* Changed the style of title in plugin's page.
+* The stylesheet of plugin's page moved to separate file.
+* The name of plugin's page changed to "specificfeeds-icon.php".
+* The LICENSE file renamed to LICENSE.txt.
 = 1.2 =
 Please update to new version!
 = 1.1 =

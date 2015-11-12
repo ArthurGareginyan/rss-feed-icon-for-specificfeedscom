@@ -8,58 +8,56 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.1
+ * @since 1.3
  */
 function specificfeedsicon_render_submenu_page() {
 
 	// Page
 	?>
 	   <div class="wrap">
-		<h2 style="text-align:center; color:cornflowerblue; margin-bottom: 1em; margin-bottom: 0;">
-				<?php _e( 'RSS Feed Icon for SpecificFeeds.com', 'specificfeedsicon' ); ?>
-				<br/>
-				<span style="font-size: 0.6em; color: #444; margin-top: 1px; margin-bottom: 20px;">
-					<?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank" style="display:inline; padding:0;">Arthur "Berserkr" Gareginyan</a>', 'specificfeedsicon' ); ?>
-				<span/>
+		<h2>
+            <?php _e( 'RSS Feed Icon for SpecificFeeds.com', 'specificfeedsicon' ); ?>
+            <br/>
+            <span>
+                <?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'specificfeedsicon' ); ?>
+            <span/>
 		</h2>
 		<br/>
 		<form name="specificfeedsicon-form" action="options.php" method="post" enctype="multipart/form-data">
 			<?php settings_fields( 'specificfeedsicon_settings_group' ); ?>
 
-			<!-- Sidebar -->
+			<!-- SIDEBAR -->
 			 <div id="templateside">
 				<?php do_action( 'specificfeedsicon-sidebar-top' ); ?>
-				<p style="margin-top: 0">
+				<p>
 					<?php _e( 'This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your web-site.', 'specificfeedsicon' ) ?>
 				</p>
 				<p>
-					<?php _e( '<a href="http://www.specificfeeds.com/" target="_blank" rel="nofollow" style="display:inline; padding:0;">SpecificFeeds.com</a> allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', 'specificfeedsicon' ) ?>
+					<?php _e( '<a href="http://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a> allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', 'specificfeedsicon' ) ?>
 				</p>
 				<p>
 					<?php _e( 'To use, enter your personal link, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It\'s that simple!', 'specificfeedsicon' ) ?>
 				</p>
-				<p style="margin-top:20px; border:1px solid rgb(184, 186, 184); border-radius:5px; padding:3px; text-align:center; background:rgb(234, 234, 234);">If you find it useful, consider making a donation:
+				<p class="donate">If you find it useful, consider making a donation:
                     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU" target="_blank" rel="nofollow">
                           <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                     </a>
                 </p>
 				<?php do_action( 'specificfeedsicon-sidebar-bottom' ); ?>
 			 </div>
-             <!-- END-Sidebar -->
+             <!-- END-SIDEBAR -->
 
-             <!-- Form -->
+             <!-- FORM -->
 			 <div id="template">
 				<?php do_action( 'specificfeedsicon-form-top' ); ?>
 				<div>
-					<label for="specificfeedsicon_link" class="control-label" style="font-size:16px;padding-right:5px;"><?php echo __('Your SpecificFeeds Link :', 'specificfeedsicon'); ?></label>
+					<label for="specificfeedsicon_link" class="control-label"><?php echo __('Your SpecificFeeds Link :', 'specificfeedsicon'); ?></label>
 					<input type="text" class="form-control" name="specificfeedsicon_link" id="specificfeedsicon_link" placeholder="SF Link" value="<?php echo get_option('specificfeedsicon_link'); ?>">
-
-
 				</div>
 				<?php do_action( 'specificfeedsicon-textarea-bottom' ); ?>
 				<br/>
-				<p style="font-size:16px;"><?php _e( 'Which icon do you want to display?', 'specificfeedsicon' ); ?></p>
-				<div class="main_iconbox" style="padding-left:50px;">
+				<p class="control-label"><?php _e( 'Which icon do you want to display?', 'specificfeedsicon' ); ?></p>
+				<div class="main_iconbox">
 					<table width="50%" border="0" cellspacing="15" cellpadding="0">
 
 						<tr>
@@ -144,13 +142,12 @@ function specificfeedsicon_render_submenu_page() {
 				</div>
 				</br>
 				<div>
-					<?php submit_button( __( 'Save Changes', 'specificfeedsicon' ), 'primary', 'submit', true ); ?>
+                <?php submit_button( __( 'Save Changes', 'specificfeedsicon' ), 'primary', 'submit', true ); ?>
 				</div>
 
 				<?php do_action( 'specificfeedsicon-form-bottom' ); ?>
 			 </div>
-             <!-- END-Form -->
-
+             <!-- END-FORM -->
 
 		</form>
 	   </div>
