@@ -86,7 +86,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'inc/settings_page.php' );
  */
 function specificfeedsicon_enqueue_codemirror_scripts($hook) {
 
-    // Return if the page is not a settings page of this plagin
+    // Return if the page is not a settings page of this plugin
     if ( 'settings_page_specificfeeds-icon' != $hook ) {
         return;
     }

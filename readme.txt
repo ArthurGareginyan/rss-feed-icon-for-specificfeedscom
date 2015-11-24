@@ -4,7 +4,7 @@ Tags: specificfeeds.com, specificfeeds, specific feeds, icon, rss, feed, rss fee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -39,24 +39,24 @@ For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.c
 
 
 == Installation ==
-Install "RSS Feed Icon for SpecificFeeds.com" just as you would any other WP Plugin.
+Install "RSS Feed Icon for SpecificFeeds.com" just as you would any other WordPress Plugin.
 
 Automatically via WordPress:
 
 1. Log into WordPress Dashboard of your website.
-2. Go to "Plugins" —> "add new plugins".
+2. Go to "`Plugins`" —> "`add new plugins`".
 3. Find this plugin and click install.
-4. Activate this plugin through the "Plugins" tab.
+4. Activate this plugin through the "`Plugins`" tab.
 
 Manual via FTP:
 
 1. Download a copy (zip file) of this plugin from WordPress.org.
 2. Unzip the zip file.
-3. Upload the unzipped directory to your website's plugin directory (/wp-content/plugins/).
+3. Upload the unzipped directory to your website's plugin directory (`/wp-content/plugins/`).
 4. Log into WordPress Dashboard of your website.
-5. Activate this plugin through the "Plugins" tab.
+5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "SpecificFeeds”  menu item will appear in the “Settings" section. Click on this in order to view plugin's administration page.
+After installation, a "`SpecificFeeds`"  menu item will appear in the "`Settings`" section. Click on this in order to view plugin's administration page.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -66,10 +66,10 @@ After installation, a "SpecificFeeds”  menu item will appear in the “Setting
 Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The .pot file is included and placed in "languages" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
 = Where to report bug if found? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html) and report.
+Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) and report.
 
 = Where to share any ideas or suggestions to make the plugin better? =
 Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html) and share.
