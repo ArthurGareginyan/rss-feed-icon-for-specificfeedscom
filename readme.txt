@@ -4,7 +4,7 @@ Tags: specificfeeds.com, specificfeeds, specific feeds, icon, rss, feed, rss fee
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -107,6 +107,8 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Changelog ==
+= 1.4 =
+* Removed more unused do_action() from settings_page.php file.
 = 1.3 =
 * Changed the style of title in plugin's page.
 * The stylesheet of plugin's page moved to separate file.
@@ -126,6 +128,8 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Upgrade Notice ==
+= 1.4 =
+* Removed more unused do_action() from settings_page.php file.
 = 1.3 =
 * Changed the style of title in plugin's page.
 * The stylesheet of plugin's page moved to separate file.

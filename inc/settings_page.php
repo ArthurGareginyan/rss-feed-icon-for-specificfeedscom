@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.3
+ * @since 1.4
  */
 function specificfeedsicon_render_submenu_page() {
 
@@ -28,7 +28,6 @@ function specificfeedsicon_render_submenu_page() {
 
 			<!-- SIDEBAR -->
 			 <div id="templateside">
-				<?php do_action( 'specificfeedsicon-sidebar-top' ); ?>
 				<p>
 					<?php _e( 'This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your web-site.', 'specificfeedsicon' ) ?>
 				</p>
@@ -43,18 +42,15 @@ function specificfeedsicon_render_submenu_page() {
                           <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                     </a>
                 </p>
-				<?php do_action( 'specificfeedsicon-sidebar-bottom' ); ?>
 			 </div>
              <!-- END-SIDEBAR -->
 
              <!-- FORM -->
 			 <div id="template">
-				<?php do_action( 'specificfeedsicon-form-top' ); ?>
 				<div>
 					<label for="specificfeedsicon_link" class="control-label"><?php echo __('Your SpecificFeeds Link :', 'specificfeedsicon'); ?></label>
 					<input type="text" class="form-control" name="specificfeedsicon_link" id="specificfeedsicon_link" placeholder="SF Link" value="<?php echo get_option('specificfeedsicon_link'); ?>">
 				</div>
-				<?php do_action( 'specificfeedsicon-textarea-bottom' ); ?>
 				<br/>
 				<p class="control-label"><?php _e( 'Which icon do you want to display?', 'specificfeedsicon' ); ?></p>
 				<div class="main_iconbox">
@@ -145,7 +141,6 @@ function specificfeedsicon_render_submenu_page() {
                 <?php submit_button( __( 'Save Changes', 'specificfeedsicon' ), 'primary', 'submit', true ); ?>
 				</div>
 
-				<?php do_action( 'specificfeedsicon-form-bottom' ); ?>
 			 </div>
              <!-- END-FORM -->
 
