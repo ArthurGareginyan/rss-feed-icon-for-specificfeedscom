@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: specificfeeds.com, specificfeeds, specific feeds, icon, rss, feed, rss feed, иконка, значок, 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU
 Requires at least: 3.9
-Tested up to: 4.3
+Tested up to: 4.4
 Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
