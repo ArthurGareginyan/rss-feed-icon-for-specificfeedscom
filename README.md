@@ -34,7 +34,13 @@ If you discover a security vulnerability within this plugin, please send an e-ma
 
 ## License
 
-The plugin "RSS Feed Icon for SpecificFeeds.com" is open-sourced software licensed under the [GNU GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html)
+This plugin is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
+Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+
+
+## Credits
+
+All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 
 
 ## Author
