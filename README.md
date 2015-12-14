@@ -2,7 +2,9 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)
 
-[![icon](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/icon-128x128.png)]() An easy to use WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
+![icon](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/icon-128x128.png)
+
+ An easy to use WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
 
 [SpecificFeeds.com](http://www.specificfeeds.com) allows your visitors to receive messages from your Blog/RSS Feed by email. It's 100% free and also has several other benefits.
 
