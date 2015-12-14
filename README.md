@@ -1,6 +1,6 @@
 # WP Plugin "RSS Feed Icon for SpecificFeeds.com"
 
-[![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)]()
+![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)
 
 [![icon](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/icon-128x128.png)]() An easy to use WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
 
