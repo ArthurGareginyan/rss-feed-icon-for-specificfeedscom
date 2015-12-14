@@ -1,3 +1,4 @@
+[![icon](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/icon-128x128.png)]()
 # WP Plugin "RSS Feed Icon for SpecificFeeds.com"
 
 [![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)]()
