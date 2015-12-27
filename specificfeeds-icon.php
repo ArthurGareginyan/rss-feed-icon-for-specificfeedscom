@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your web-site.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
- * Version: 1.4
+ * Version: 1.5
  * License: GPL3
  * Text Domain: specificfeedsicon
  * Domain Path: /languages/
@@ -134,6 +134,13 @@ function specificfeedsicon_shortcode() {
     		</a>';
 }
 add_shortcode('specificfeeds-icon', 'specificfeedsicon_shortcode');
+
+/**
+ * Allow shortcodes in the text widget
+ *
+ * @since 1.5
+ */
+add_filter('widget_text', 'do_shortcode');
 
 /**
  * Delete Options on Uninstall
