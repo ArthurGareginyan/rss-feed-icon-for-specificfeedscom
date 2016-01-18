@@ -61,7 +61,7 @@ Arthur Garegnyan aka Berserkr
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/rss-feed-icon-for-specificfeedscom/)
 
-* [Donation Page](http://mycyberuniverse.com/donate.html)
+* [Donation Page](http://www.arthurgareginyan.com/donate.html)
 
 
 ---
