@@ -19,7 +19,7 @@ function specificfeedsicon_render_submenu_page() {
             <?php _e( 'RSS Feed Icon for SpecificFeeds.com', 'specificfeedsicon' ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'specificfeedsicon' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'specificfeedsicon' ); ?>
             <span/>
 		</h2>
 		<br/>

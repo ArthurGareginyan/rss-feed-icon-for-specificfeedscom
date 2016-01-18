@@ -101,7 +101,7 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 **Links**
 
-* [Developer Website](http://mycyberuniverse.com)
+* [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom)
 
