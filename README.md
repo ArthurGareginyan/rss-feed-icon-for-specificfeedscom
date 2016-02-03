@@ -1,4 +1,6 @@
-# WP Plugin "RSS Feed Icon for SpecificFeeds.com"
+# RSS Feed Icon for SpecificFeeds.com
+
+**Free Premium WorPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)
 
