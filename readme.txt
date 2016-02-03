@@ -1,10 +1,10 @@
 === RSS Feed Icon for SpecificFeeds.com ===
 Contributors: Arthur Gareginyan
 Tags: specificfeeds.com, specificfeeds, specific feeds, icon, rss, feed, rss feed, иконка, значок, 
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,7 @@ This plugin allows you to simply add RSS feed icon by SpecificFeeds.com in any p
 
 
 == Description ==
-An easy to use WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
+An easy to use and lightweight WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
 
 [SpecificFeeds.com](http://www.specificfeeds.com) allows your visitors to receive messages from your Blog/RSS Feed by email. It's 100% free and also has several other benefits.
 
@@ -62,17 +62,17 @@ After installation, a "`SpecificFeeds`"  menu item will appear in the "`Settings
 
 
 == Frequently Asked Questions ==
-= Will this Plugin work on my WordPress.com website? =
-Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
+= Q. Will this Plugin work on my WordPress.com website? =
+A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
-= Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+= Q. Can I use this plugin on my language? =
+A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
-= Where to report bug if found? =
-Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) and report.
+= Q. Where to report bug if found? =
+A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) and report.
 
-= Where to share any ideas or suggestions to make the plugin better? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html) and share.
+= Q. Where to share any ideas or suggestions to make the plugin better? =
+A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html) and share.
 
 
 == Screenshots ==
@@ -80,6 +80,9 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 
 == Other Notes ==
+
+"RSS Feed Icon for SpecificFeeds.com" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+
 **License**
 
 This plugin is licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html)
@@ -92,7 +95,7 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 **Support**
 
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU). Your contribution would be greatly appreciated.
+* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
 * Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html)
 
 **Please Vote and Enjoy**
@@ -107,6 +110,11 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Changelog ==
+= 1.6 =
+* Authors URI changed.
+* Donate link changed.
+* Localization improved.
+* .pot file updated.
 = 1.5 =
 * Added filter to allow shortcodes in the text widgets.
 = 1.4 =
@@ -130,6 +138,11 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Upgrade Notice ==
+= 1.6 =
+* Authors URI changed.
+* Donate link changed.
+* Localization improved.
+* .pot file updated.
 = 1.5 =
 * Added filter to allow shortcodes in the text widgets.
 = 1.4 =

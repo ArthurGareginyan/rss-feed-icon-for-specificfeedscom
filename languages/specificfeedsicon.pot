@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2015-08-30 17:33+0300\n"
+"POT-Creation-Date: 2016-02-04 00:07+0300\n"
 "PO-Revision-Date: 2015-08-30 14:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,52 +20,63 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:16
+#: inc/settings_page.php:19
 msgid "RSS Feed Icon for SpecificFeeds.com"
 msgstr ""
 
-#: inc/settings_page.php:19
+#: inc/settings_page.php:22
 msgid ""
-"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\" "
-"style=\"display:inline; padding:0;\">Arthur \"Berserkr\" Gareginyan</a>"
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"\"Berserkr\" Gareginyan</a>"
 msgstr ""
 
 #. Description of the plugin/theme
-#: inc/settings_page.php:30
+#: inc/settings_page.php:32
 msgid ""
 "This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in "
 "any place on your web-site."
 msgstr ""
 
-#: inc/settings_page.php:33
+#: inc/settings_page.php:35
 #, php-format
 msgid ""
-"<a href=\"http://www.specificfeeds.com/\" target=\"_blank\" rel=\"nofollow\" "
-"style=\"display:inline; padding:0;\">SpecificFeeds.com</a> allows your "
-"visitors to receive messages from your Blog/RSS Feed by email. It's "
-"100% free and also has several other benefits."
+"<a href=\"http://www.specificfeeds.com/\" target=\"_blank\" rel=\"nofollow"
+"\">SpecificFeeds.com</a> allows your visitors to receive messages from your "
+"Blog/RSS Feed by email. It's 100% free and also has several other benefits."
 msgstr ""
 
-#: inc/settings_page.php:36
+#: inc/settings_page.php:38
 msgid ""
 "To use, enter your personal link, choose icon and click \"Save Changes\". "
 "Then you can put shortcode [specificfeeds-icon] in needed place. It's that "
 "simple!"
 msgstr ""
 
+#: inc/settings_page.php:40
+msgid "If you find it useful, consider making a donation:"
+msgstr ""
+
 #: inc/settings_page.php:51
 msgid "Your SpecificFeeds Link :"
 msgstr ""
 
-#: inc/settings_page.php:58
+#: inc/settings_page.php:55
 msgid "Which icon do you want to display?"
 msgstr ""
 
-#: inc/settings_page.php:144
+#: inc/settings_page.php:60
+msgid "A SpecificFeeds icon..."
+msgstr ""
+
+#: inc/settings_page.php:61
+msgid "...or an email icon:"
+msgstr ""
+
+#: inc/settings_page.php:141
 msgid "Save Changes"
 msgstr ""
 
-#: specificfeeds-icon.php:55
+#: specificfeeds-icon.php:58
 msgid "Settings"
 msgstr ""
 

@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.4
+ * @since 1.6
  */
 function specificfeedsicon_render_submenu_page() {
 
@@ -37,8 +37,8 @@ function specificfeedsicon_render_submenu_page() {
 				<p>
 					<?php _e( 'To use, enter your personal link, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It\'s that simple!', 'specificfeedsicon' ) ?>
 				</p>
-				<p class="donate">If you find it useful, consider making a donation:
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CZE2SPQWVLMU" target="_blank" rel="nofollow">
+				<p class="donate"><?php _e( 'If you find it useful, consider making a donation:', 'specificfeedsicon' ); ?>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                           <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
                     </a>
                 </p>
@@ -57,8 +57,8 @@ function specificfeedsicon_render_submenu_page() {
 					<table width="50%" border="0" cellspacing="15" cellpadding="0">
 
 						<tr>
-							<td><b>A SpecificFeeds icon...</b></td>
-							<td><b>...or an email icon:</b></td>
+							<td><b><?php _e( 'A SpecificFeeds icon...', 'specificfeedsicon' ); ?></b></td>
+							<td><b><?php _e( '...or an email icon:', 'specificfeedsicon' ); ?></b></td>
 						</tr>
 						<tr>
 							<td>
