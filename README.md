@@ -13,15 +13,12 @@ To use, enter your personal link from SpecificFeeds.com, choose icon and click "
 
 ## Features
 
-**Current features:**
+* Shortcode for displaying the RSS feed link
+* 13 official icons from SpecificFeeds.com
+* Ready for translation (.pot file included)
+* Russian translation
 
-* Shortcode for displaying the RSS feed link.
-* 13 official icons from SpecificFeeds.com.
-* Ready for translation (.pot file included).
-
-**Coming soon:**
-
-* (Got more ideas? Tell me!)
+**Got more ideas? Tell me!**
 
 
 ## Contributing
@@ -58,8 +55,6 @@ Arthur Garegnyan aka Berserkr
 
 
 ## Links
-
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-rss-feed-icon-for-specificfeeds-com.html)
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/rss-feed-icon-for-specificfeedscom/)
 
