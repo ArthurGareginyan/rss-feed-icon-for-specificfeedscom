@@ -197,7 +197,7 @@ function specificfeedsicon_render_submenu_page() {
                                     <p><?php highlight_string('[specificfeeds-icon]'); ?></p>
                                     <p><?php _e( '<b>C)</b> For add the button directly to a theme files, just add one of the following code (both variants do the same) to needed place (where you want to display the button) in your theme files:', 'rss-feed-icon-for-specificfeedscom' ) ?></p>
                                     <p><?php highlight_string('<?php echo do_shortcode("[specificfeeds-icon]"); ?>'); ?></p>
-                                    <p><?php highlight_string('<?php echo rss-feed-icon-for-specificfeedscom_shortcode(); ?>'); ?></p>
+                                    <p><?php highlight_string('<?php echo specificfeedsicon_shortcode(); ?>'); ?></p>
                                 </div>
                             </div>
 
