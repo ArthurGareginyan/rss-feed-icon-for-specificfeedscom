@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
+"POT-Creation-Date: 2016-04-08 12:53+0300\n"
+"PO-Revision-Date: 2016-04-08 12:53+0300\n"
+"Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: specificfeeds-icon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: inc/settings_page.php:21
+msgid "RSS Feed Icon for SpecificFeeds.com"
+msgstr ""
+
+#: inc/settings_page.php:24
+msgid ""
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"\"Berserkr\" Gareginyan</a>"
+msgstr ""
+"от <a href=“http://www.arthurgareginyan.com” target=“_blank”>Артур "
+"“Berserkr” Гарегинян</a>"
+
+#: inc/settings_page.php:35
+msgid "About"
+msgstr "О плагине"
+
+#. Description of the plugin/theme
+#: inc/settings_page.php:37
+msgid ""
+"This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in "
+"any place on your website."
+msgstr ""
+"Этот плагин позволяет легко добавить RSS feed иконку от SpecificFeeds.com в "
+"любое место на вашем веб-сайте."
+
+#: inc/settings_page.php:38
+#, php-format
+msgid ""
+" allows your visitors to receive messages from your Blog/RSS Feed by email. "
+"It's 100% free and also has several other benefits."
+msgstr ""
+
+#: inc/settings_page.php:43
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/settings_page.php:45
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+"добавить их."
+
+#: inc/settings_page.php:51
+msgid "Donate"
+msgstr "Пожертвование"
+
+#: inc/settings_page.php:54
+msgid ""
+"If you like this plugin and find it useful, help me to make this plugin even "
+"better and keep it up-to-date."
+msgstr ""
+"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+"сделать его ещё лучше."
+
+#: inc/settings_page.php:58
+msgid "Thanks for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/settings_page.php:63
+msgid "Freelance"
+msgstr "Фриланс"
+
+#: inc/settings_page.php:66
+msgid ""
+"Hello, my name is Arthur and I'm a freelance web designer and developer."
+msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
+
+#: inc/settings_page.php:67
+msgid ""
+"Share your thoughts with me. You may have a brilliant idea in your mind and "
+"I can make it happen, so let’s get started!"
+msgstr ""
+"Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, а "
+"я могу сделать её явью, так что давайте начнём!"
+
+#: inc/settings_page.php:86 specificfeeds-icon.php:70
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/settings_page.php:92
+msgid "Your SpecificFeeds Link :"
+msgstr "Ваша Ссылка SpecificFeeds:"
+
+#: inc/settings_page.php:97
+msgid "Which icon do you want to display?"
+msgstr "Какую иконку вы предпочитаете?"
+
+#: inc/settings_page.php:102
+msgid "A SpecificFeeds icon..."
+msgstr "SpecificFeeds иконка…"
+
+#: inc/settings_page.php:103
+msgid "...or an email icon:"
+msgstr "…или email иконка:"
+
+#: inc/settings_page.php:183
+msgid "Note: Two from above icons are white color with transparent background."
+msgstr "Примечание: Две из вышепоказаных иконок имеют рисунок белого цвета."
+
+#: inc/settings_page.php:188
+msgid "Save Changes"
+msgstr "Сохранить Изменения"
+
+#: inc/settings_page.php:191
+msgid "Using"
+msgstr "Использование:"
+
+#: inc/settings_page.php:193
+msgid ""
+"You have several methods for display the SpecificFeeds.com button (further "
+"just \"button\") on your website. But first, enter your personal "
+"SpecificFeeds link and choose preferred icon, then click \"Save Changes\"."
+msgstr ""
+
+#: inc/settings_page.php:194
+msgid ""
+"<b>A)</b> For add the button inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+
+#: inc/settings_page.php:196
+msgid ""
+"<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) "
+"use the \"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+
+#: inc/settings_page.php:198
+msgid ""
+"<b>C)</b> For add the button directly to a theme files, just add one of the "
+"following code (both variants do the same) to needed place (where you want "
+"to display the button) in your theme files:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr "Артур Гарегинян"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr ""
+
+#~ msgid ""
+#~ "This plugin allows you to easily add RSS feed icon by SpecificFeeds.com "
+#~ "in any place on your web-site."
+#~ msgstr ""
+#~ "Этот плагин позволяет легко добавить RSS feed иконку от SpecificFeeds.com "
+#~ "в любое место на вашем веб-сайте."
+
+#~ msgid ""
+#~ "To use, enter your personal link, choose icon and click \"Save Changes\"."
+#~ msgstr ""
+#~ "Для использования, введите личную ссылку, выберите иконку и нажмите "
+#~ "“Сохранить Изменения”."
+
+#~ msgid "Then you can put the shortcode"
+#~ msgstr "Затем вы можете разместить шорткод"
+
+#~ msgid "in needed place, like a post or text-widget. It's that simple!"
+#~ msgstr ""
+#~ "в нужном вам месте, таком, как пост или текстовый-виджет. Это так просто!"
+
+#~ msgid ""
+#~ "Note: Two from above icons are white color whith transparent background."
+#~ msgstr ""
+#~ "Примечание: Две из расположенных выше иконок имеют рисунок белого цвета "
+#~ "на прозрачном фоне."
+
+#~ msgid "Arthur \"Berserkr\" Gareginyan"
+#~ msgstr "Артур \"Берсеркр\" Гарегинян"
+
+#~ msgid ""
+#~ "Note: Two from above icons are white color whit transparent background."
+#~ msgstr ": Две из вышепоказаных иконок имеют рисунок белого цвета "
+
+#~ msgid ""
+#~ "To use, enter your personal link, choose icon and click \"Save Changes\". "
+#~ "Then you can put shortcode [specificfeeds-icon] in needed place. It's "
+#~ "that simple!"
+#~ msgstr ""
+#~ "Для использования, введите личную ссылку, выберите иконку и нажмите "
+#~ "\"Сохранить изменения\". Затем вы можете поместить шорткод [specificfeeds-"
+#~ "icon] в нужное место. Это так просто!"
+
+#~ msgid ""
+#~ "<a href=\"http://www.specificfeeds.com/\" target=\"_blank\" rel=\"nofollow"
+#~ "\" style=\"display:inline; padding:0;\">SpecificFeeds.com</a> allows your "
+#~ "visitors to receive messages from your Blog/RSS Feed by email. It's 100% "
+#~ "free and also has several other benefits."
+#~ msgstr ""
+#~ "<a href=\"http://www.specificfeeds.com/\" target=\"_blank\" rel=\"nofollow"
+#~ "\" style=\"display:inline; padding:0;\">SpecificFeeds.com</a> позволяет "
+#~ "посетителям получать сообщения с вашего Blog/RSS Feed по электронной "
+#~ "почте. Это 100% бесплатно, а также имеет ряд других преимуществ."

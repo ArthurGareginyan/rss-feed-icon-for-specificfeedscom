@@ -1,7 +1,7 @@
 /*
  * RSS Feed Icon for SpecificFeeds.com
  * Style sheet for plugin's page
- * @since 1.3
+ * @since 2.0
  * @agareginyan
  */
 
@@ -28,34 +28,53 @@ h2 span a {
     padding: 0;
 }
 
-#templateside {
-    position: fixed;
-    right: 20px;
+h3.title {
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    border-bottom: 1px solid #eee;
 }
 
-#templateside p {
-    margin-top: 0;
-}
-
-#templateside p a {
-    display: inline;
-    padding: 0;
-}
-
-.control-label {
-    font-size: 16px;
-    padding-right: 5px;
-}
-
-.main_iconbox {
-    padding-left: 50px;
-}
-
-.donate {
-    margin-top: 20px;
-    border: 1px solid rgb(184, 186, 184);
-    border-radius: 5px;
-    padding: 3px;
+.inner-sidebar h3.title {
     text-align: center;
-    background: rgb(234, 234, 234);
+}
+
+td.help-text {
+    font-style: italic;
+    font-size: 12px !important;
+    float: left;
+    clear: left;
+    color: #797979;
+    line-height: 15px;
+    padding-top: 0px !important;
+}
+
+input#specificfeedsicon_link.form-control {
+    width: 70%;
+}
+
+.postbox a {
+    text-decoration: none;
+}
+
+#side-sortables {
+    position: relative;
+}
+
+#about {
+    text-align: center;
+}
+
+#using {
+    text-align: center;
+}
+
+#help {
+    text-align: center;
+}
+
+#donate {
+    text-align: center;
+}
+
+#freelance {
+    text-align: center;
 }

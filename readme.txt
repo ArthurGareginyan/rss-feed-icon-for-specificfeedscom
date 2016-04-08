@@ -18,22 +18,20 @@ An easy to use and lightweight WordPress plugin that lets you easily add RSS fee
 
 To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple!
 
-
 = Features =
 
-**Current features:**
+* Shortcode for displaying the RSS feed link
+* 13 official icons from SpecificFeeds.com
+* Ready for translation (.pot file included)
+* Russian translation
 
-* Shortcode for displaying the RSS feed link.
-* 13 official icons from SpecificFeeds.com.
-* Ready for translation (.pot file included).
-
-**Coming soon:**
-
-* (Got more ideas? Tell me!)
-
-**Please Vote and Enjoy**
-
-* Your votes really make a difference! Thanks.
+>**Contribution**
+>
+>Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+>
+>* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon-for-specificfeedscom?rate=5#postform) this plugin.
+>* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -81,6 +79,9 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
+= Q. I love this plugin! Can I help somehow? =
+A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
+
 
 == Screenshots ==
 1. Plugin’s page.
@@ -100,15 +101,6 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 
-**Support**
-
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
-
-**Please Vote and Enjoy**
-
-* Your votes really make a difference! Thanks.
-
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
@@ -116,6 +108,19 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Changelog ==
+= 2.0 =
+* New design of settings page (new layout).
+* On settings page added section "Using" with the using details.
+* Added my personal ad about freelance.
+* Constants variables added.
+* All images are moved to the directory "images".
+* Image "btn_donateCC_LG.gif" is now located in the "images" directory.
+* Plugin URI changed to GitHub repository.
+* Slug of settings page changed to "rss-feed-icon-for-specificfeedscom".
+* Text domain changed to "rss-feed-icon-for-specificfeedscom".
+* Added compatibility with the translate.wordpress.org.
+* .pot file updated.
+* Russian translation updated.
 = 1.6 =
 * Authors URI changed.
 * Donate link changed.
@@ -144,23 +149,9 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Upgrade Notice ==
-= 1.6 =
-* Authors URI changed.
-* Donate link changed.
-* Localization improved.
-* .pot file updated.
-= 1.5 =
-* Added filter to allow shortcodes in the text widgets.
-= 1.4 =
-* Removed more unused do_action() from settings_page.php file.
-= 1.3 =
-* Changed the style of title in plugin's page.
-* The stylesheet of plugin's page moved to separate file.
-* The name of plugin's page changed to "specificfeeds-icon.php".
-* The LICENSE file renamed to LICENSE.txt.
-= 1.2 =
-Please update to new version!
-= 1.1 =
-Please update to new version!
+= 2.0 =
+Please update to new release!
 = 1.0 =
 Please update to first stable release!
+= 0.2 =
+Please update to beta version.
