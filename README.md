@@ -45,20 +45,20 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 ## Author
 
-Arthur Garegnyan aka Berserkr
+Arthur Garegnyan
 
 * Email: arthurgareginyan@gmail.com
 
 * GitHub: [https://github.com/ArthurGareginyan/](https://github.com/ArthurGareginyan/)
 
-* My Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
+* Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
+
+* Donation: [http://www.arthurgareginyan.com/donate.html](http://www.arthurgareginyan.com/donate.html)
 
 
 ## Links
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/rss-feed-icon-for-specificfeedscom/)
-
-* [Donation Page](http://www.arthurgareginyan.com/donate.html)
 
 
 ---
