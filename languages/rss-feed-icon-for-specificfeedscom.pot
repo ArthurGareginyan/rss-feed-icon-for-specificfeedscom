@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2016-04-08 12:53+0300\n"
+"POT-Creation-Date: 2016-08-23 07:13+0300\n"
 "PO-Revision-Date: 2015-08-30 14:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -27,7 +27,7 @@ msgstr ""
 #: inc/settings_page.php:24
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+"Gareginyan</a>"
 msgstr ""
 
 #: inc/settings_page.php:35
@@ -53,91 +53,80 @@ msgid "Help"
 msgstr ""
 
 #: inc/settings_page.php:45
-msgid "If you want more options then tell me and I will be happy to add it."
+msgid "Got something to say? Need help?"
 msgstr ""
 
 #: inc/settings_page.php:51
 msgid "Donate"
 msgstr ""
 
-#: inc/settings_page.php:54
+#: inc/settings_page.php:53
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin "
-"even better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
 
-#: inc/settings_page.php:58
+#: inc/settings_page.php:57
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:63
-msgid "Freelance"
+#: inc/settings_page.php:62
+msgid "Advertisement"
 msgstr ""
 
-#: inc/settings_page.php:66
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr ""
-
-#: inc/settings_page.php:67
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr ""
-
-#: inc/settings_page.php:86 specificfeeds-icon.php:70
+#: inc/settings_page.php:82 specificfeeds-icon.php:70
 msgid "Settings"
 msgstr ""
 
-#: inc/settings_page.php:92
+#: inc/settings_page.php:88
 msgid "Your SpecificFeeds Link :"
 msgstr ""
 
-#: inc/settings_page.php:97
+#: inc/settings_page.php:93
 msgid "Which icon do you want to display?"
 msgstr ""
 
-#: inc/settings_page.php:102
+#: inc/settings_page.php:98
 msgid "A SpecificFeeds icon..."
 msgstr ""
 
-#: inc/settings_page.php:103
+#: inc/settings_page.php:99
 msgid "...or an email icon:"
 msgstr ""
 
-#: inc/settings_page.php:183
+#: inc/settings_page.php:179
 msgid ""
 "Note: Two from above icons are white color with transparent background."
 msgstr ""
 
-#: inc/settings_page.php:188
+#: inc/settings_page.php:184
 msgid "Save Changes"
 msgstr ""
 
-#: inc/settings_page.php:191
+#: inc/settings_page.php:187
 msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:193
+#: inc/settings_page.php:189
 msgid ""
 "You have several methods for display the SpecificFeeds.com button (further "
 "just \"button\") on your website. But first, enter your personal "
 "SpecificFeeds link and choose preferred icon, then click \"Save Changes\"."
 msgstr ""
 
-#: inc/settings_page.php:194
+#: inc/settings_page.php:190
 msgid ""
 "<b>A)</b> For add the button inside a post from WP Post/Page Editor use the "
 "following shortcode:"
 msgstr ""
 
-#: inc/settings_page.php:196
+#: inc/settings_page.php:192
 msgid ""
 "<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) "
 "use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
-#: inc/settings_page.php:198
+#: inc/settings_page.php:194
 msgid ""
 "<b>C)</b> For add the button directly to a theme files, just add one of the "
 "following code (both variants do the same) to needed place (where you want "

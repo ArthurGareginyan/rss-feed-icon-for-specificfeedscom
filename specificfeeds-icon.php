@@ -5,12 +5,12 @@
  * Description: This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0
+ * Version: 2.0.1
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
  *
- * Copyright 2014-2016 Arthur "Berserkr" Gareginyan  (email : arthurgareginyan@gmail.com)
+ * Copyright 2014-2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "RSS Feed Icon for SpecificFeeds.com".
  *
@@ -37,7 +37,7 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Plugin constants
+ * Define constants
  *
  * @since 2.0
  */
@@ -91,11 +91,11 @@ add_action('admin_menu', 'specificfeedsicon_menu');
 require_once( RFIFS_PATH . 'inc/settings_page.php' );
 
 /**
- * Enqueue the style sheet for setting's page
+ * Load scripts and style sheet for settings page
  *
  * @since 2.0
  */
-function specificfeedsicon_enqueue_codemirror_scripts($hook) {
+function specificfeedsicon_load_scripts($hook) {
 
     // Return if the page is not a settings page of this plugin
     if ( 'settings_page_rss-feed-icon-for-specificfeedscom' != $hook ) {
@@ -105,7 +105,7 @@ function specificfeedsicon_enqueue_codemirror_scripts($hook) {
     // Style sheet
     wp_enqueue_style('styles', RFIFS_URL . 'inc/style.css');
 }
-add_action( 'admin_enqueue_scripts', 'specificfeedsicon_enqueue_codemirror_scripts' );
+add_action( 'admin_enqueue_scripts', 'specificfeedsicon_load_scripts' );
 
 /**
  * Register settings

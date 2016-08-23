@@ -17,6 +17,7 @@ To use, enter your personal link from SpecificFeeds.com, choose icon and click "
 * 13 official icons from SpecificFeeds.com
 * Ready for translation (.pot file included)
 * Russian translation
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Got more ideas? Tell me!**
 
