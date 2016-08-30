@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.0.1
+ * @since 3.0
  */
 function specificfeedsicon_render_submenu_page() {
 
@@ -52,7 +52,7 @@ function specificfeedsicon_render_submenu_page() {
                         <div class="inside">
                             <p><?php _e( 'If you like this plugin and find it useful, please help me to make this plugin even better and keep it up-to-date.', 'rss-feed-icon-for-specificfeedscom' ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
+                                <img src="<?php echo plugins_url('../img/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
                             <p><?php _e( 'Thanks for your support!', 'rss-feed-icon-for-specificfeedscom' ); ?></p>
                         </div>
@@ -101,73 +101,73 @@ function specificfeedsicon_render_submenu_page() {
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="first" <?php checked('first', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/first_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/first_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="four" <?php checked('four', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/four_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/four_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="second" <?php checked('second', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/second_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/second_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="five" <?php checked('five', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/five_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/five_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="third" <?php checked('third', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/third_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/third_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="six" <?php checked('six', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/six_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/six_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="seven" <?php checked('seven', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/seven_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/seven_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="eight" <?php checked('eight', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/eight_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/eight_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="nine" <?php checked('nine', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/nine_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/nine_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="ten" <?php checked('ten', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/ten_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/ten_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="eleven" <?php checked('eleven', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/eleven_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/eleven_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="twelve" <?php checked('twelve', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/twelve_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/twelve_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <input type="radio" name="specificfeedsicon_icon" value="thirteen" <?php checked('thirteen', get_option('specificfeedsicon_icon')); ?>>
-                                                    <img src="<?php echo plugins_url( 'images/icons/thirteen_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
+                                                    <img src="<?php echo plugins_url( '../img/icons/thirteen_one.png', __FILE__ ) ?>" width='48' height='48' align='absmiddle'/>
                                                 </td>
                                                 <td>
                                                 </td>

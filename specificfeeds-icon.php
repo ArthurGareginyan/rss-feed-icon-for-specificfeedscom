@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0.1
+ * Version: 3.0
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -86,14 +86,14 @@ add_action('admin_menu', 'specificfeedsicon_menu');
 /**
  * Attach Settings Page
  *
- * @since 2.0
+ * @since 3.0
  */
-require_once( RFIFS_PATH . 'inc/settings_page.php' );
+require_once( RFIFS_PATH . 'inc/php/settings_page.php' );
 
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 2.0
+ * @since 3.0
  */
 function specificfeedsicon_load_scripts($hook) {
 
@@ -103,7 +103,11 @@ function specificfeedsicon_load_scripts($hook) {
     }
 
     // Style sheet
-    wp_enqueue_style('styles', RFIFS_URL . 'inc/style.css');
+    wp_enqueue_style( 'admin-css', RFIFS_URL . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( 'admin-js', RFIFS_URL . 'inc/js/admin.js', array(), false, true );
+
 }
 add_action( 'admin_enqueue_scripts', 'specificfeedsicon_load_scripts' );
 
@@ -128,7 +132,7 @@ function specificfeedsicon_shortcode() {
     // Set variables
     $sf_link = get_option( 'specificfeedsicon_link' );
     $sf_icon = get_option( 'specificfeedsicon_icon' );
-    $sf_icon_src = plugins_url( 'inc/images/icons/' . $sf_icon . '_one.png', __FILE__ );
+    $sf_icon_src = plugins_url( 'inc/img/icons/' . $sf_icon . '_one.png', __FILE__ );
 
 	// Generating output code
 	return '<a

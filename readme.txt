@@ -105,7 +105,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
+All SpecificFeeds.com icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 
 **Links**
 
@@ -114,6 +114,12 @@ All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.c
 
 
 == Changelog ==
+= 3.0 =
+* The structure of files changed.
+* Style sheet of settings page improved and better commented.
+* Style sheet of settings page optimized for mobile devices.
+* Added JavaScript file for settings page.
+* Added JavaScript function of automatic remove the "successful" message after 3 seconds.
 = 2.0.1 =
 * POT file updated.
 * Russian translation updated.
