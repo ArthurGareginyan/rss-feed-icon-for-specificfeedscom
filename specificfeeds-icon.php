@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.0
+ * Version: 3.1
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -29,6 +29,7 @@
  *
  */
 
+
 /**
  * Prevent Direct Access
  *
@@ -37,14 +38,15 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Define constants
+ * Define global constants
  *
- * @since 2.0
+ * @since 3.1
  */
 defined('RFIFS_DIR') or define('RFIFS_DIR', dirname(plugin_basename(__FILE__)));
 defined('RFIFS_BASE') or define('RFIFS_BASE', plugin_basename(__FILE__));
 defined('RFIFS_URL') or define('RFIFS_URL', plugin_dir_url(__FILE__));
 defined('RFIFS_PATH') or define('RFIFS_PATH', plugin_dir_path(__FILE__));
+defined('RFIFS_VERSION') or define('RFIFS_VERSION', '3.1');
 
 /**
  * Register text domain
@@ -81,7 +83,7 @@ add_filter( "plugin_action_links_".RFIFS_BASE, 'specificfeedsicon_settings_link'
 function specificfeedsicon_menu() {
 	add_options_page('SpecificFeeds', 'SpecificFeeds', 'manage_options', 'rss-feed-icon-for-specificfeedscom', 'specificfeedsicon_render_submenu_page');
 }
-add_action('admin_menu', 'specificfeedsicon_menu');
+add_action( 'admin_menu', 'specificfeedsicon_menu' );
 
 /**
  * Attach Settings Page
@@ -93,7 +95,7 @@ require_once( RFIFS_PATH . 'inc/php/settings_page.php' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 3.0
+ * @since 3.1
  */
 function specificfeedsicon_load_scripts($hook) {
 
@@ -103,10 +105,10 @@ function specificfeedsicon_load_scripts($hook) {
     }
 
     // Style sheet
-    wp_enqueue_style( 'admin-css', RFIFS_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( 'specificfeedsicon-admin-css', RFIFS_URL . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( 'admin-js', RFIFS_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( 'specificfeedsicon-admin-js', RFIFS_URL . 'inc/js/admin.js', array(), false, true );
 
 }
 add_action( 'admin_enqueue_scripts', 'specificfeedsicon_load_scripts' );
@@ -148,7 +150,7 @@ function specificfeedsicon_shortcode() {
     		/>
     		</a>';
 }
-add_shortcode('specificfeeds-icon', 'specificfeedsicon_shortcode');
+add_shortcode( 'specificfeeds-icon', 'specificfeedsicon_shortcode' );
 
 /**
  * Allow shortcodes in the text widget
