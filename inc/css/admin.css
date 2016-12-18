@@ -59,6 +59,7 @@ h3.title {
 /* Help text
  -------------------------------------------------------------- */
 td.help-text {
+    width: 80%;
     font-style: italic;
     font-size: 12px !important;
     float: left;
@@ -70,11 +71,18 @@ td.help-text {
 
 /* Other
  -------------------------------------------------------------- */
-table {
-    margin-left: 60px;
+.form-table {
+    clear: none;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
-input[type=text] {
+.form-table th,
+.form-table td {
+    padding-bottom: 10px;
+}
+
+.form-table input[type=text] {
     max-width: 80%;
     padding-top: 5px;
     background: #fcfcfc;
@@ -91,8 +99,11 @@ input[type=text] {
     text-decoration: none;
 }
 
-input#specificfeedsicon_link.form-control {
-    width: 80%;
-    margin-left: 70px;
-    margin-top: 15px;
+.integrated-icons td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.preview-icon {
+    text-align: center;
 }

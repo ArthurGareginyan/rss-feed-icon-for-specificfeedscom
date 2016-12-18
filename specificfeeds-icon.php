@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.2
+ * Version: 3.3
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -40,14 +40,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 3.2
+ * @since 3.3
  */
 defined('RFIFS_DIR') or define('RFIFS_DIR', dirname(plugin_basename(__FILE__)));
 defined('RFIFS_BASE') or define('RFIFS_BASE', plugin_basename(__FILE__));
 defined('RFIFS_URL') or define('RFIFS_URL', plugin_dir_url(__FILE__));
 defined('RFIFS_PATH') or define('RFIFS_PATH', plugin_dir_path(__FILE__));
 defined('RFIFS_TEXT') or define('RFIFS_TEXT', 'rss-feed-icon-for-specificfeedscom');
-defined('RFIFS_VERSION') or define('RFIFS_VERSION', '3.2');
+defined('RFIFS_VERSION') or define('RFIFS_VERSION', '3.3');
 
 /**
  * Register text domain
@@ -117,36 +117,109 @@ add_action( 'admin_enqueue_scripts', 'specificfeedsicon_load_scripts' );
 /**
  * Register settings
  *
- * @since 0.1
+ * @since 3.3
  */
 function specificfeedsicon_register_settings() {
-	register_setting( 'specificfeedsicon_settings_group', 'specificfeedsicon_link' );
-	register_setting( 'specificfeedsicon_settings_group', 'specificfeedsicon_icon' );
+    register_setting( 'specificfeedsicon_settings_group', 'RssFeedIconSF_settings' );
 }
 add_action( 'admin_init', 'specificfeedsicon_register_settings' );
 
 /**
+ * Upgrade settings
+ *
+ * @since 3.3
+ */
+function specificfeedsicon_upgrade_settings() {
+
+    $array = array();
+
+    if ( !empty( get_option( 'specificfeedsicon_link' ) ) ) {
+
+        // Get value from old setting and set it in array
+        $array['sf_link'] = get_option( 'specificfeedsicon_link' );
+
+        // Update new setting with value from old setting
+        update_option( 'RssFeedIconSF_settings', $array );
+
+        // Delete old setting
+        delete_option( 'specificfeedsicon_link' );
+
+    }
+    if ( !empty( get_option( 'specificfeedsicon_icon' ) ) ) {
+
+        // Get value from old setting and set it in array
+        $array['sf_icon'] = get_option( 'specificfeedsicon_icon' );
+
+        // Make array with numbers
+        $array_number = array(
+                              
+                              'first'    => '1',
+                              'second'   => '2',
+                              'third'    => '3',
+                              'four'     => '4',
+                              'five'     => '5',
+                              'six'      => '6',
+                              'seven'    => '7',
+                              'eight'    => '8',
+                              'nine'     => '9',
+                              'ten'      => '10',
+                              'eleven'   => '11',
+                              'twelve'   => '12',
+                              'thirteen' => '13'
+                              
+                              );
+        $array['sf_icon'] = $array_number[ $array['sf_icon'] ];
+
+        // Update new setting with value from old setting
+        update_option( 'RssFeedIconSF_settings', $array );
+
+        // Delete old setting
+        delete_option( 'specificfeedsicon_icon' );
+
+    }
+
+}
+specificfeedsicon_upgrade_settings();
+
+/**
  * ShortCode SpecificFeeds
  *
- * @since 2.0
+ * @since 3.3
  */
 function specificfeedsicon_shortcode() {
 
     // Set variables
-    $sf_link = get_option( 'specificfeedsicon_link' );
-    $sf_icon = get_option( 'specificfeedsicon_icon' );
-    $sf_icon_src = plugins_url( 'inc/img/icons/' . $sf_icon . '_one.png', __FILE__ );
+    $options = get_option( 'RssFeedIconSF_settings' );
+
+    if ( !empty( $options['sf_link'] ) ) {
+        $sf_link = $options['sf_link'];
+    } else {
+        $sf_link = '';
+    }
+
+    if ( !empty( $options['sf_icon'] ) ) {
+        $icon_src = plugins_url( 'inc/img/icons/' . $options['sf_icon'] . '.png', __FILE__ );
+    } else {
+        $icon_src = plugins_url( 'inc/img/icons/1.png', __FILE__ );
+    }
+
+    if ( !empty( $options['icon_size'] ) ) {
+        $icon_size = $options['icon_size'];
+    } else {
+        $icon_size = '48';
+    }
 
 	// Generating output code
 	return '<a
-				href="'.$sf_link.'"
+				href="' . $sf_link . '"
 				target="_blank"
 				rel="nofollow"
     		>
     		<img
-    			src="'.$sf_icon_src.'"
-    			width="48"
-    			height="48"
+    			src="' . $icon_src . '"
+    			width="' . $icon_size . '"
+    			height="' . $icon_size . '"
+    			title="RSS Feed"
     			style="border: none;"
     		/>
     		</a>';
@@ -163,11 +236,10 @@ add_filter('widget_text', 'do_shortcode');
 /**
  * Delete Options on Uninstall
  *
- * @since 0.1
+ * @since 3.3
  */
 function specificfeedsicon_uninstall() {
-	delete_option( 'specificfeedsicon_link' );
-	delete_option( 'specificfeedsicon_icon' );
+    delete_option( 'RssFeedIconSF_settings' );
 }
 register_uninstall_hook( __FILE__, 'specificfeedsicon_uninstall' );
 

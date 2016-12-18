@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2016-11-01 18:42+0300\n"
-"PO-Revision-Date: 2016-11-01 18:42+0300\n"
+"POT-Creation-Date: 2016-12-18 16:59+0300\n"
+"PO-Revision-Date: 2016-12-18 17:11+0300\n"
 "Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -22,11 +22,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: inc/php/settings_page.php:21
+#: inc/php/settings_page.php:24
 msgid "RSS Feed Icon for SpecificFeeds.com"
 msgstr ""
 
-#: inc/php/settings_page.php:24
+#: inc/php/settings_page.php:27
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -34,39 +34,38 @@ msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
 "Гарегинян</a>"
 
-#: inc/php/settings_page.php:35
+#: inc/php/settings_page.php:38
 msgid "About"
 msgstr "О плагине"
 
-#. Description of the plugin/theme
-#: inc/php/settings_page.php:37
+#: inc/php/settings_page.php:40
 msgid ""
-"This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in "
-"any place on your website."
+"This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com "
+"in any place on your website."
 msgstr ""
 "Этот плагин позволяет легко добавить RSS feed иконку от SpecificFeeds.com в "
 "любое место на вашем веб-сайте."
 
-#: inc/php/settings_page.php:38
+#: inc/php/settings_page.php:41
 #, php-format
 msgid ""
 " allows your visitors to receive messages from your Blog/RSS Feed by email. "
 "It's 100% free and also has several other benefits."
 msgstr ""
 
-#: inc/php/settings_page.php:43
+#: inc/php/settings_page.php:46
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/settings_page.php:45
+#: inc/php/settings_page.php:48
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/php/settings_page.php:51
+#: inc/php/settings_page.php:54
 msgid "Donate"
 msgstr "Поддержать разработку"
 
-#: inc/php/settings_page.php:53
+#: inc/php/settings_page.php:56
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -76,71 +75,118 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings_page.php:57
+#: inc/php/settings_page.php:60
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings_page.php:79 specificfeeds-icon.php:73
+#: inc/php/settings_page.php:81 specificfeeds-icon.php:73
 msgid "Settings"
 msgstr "Настройки"
 
-#: inc/php/settings_page.php:85
-msgid "Your SpecificFeeds Link :"
-msgstr "Ваша Ссылка SpecificFeeds:"
+#: inc/php/settings_page.php:89
+msgid "Your SpecificFeeds link"
+msgstr "Ваша ссылка SpecificFeeds"
 
-#: inc/php/settings_page.php:90
-msgid "Which icon do you want to display?"
-msgstr "Какую иконку вы предпочитаете?"
+#: inc/php/settings_page.php:106
+msgid ""
+"Enter your personal SpecificFeeds link that you get from the <a href="
+"\"https://www.specificfeeds.com\" target=\"_blank\" rel=\"nofollow\" "
+">SpecificFeeds.com</a> website."
+msgstr ""
+"Введите вашу личную SpecificFeeds ссылку, которую вы получили от <a href="
+"\"https://www.specificfeeds.com\" target=\"_blank\" rel=\"nofollow\" "
+">SpecificFeeds.com</a>."
 
-#: inc/php/settings_page.php:95
-msgid "A SpecificFeeds icon..."
-msgstr "SpecificFeeds иконка…"
+#: inc/php/settings_page.php:112
+msgid "SpecificFeeds icon"
+msgstr "SpecificFeeds иконка"
 
-#: inc/php/settings_page.php:96
-msgid "...or an email icon:"
-msgstr "…или email иконка:"
-
-#: inc/php/settings_page.php:176
+#: inc/php/settings_page.php:194
 msgid "Note: Two from above icons are white color with transparent background."
 msgstr "Примечание: Две из вышепоказаных иконок имеют рисунок белого цвета."
 
-#: inc/php/settings_page.php:181
+#: inc/php/settings_page.php:200
+msgid "Size of icon"
+msgstr "Размер иконки"
+
+#: inc/php/settings_page.php:219
+msgid "You can set the height of icon (in px)."
+msgstr "Вы можете установить высоту иконки (в px)."
+
+#: inc/php/settings_page.php:225
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings_page.php:184
+#: inc/php/settings_page.php:231
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: inc/php/settings_page.php:233
+msgid "Click \"Save Changes\" to update this preview."
+msgstr ""
+"Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
+
+#: inc/php/settings_page.php:242
 msgid "Using"
 msgstr "Как пользоваться"
 
-#: inc/php/settings_page.php:186
+#: inc/php/settings_page.php:244
 msgid ""
-"You have several methods for display the SpecificFeeds.com button (further "
-"just \"button\") on your website. But first, enter your personal "
-"SpecificFeeds link and choose preferred icon, then click \"Save Changes\"."
+"You have several methods for display the SpecificFeeds.com icon (further "
+"just \"icon\") on your website. But first, enter your personal SpecificFeeds "
+"link and choose preferred icon, then click \"Save Changes\"."
 msgstr ""
+"У вас есть несколько способов для того, чтобы отобразить иконку "
+"SpecificFeeds.com (далее просто “иконка”) на вашем вебсайте. Но сначала "
+"укажите вашу личную SpecificFeeds ссылку и выберите предпочитаемую иконку, а "
+"затем нажмите “Сохранить изменения”."
 
-#: inc/php/settings_page.php:187
+#: inc/php/settings_page.php:245
 msgid ""
-"<b>A)</b> For add the button inside a post from WP Post/Page Editor use the "
+"<b>A)</b> For add the icon inside a post from WP Post/Page Editor use the "
 "following shortcode:"
 msgstr ""
+"<b>A)</b> Для того, чтобы добавить иконку в пост из WP Post/Page Editor "
+"используйте следующий шорткод:"
 
-#: inc/php/settings_page.php:189
+#: inc/php/settings_page.php:247
 msgid ""
-"<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) "
-"use the \"Text\" widget and add inside it the following shortcode:"
+"<b>B)</b> For add the icon to the widget area (in sidebar, footer etc.) use "
+"the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
+"<b>B)</b> Для того, чтобы добавить иконку в область виджетов (в боковой "
+"панели, колонтитуле и т.д.) используйте виджет “Text” добавив в него "
+"следующий шорткод:"
 
-#: inc/php/settings_page.php:191
+#: inc/php/settings_page.php:249
 msgid ""
 "<b>C)</b> For add the button directly to a theme files, just add one of the "
 "following code (both variants do the same) to needed place (where you want "
 "to display the button) in your theme files:"
 msgstr ""
+"<b>C)</b> Для того, чтобы добавить иконку непосредственно в файлы темы, "
+"просто добавьте один из следующих вариантов кода (оба варианта делают одно и "
+"тоже) в нужное место (где вы хотите отобразить иконку) ваших файлов темы:"
+
+#: inc/php/settings_page.php:252
+msgid ""
+"It's that simple! If you want more options then tell me and I will be happy "
+"to add it."
+msgstr ""
+"Это так просто! Если вы хотите иметь больше опций, то скажите мне об этом и "
+"я буду счастлив добавить их."
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
 msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin allows you to easily add RSS feed icon by SpecificFeeds.com in "
+"any place on your website."
+msgstr ""
+"Этот плагин позволяет легко добавить RSS feed иконку от SpecificFeeds.com в "
+"любое место на вашем веб-сайте."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -149,6 +195,18 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Your SpecificFeeds Link :"
+#~ msgstr "Ваша Ссылка SpecificFeeds:"
+
+#~ msgid "Which icon do you want to display?"
+#~ msgstr "Какую иконку вы предпочитаете?"
+
+#~ msgid "A SpecificFeeds icon..."
+#~ msgstr "SpecificFeeds иконка…"
+
+#~ msgid "...or an email icon:"
+#~ msgstr "…или email иконка:"
 
 #~ msgid "Advertisement"
 #~ msgstr "Реклама"

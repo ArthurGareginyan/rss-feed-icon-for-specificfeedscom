@@ -1,28 +1,36 @@
 === RSS Feed Icon for SpecificFeeds.com ===
 Contributors: Arthur Gareginyan
-Tags: specificfeeds.com, specificfeeds, specific feeds, icon, rss, feed, rss feed, иконка, значок, 
+Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner alternative, иконка, значок, кнопка
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.6
-Stable tag: 3.2
+Tested up to: 4.7
+Stable tag: 3.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin allows you to simply add RSS feed icon by SpecificFeeds.com in any place of your web-site.
+Easily add the RSS feed icon by SpecificFeeds.com in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
 
 
 == Description ==
-An easy to use and lightweight WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
+An easy to use and lightweight WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
 
-[SpecificFeeds.com](http://www.specificfeeds.com) allows your visitors to receive messages from your Blog/RSS Feed by email. It's 100% free and also has several other benefits.
+The plugin is based on the service [SpecificFeeds.com](http://www.specificfeeds.com). SpecificFeeds allows your visitors to receive messages from your Blog/RSS Feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
 
-To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple!
+To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple! If you want more options then tell me and I will be happy to add it.
 
 = Features =
 
-* Shortcode for displaying the RSS feed link
+* Responsive
+* Retina support
+* Cross Browser Compatible (work smooth in any modern browser)
+* Simple shortcode for displaying the SpecificFeeds icon
 * 13 official icons from SpecificFeeds.com
+* Ability to set the size of icon
 * Ready for translation (POT file included)
+
+**Coming soon:**
+
+* Universal SpecificFeeds link (click-to-follow.me)
 
 = Translation =
 
@@ -91,6 +99,7 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 
 == Screenshots ==
 1. Plugin page.
+2. Shortcode added to widget.
 
 
 == Other Notes ==
@@ -114,6 +123,15 @@ All SpecificFeeds.com icons are the property of the [SpecificFeeds.com](http://w
 
 
 == Changelog ==
+= 3.3 =
+* Design of settings page improved.
+* The preview section added on settings page.
+* Added option for setting custom size of icon.
+* Table of settings that saved in DB optimized.
+* Names of icons optimized.
+* Translations updated.
+* Readme for translations updated.
+* Image of the donate button changed.
 = 3.2 =
 * Added the Readme.txt file for translation contribution.
 * Added global constant for plugin text-domain.
