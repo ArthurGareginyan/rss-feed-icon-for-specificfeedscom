@@ -4,18 +4,22 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)
 
- An easy to use WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your web-site.
+An easy to use and lightweight WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
 
-[SpecificFeeds.com](http://www.specificfeeds.com) allows your visitors to receive messages from your Blog/RSS Feed by email. It's 100% free and also has several other benefits.
+The plugin is based on the service [SpecificFeeds.com](http://www.specificfeeds.com). SpecificFeeds allows your visitors to receive messages from your Blog/RSS Feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
 
-To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple!
+To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple! If you want more options then tell me and I will be happy to add it.
 
 
 ## Features
 
-* Shortcode for displaying the RSS feed link
+* Responsive
+* Retina support
+* Cross Browser Compatible (work smooth in any modern browser)
+* Simple shortcode for displaying the SpecificFeeds icon
 * 13 official icons from SpecificFeeds.com
-* Ready for translation (.pot file included)
+* Ability to set the size of icon
+* Ready for translation (POT file included)
 * Russian translation
 * Published on [WordPess.org](http://wordpess.org/)
 
