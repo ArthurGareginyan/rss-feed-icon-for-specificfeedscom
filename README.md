@@ -49,7 +49,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 ## Credits
 
-All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
+* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
+* All icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 
 
 ## Author
