@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0
+ * Version: 4.0.1
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -62,7 +62,7 @@ defined('RFIFS_BASE') or define('RFIFS_BASE', plugin_basename(__FILE__));
 defined('RFIFS_URL') or define('RFIFS_URL', plugin_dir_url(__FILE__));
 defined('RFIFS_PATH') or define('RFIFS_PATH', plugin_dir_path(__FILE__));
 defined('RFIFS_TEXT') or define('RFIFS_TEXT', 'rss-feed-icon-for-specificfeedscom');
-defined('RFIFS_VERSION') or define('RFIFS_VERSION', '4.0');
+defined('RFIFS_VERSION') or define('RFIFS_VERSION', '4.0.1');
 
 /**
  * Load the plugin modules
