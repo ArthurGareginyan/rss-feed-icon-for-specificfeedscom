@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2017-05-07 13:25+0300\n"
+"POT-Creation-Date: 2017-05-17 05:55+0300\n"
 "PO-Revision-Date: 2015-08-30 14:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -61,11 +61,11 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:43 inc/php/page.php:165
+#: inc/php/page.php:43 inc/php/page.php:164
 msgid "Author"
 msgstr ""
 
-#: inc/php/page.php:44 inc/php/page.php:174 inc/php/settings.php:29 inc/php/settings.php:238
+#: inc/php/page.php:44 inc/php/page.php:173 inc/php/settings.php:29 inc/php/settings.php:222
 msgid "Support"
 msgstr ""
 
@@ -116,43 +116,43 @@ msgstr ""
 
 #: inc/php/page.php:73
 msgid ""
-"<b>C)</b> For add the button directly to a theme files, just add one of the following code (both "
-"variants do the same) to needed place (where you want to display the button) in your theme files:"
+"<b>C)</b> For add the button directly to a theme files, just add the following code to needed place "
+"(where you want to display the button) in your theme files:"
 msgstr ""
 
-#: inc/php/page.php:77
+#: inc/php/page.php:76
 msgid "Enjoy your fancy SpecificFeeds icon."
 msgstr ""
 
-#: inc/php/page.php:77
+#: inc/php/page.php:76
 msgid "It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:79
+#: inc/php/page.php:78
 msgid "Note!"
 msgstr ""
 
-#: inc/php/page.php:79
+#: inc/php/page.php:78
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 
-#: inc/php/page.php:88
+#: inc/php/page.php:87
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: inc/php/page.php:110
+#: inc/php/page.php:109
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr ""
 
-#: inc/php/page.php:111
+#: inc/php/page.php:110
 msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
 msgstr ""
 
-#: inc/php/page.php:113
+#: inc/php/page.php:112
 msgid "Can I use this plugin on my language?"
 msgstr ""
 
-#: inc/php/page.php:115
+#: inc/php/page.php:114
 #, php-format
 msgid ""
 "Yes. But If your language is not available then you can make one. This plugin is ready for translation. "
@@ -162,39 +162,39 @@ msgid ""
 "plugin update."
 msgstr ""
 
-#: inc/php/page.php:120
+#: inc/php/page.php:119
 msgid "How does it work?"
 msgstr ""
 
-#: inc/php/page.php:121
+#: inc/php/page.php:120
 msgid ""
 "On the \"Settings\" tab, select the desired settings and click the \"Save Changes\" button. Enjoy your "
 "fancy SpecificFeeds icon. It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:123
+#: inc/php/page.php:122
 msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:124
+#: inc/php/page.php:123
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr ""
 
-#: inc/php/page.php:126
+#: inc/php/page.php:125
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
-#: inc/php/page.php:127
+#: inc/php/page.php:126
 msgid ""
 "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use "
 "plugin settings page."
 msgstr ""
 
-#: inc/php/page.php:129
+#: inc/php/page.php:128
 msgid "It's not working. What could be wrong?"
 msgstr ""
 
-#: inc/php/page.php:130
+#: inc/php/page.php:129
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common reason for this is a web "
 "browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to "
@@ -202,37 +202,37 @@ msgid ""
 "cache may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:131
+#: inc/php/page.php:130
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's "
 "support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as "
 "much information as possible, including a link to your website where the problem can be seen."
 msgstr ""
 
-#: inc/php/page.php:133
+#: inc/php/page.php:132
 msgid "Where to report bug if found?"
 msgstr ""
 
-#: inc/php/page.php:135
+#: inc/php/page.php:134
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 
-#: inc/php/page.php:141
+#: inc/php/page.php:140
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:143
+#: inc/php/page.php:142
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s arthurgareginyan@gmail.com %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:148
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:151
+#: inc/php/page.php:150
 #, php-format
 msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, "
@@ -256,17 +256,17 @@ msgid ""
 "several other benefits."
 msgstr ""
 
-#: inc/php/settings.php:31 inc/php/settings.php:240
+#: inc/php/settings.php:31 inc/php/settings.php:224
 msgid ""
 "I'm an independent developer, without a regular income, so every little contribution helps cover my "
 "costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:241
+#: inc/php/settings.php:32 inc/php/settings.php:225
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:33 inc/php/settings.php:242
+#: inc/php/settings.php:33 inc/php/settings.php:226
 msgid "Thanks for your support!"
 msgstr ""
 
@@ -278,49 +278,65 @@ msgstr ""
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/php/settings.php:63
+#: inc/php/settings.php:58
 msgid "Main Settings"
 msgstr ""
 
-#: inc/php/settings.php:65
+#: inc/php/settings.php:60
 msgid "There you can configure this plugin."
 msgstr ""
 
-#: inc/php/settings.php:71
+#: inc/php/settings.php:65
 msgid "Your SpecificFeeds link"
 msgstr ""
 
-#: inc/php/settings.php:88
+#: inc/php/settings.php:66
 msgid ""
 "Enter your personal SpecificFeeds link that you get from the <a href=\"https://www.specificfeeds.com\" "
 "target=\"_blank\" rel=\"nofollow\" >SpecificFeeds.com</a> website."
 msgstr ""
 
-#: inc/php/settings.php:94
+#: inc/php/settings.php:75
 msgid "SpecificFeeds icon"
 msgstr ""
 
-#: inc/php/settings.php:190
+#: inc/php/settings.php:174
 msgid "Note: Two from above icons are white color with transparent background."
 msgstr ""
 
-#: inc/php/settings.php:196
-msgid "Size of icon"
+#: inc/php/settings.php:179
+msgid "Icon size"
 msgstr ""
 
-#: inc/php/settings.php:215
+#: inc/php/settings.php:180
 msgid "You can set the height of icon (in px)."
 msgstr ""
 
-#: inc/php/settings.php:221
+#: inc/php/settings.php:188
+msgid "Tooltip"
+msgstr ""
+
+#: inc/php/settings.php:189
+msgid "Enable/disable a tooltip above button."
+msgstr ""
+
+#: inc/php/settings.php:195
+msgid "Text of tooltip"
+msgstr ""
+
+#: inc/php/settings.php:196
+msgid "You can set a custom text of tooltip. Leave blank to use the default text."
+msgstr ""
+
+#: inc/php/settings.php:205
 msgid "Save Changes"
 msgstr ""
 
-#: inc/php/settings.php:227
+#: inc/php/settings.php:211
 msgid "Preview"
 msgstr ""
 
-#: inc/php/settings.php:229
+#: inc/php/settings.php:213
 msgid "Click the \"Save Changes\" button to update this preview."
 msgstr ""
 
