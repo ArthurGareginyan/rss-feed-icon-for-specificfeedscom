@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.0.1
+Stable tag: 4.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -133,6 +133,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
 * All SpecificFeeds.com icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+* [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
 
 **Links**
 
@@ -141,6 +142,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.1 =
+* Tooltip option added.
+* Added separate "bootstrap-tooltip.css" and "bootstrap-tooltip.js" files for using on frontend.
+* The "bootstrap-checkbox.js" JavaScript plugin added.
+* The "frontend.css" file added.
+* The "frontend.js" file added.
+* The "enqueue.php" file improved.
+* Code formatting improved.
+* Added function that render checkboxes and fields for saving plugin settings to database.
 
 = 4.0.1 =
 * Fixed the bug due to which the the "Warning: Illegal string offset 'version' in" and the "Warning: Illegal string offset 'old_version' in" warnings are displayed. (Thanks to Sven Brill)

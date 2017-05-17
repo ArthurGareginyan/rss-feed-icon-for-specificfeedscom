@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Tab
  *
- * @since 3.3
+ * @since 4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -54,11 +54,6 @@ defined('ABSPATH') or die("Restricted access!");
                 <form name="specificfeedsicon-form" action="options.php" method="post" enctype="multipart/form-data">
                     <?php settings_fields( 'specificfeedsicon_settings_group' ); ?>
 
-                    <?php
-                        // Get options from the BD
-                        $options = get_option( 'RssFeedIconSF_settings' );
-                    ?>
-
                     <div class="postbox" id="Settings">
                         <h3 class="title"><?php _e( 'Main Settings', RFIFS_TEXT ); ?></h3>
                         <div class="inside">
@@ -66,28 +61,14 @@ defined('ABSPATH') or die("Restricted access!");
 
                             <table class="form-table">
 
-                                <tr>
-                                    <th scope='row'>
-                                        <?php _e( 'Your SpecificFeeds link', RFIFS_TEXT ); ?>
-                                    </th>
-                                    <td>
-                                        <?php
-                                            if ( !empty( $options['sf_link'] ) ) {
-                                                $sf_link = $options['sf_link'];
-                                            } else {
-                                                $sf_link = '';
-                                            }
-                                        ?>
-                                        <input type="text" name="RssFeedIconSF_settings[sf_link]" id="RssFeedIconSF_settings[sf_link]" placeholder="http://" value="<?php echo $sf_link; ?>" size="50" >
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                    </td>
-                                    <td class='help-text'>
-                                        <?php _e( 'Enter your personal SpecificFeeds link that you get from the <a href="https://www.specificfeeds.com" target="_blank" rel="nofollow" >SpecificFeeds.com</a> website.', RFIFS_TEXT ); ?>
-                                    </td>
-                                </tr>
+                                <?php specificfeedsicon_setting( 'sf_link',
+                                                                 __( 'Your SpecificFeeds link', RFIFS_TEXT ),
+                                                                 __( 'Enter your personal SpecificFeeds link that you get from the <a href="https://www.specificfeeds.com" target="_blank" rel="nofollow" >SpecificFeeds.com</a> website.', RFIFS_TEXT ),
+                                                                 'field',
+                                                                 'http://',
+                                                                 '50'
+                                                                );
+                                ?>
 
                                 <tr>
                                     <th scope='row'>
@@ -96,6 +77,9 @@ defined('ABSPATH') or die("Restricted access!");
                                     <td>
 
                                         <?php
+                                            // Get options from the BD
+                                            $options = get_option( 'RssFeedIconSF_settings' );
+
                                             if ( !empty( $options['sf_icon'] ) ) {
                                                 $sf_icon = $options['sf_icon'];
                                             } else {
@@ -191,30 +175,30 @@ defined('ABSPATH') or die("Restricted access!");
                                     </td>
                                 </tr>
 
-                                <tr>
-                                    <th scope='row'>
-                                        <?php _e( 'Size of icon', RFIFS_TEXT ); ?>
-                                    </th>
-                                    <td>
+                                <?php specificfeedsicon_setting( 'icon_size',
+                                                                 __( 'Icon size', RFIFS_TEXT ),
+                                                                 __( 'You can set the height of icon (in px).', RFIFS_TEXT ),
+                                                                 'field',
+                                                                 '48',
+                                                                 '2'
+                                                                );
+                                ?>
 
-                                        <?php
-                                            if ( !empty( $options['icon_size'] ) ) {
-                                                $icon_size = $options['icon_size'];
-                                            } else {
-                                                $icon_size = '48';
-                                            }
-                                        ?>
+                                <?php specificfeedsicon_setting( 'tooltip',
+                                                                 __( 'Tooltip', RFIFS_TEXT ),
+                                                                 __( 'Enable/disable a tooltip above button.', RFIFS_TEXT ),
+                                                                 'check'
+                                                                );
+                                ?>
 
-                                        <input type="text" name="RssFeedIconSF_settings[icon_size]" id="RssFeedIconSF_settings[icon_size]" value="<?php echo $icon_size; ?>" placeholder="48" size="3">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                    </td>
-                                    <td class='help-text'>
-                                        <?php _e( 'You can set the height of icon (in px).', RFIFS_TEXT ); ?>
-                                    </td>
-                                </tr>
+                                <?php specificfeedsicon_setting( 'tooltip_text',
+                                                                 __( 'Text of tooltip', RFIFS_TEXT ),
+                                                                 __( 'You can set a custom text of tooltip. Leave blank to use the default text.', RFIFS_TEXT ),
+                                                                 'field',
+                                                                 'RSS Feed',
+                                                                 '50'
+                                                                );
+                                ?>
 
                             </table>
 

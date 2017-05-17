@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        http://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.0
+ * @since       4.1
  */
 
 
@@ -19,6 +19,9 @@ jQuery(document).ready(function($) {
             $(".updated").fadeOut();
         }, 3000);
     }
+
+    // Enable Bootstrap Checkboxes
+    $(':checkbox').checkboxpicker();
 
     // Dynamic content
     $( ".include-tab-author" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-author" );
