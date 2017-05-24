@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab
  *
- * @since 4.1
+ * @since 4.2
  */
 ?>
     <!-- SIDEBAR -->
@@ -38,7 +38,7 @@ defined('ABSPATH') or die("Restricted access!");
                 <h3 class="title"><?php _e( 'Help', RFIFS_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'Got something to say? Need help?', RFIFS_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=RSS Feed Icon for SpecificFeeds.com">arthurgareginyan@gmail.com</a></p>
+                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo RFIFS_NAME; ?>">arthurgareginyan@gmail.com</a></p>
                 </div>
             </div>
 
@@ -51,8 +51,16 @@ defined('ABSPATH') or die("Restricted access!");
         <div id="post-body-content" class="has-sidebar-content">
             <div class="meta-box-sortabless">
 
-                <form name="specificfeedsicon-form" action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( 'specificfeedsicon_settings_group' ); ?>
+                <form action="options.php" method="post" enctype="multipart/form-data">
+                    <?php settings_fields( RFIFS_SETTINGS . '_settings_group' ); ?>
+
+                    <?php
+                        // Get options from the BD
+                        $options = get_option( RFIFS_SETTINGS . '_settings' );
+
+                        // Set default value if the option is empty
+                        $sf_icon = isset( $options['sf_icon'] ) && !empty( $options['sf_icon'] ) ? $options['sf_icon'] : '1';
+                    ?>
 
                     <div class="postbox" id="Settings">
                         <h3 class="title"><?php _e( 'Main Settings', RFIFS_TEXT ); ?></h3>
@@ -75,18 +83,6 @@ defined('ABSPATH') or die("Restricted access!");
                                         <?php _e( 'SpecificFeeds icon', RFIFS_TEXT ); ?>
                                     </th>
                                     <td>
-
-                                        <?php
-                                            // Get options from the BD
-                                            $options = get_option( 'RssFeedIconSF_settings' );
-
-                                            if ( !empty( $options['sf_icon'] ) ) {
-                                                $sf_icon = $options['sf_icon'];
-                                            } else {
-                                                $sf_icon = '1';
-                                            }
-                                        ?>
-
                                         <div class="integrated-icons">
                                             <table width="300" border="0" cellspacing="15" cellpadding="0">
                                                 <tr>
@@ -218,7 +214,7 @@ defined('ABSPATH') or die("Restricted access!");
                         </div>
                     </div>
 
-                    <div id="support-addition" class="postbox">
+                    <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', RFIFS_TEXT ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', RFIFS_TEXT ); ?></p>

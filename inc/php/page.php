@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Page
  *
- * @since 3.3
+ * @since 4.2
  */
 function specificfeedsicon_render_submenu_page() {
 
@@ -22,7 +22,7 @@ function specificfeedsicon_render_submenu_page() {
     ?>
     <div class="wrap">
         <h2>
-            <?php _e( 'RSS Feed Icon for SpecificFeeds.com', RFIFS_TEXT ); ?>
+            <?php echo RFIFS_NAME; ?>
             <span>
                 <?php printf(
                               __( 'by %s Arthur Gareginyan %s', RFIFS_TEXT ),
@@ -45,7 +45,6 @@ function specificfeedsicon_render_submenu_page() {
                 <li><a href="#tab-family" data-toggle="tab"><?php _e( 'Family', RFIFS_TEXT ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
-
 
             <!-- TAB 1 -->
             <div class="tab-page fade active in" id="tab-core">
@@ -89,7 +88,7 @@ function specificfeedsicon_render_submenu_page() {
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '9';
+                                $loopvalue = '10';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -129,24 +128,27 @@ function specificfeedsicon_render_submenu_page() {
                         <div class="answer-6"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', RFIFS_TEXT ); ?><br><br>
                                               <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, I\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', RFIFS_TEXT ); ?></div>
 
-                        <div class="question-7 question-red"><?php _e( 'Where to report bug if found?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-7"><?php printf(
+                        <div class="question-7 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', RFIFS_TEXT ); ?></div>
+                        <div class="answer-7"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', RFIFS_TEXT ); ?></div>
+
+                        <div class="question-8 question-red"><?php _e( 'Where to report bug if found?', RFIFS_TEXT ); ?></div>
+                        <div class="answer-8"><?php printf(
                                                             __( 'Please visit the %s Dedicated Plugin Page on GitHub %s and report.', RFIFS_TEXT ),
                                                                 '<a href="https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-8"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-8"><?php printf(
+                        <div class="question-9"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', RFIFS_TEXT ); ?></div>
+                        <div class="answer-9"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please send me an email to %s arthurgareginyan@gmail.com %s. Thank you!', RFIFS_TEXT ),
                                                                 '<a href="mailto:arthurgareginyan@gmail.com?subject=RSS Feed Icon for SpecificFeeds.com">',
                                                                 '</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-9"><?php _e( 'I love this plugin! Can I help somehow?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-9"><?php printf(
+                        <div class="question-10"><?php _e( 'I love this plugin! Can I help somehow?', RFIFS_TEXT ); ?></div>
+                        <div class="answer-10"><?php printf(
                                                             __( 'Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!', RFIFS_TEXT ),
                                                                 '<a href="http://www.arthurgareginyan.com/donate.html" target="_blank">',
                                                                 '</a>'

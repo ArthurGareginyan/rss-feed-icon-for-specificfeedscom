@@ -5,14 +5,14 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Delete options on uninstall
  *
- * @since 3.3
+ * @since 4.2
  */
 function specificfeedsicon_uninstall() {
-    delete_option( 'RssFeedIconSF_settings' );
+    delete_option( RFIFS_SETTINGS . '_settings' );
 }
-register_uninstall_hook( __FILE__, 'specificfeedsicon_uninstall' );
+register_uninstall_hook( __FILE__, RFIFS_PREFIX . '_uninstall' );

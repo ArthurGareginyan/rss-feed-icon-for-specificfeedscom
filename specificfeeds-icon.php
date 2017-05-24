@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.1
+ * Version: 4.2
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -50,19 +50,23 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
  *
- * @since 3.3
+ * @since 4.2
  */
-defined('RFIFS_DIR') or define('RFIFS_DIR', dirname(plugin_basename(__FILE__)));
-defined('RFIFS_BASE') or define('RFIFS_BASE', plugin_basename(__FILE__));
-defined('RFIFS_URL') or define('RFIFS_URL', plugin_dir_url(__FILE__));
-defined('RFIFS_PATH') or define('RFIFS_PATH', plugin_dir_path(__FILE__));
-defined('RFIFS_TEXT') or define('RFIFS_TEXT', 'rss-feed-icon-for-specificfeedscom');
-defined('RFIFS_VERSION') or define('RFIFS_VERSION', '4.1');
+defined( 'RFIFS_DIR' ) or define( 'RFIFS_DIR', dirname( plugin_basename( __FILE__ ) ) );
+defined( 'RFIFS_BASE' ) or define( 'RFIFS_BASE', plugin_basename( __FILE__ ) );
+defined( 'RFIFS_URL' ) or define( 'RFIFS_URL', plugin_dir_url( __FILE__ ) );
+defined( 'RFIFS_PATH' ) or define( 'RFIFS_PATH', plugin_dir_path( __FILE__ ) );
+defined( 'RFIFS_TEXT' ) or define( 'RFIFS_TEXT', 'rss-feed-icon-for-specificfeedscom' );
+defined( 'RFIFS_SLUG' ) or define( 'RFIFS_SLUG', 'rss-feed-icon-for-specificfeedscom' );
+defined( 'RFIFS_PREFIX' ) or define( 'RFIFS_PREFIX', 'specificfeedsicon' );
+defined( 'RFIFS_SETTINGS' ) or define( 'RFIFS_SETTINGS', 'RssFeedIconSF' );
+defined( 'RFIFS_NAME' ) or define( 'RFIFS_NAME', 'RSS Feed Icon for SpecificFeeds.com' );
+defined( 'RFIFS_VERSION' ) or define( 'RFIFS_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
 
 /**
  * Load the plugin modules

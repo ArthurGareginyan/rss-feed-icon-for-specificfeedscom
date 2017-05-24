@@ -5,7 +5,7 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Upgrade settings
@@ -67,12 +67,12 @@ specificfeedsicon_upgrade_settings();
 /**
  * Render checkboxes and fields for saving settings data to BD
  *
- * @since 4.1
+ * @since 4.2
  */
 function specificfeedsicon_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
 
-    // Declare variables
-    $options = get_option( 'RssFeedIconSF_settings' );
+    // Read options from BD
+    $options = get_option( RFIFS_SETTINGS . '_settings' );
 
     if ( !empty( $options[$name] ) ) {
         $value = esc_textarea( $options[$name] );
@@ -88,21 +88,9 @@ function specificfeedsicon_setting( $name, $label, $help=null, $field=null, $pla
     }
 
     if ( $field == "check" ) {
-        $input = "<input
-                        type='checkbox'
-                        name='RssFeedIconSF_settings[$name]'
-                        id='RssFeedIconSF_settings[$name]'
-                        $checked
-                  >";
+        $input = "<input type='checkbox' name='" . RFIFS_SETTINGS . "_settings[$name]' id='" . RFIFS_SETTINGS . "_settings[$name]' $checked >";
     } elseif ( $field == "field" ) {
-        $input = "<input
-                        type='text'
-                        name='RssFeedIconSF_settings[$name]'
-                        id='RssFeedIconSF_settings[$name]'
-                        size='$size'
-                        value='$value'
-                        placeholder='$placeholder'
-                  >";
+        $input = "<input type='text' name='" . RFIFS_SETTINGS . "_settings[$name]' id='" . RFIFS_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' >";
     }
 
     // Put table to the variables $out and $help_out
@@ -132,12 +120,12 @@ function specificfeedsicon_setting( $name, $label, $help=null, $field=null, $pla
 /**
  * Generate the button and make shortcode
  *
- * @since 4.1
+ * @since 4.2
  */
 function specificfeedsicon_shortcode() {
 
-    // Read options from BD, sanitiz data and declare variables
-    $options = get_option( 'RssFeedIconSF_settings' );
+    // Read options from BD
+    $options = get_option( RFIFS_SETTINGS . '_settings' );
 
     // Set link to SpecificFeeds.com link
     if ( !empty( $options['sf_link'] ) ) {
@@ -182,7 +170,7 @@ function specificfeedsicon_shortcode() {
             />
             </a>';
 }
-add_shortcode( 'specificfeeds-icon', 'specificfeedsicon_shortcode' );
+add_shortcode( 'specificfeeds-icon', RFIFS_PREFIX . '_shortcode' );
 
 /**
  * Allow shortcodes in the text widget
