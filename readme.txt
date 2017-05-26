@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.2
+Stable tag: 4.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -146,13 +146,26 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.3 =
+* Fixed the bug due to which the ""Fatal error: Can't use function return value in write context in"" warning are displayed.
+* Compatibility with PHP version 5.2 improved.
+* PHP shorthands improved.
+* Added function for generating the plugin constants.
+* Some constants now get the value from the plugin header data.
+* The "_plugin_version_number" function improved.
+* Added file "upgrade.php" for future upgrades.
+* The "_upgrade" function moved to file "upgrade.php".
+
+= 4.2.1 =
+* Fixed the bug due to which the "Warning: Constants may only evaluate to scalar values in" warning are displayed.
+
 = 4.2 =
 * Added new constants: "_SLUG", "_PREFIX", "_SETTINGS" and "_NAME".
 * Value of the "_VERSION" constant replaced with information from the plugin header data.
 * All references to the plugin name, slug, prefix are replaced with constants.
 * Added default values to empty options.
 * The "_load_scripts_base" function improved.
-* The "name" attribute removed from the "<form>" tag.
+* The "name" attribute removed from the "form" tag.
 * F.A.Q. section updated.
 
 = 4.1 =

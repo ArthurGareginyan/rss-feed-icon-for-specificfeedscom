@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.2
+ * @since 4.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -55,11 +55,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( RFIFS_SETTINGS . '_settings_group' ); ?>
 
                     <?php
-                        // Get options from the BD
+                        // Get options from the database
                         $options = get_option( RFIFS_SETTINGS . '_settings' );
 
-                        // Set default value if the option is empty
-                        $sf_icon = isset( $options['sf_icon'] ) && !empty( $options['sf_icon'] ) ? $options['sf_icon'] : '1';
+                        // Set default value if option is empty
+                        $sf_icon = !empty( $options['sf_icon'] ) ? $options['sf_icon'] : '1';
                     ?>
 
                     <div class="postbox" id="Settings">

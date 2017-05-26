@@ -5,27 +5,25 @@
  * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.2
+ * Version: 4.3
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
  *
  * Copyright 2014-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
- * This file is part of "RSS Feed Icon for SpecificFeeds.com".
- *
- * "RSS Feed Icon for SpecificFeeds.com" is free software: you can redistribute it and/or modify
+ * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * "RSS Feed Icon for SpecificFeeds.com" is distributed in the hope that it will be useful,
+ * This plugin is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with "RSS Feed Icon for SpecificFeeds.com".  If not, see <http://www.gnu.org/licenses/>.
+ * along with this plugin. If not, see <http://www.gnu.org/licenses/>.
  *
  *
  *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
@@ -55,27 +53,34 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Define global constants
  *
- * @since 4.2
+ * @since 4.3
  */
-defined( 'RFIFS_DIR' ) or define( 'RFIFS_DIR', dirname( plugin_basename( __FILE__ ) ) );
-defined( 'RFIFS_BASE' ) or define( 'RFIFS_BASE', plugin_basename( __FILE__ ) );
-defined( 'RFIFS_URL' ) or define( 'RFIFS_URL', plugin_dir_url( __FILE__ ) );
-defined( 'RFIFS_PATH' ) or define( 'RFIFS_PATH', plugin_dir_path( __FILE__ ) );
-defined( 'RFIFS_TEXT' ) or define( 'RFIFS_TEXT', 'rss-feed-icon-for-specificfeedscom' );
-defined( 'RFIFS_SLUG' ) or define( 'RFIFS_SLUG', 'rss-feed-icon-for-specificfeedscom' );
-defined( 'RFIFS_PREFIX' ) or define( 'RFIFS_PREFIX', 'specificfeedsicon' );
-defined( 'RFIFS_SETTINGS' ) or define( 'RFIFS_SETTINGS', 'RssFeedIconSF' );
-defined( 'RFIFS_NAME' ) or define( 'RFIFS_NAME', 'RSS Feed Icon for SpecificFeeds.com' );
-defined( 'RFIFS_VERSION' ) or define( 'RFIFS_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
+$plugin_data = get_file_data( __FILE__, array( 'name'=>'Plugin Name', 'version'=>'Version', 'text'=>'Text Domain' ) );
+function specificfeedsicon_define_constants( $constant_name, $value ) {
+    $constant_name = 'RFIFS_' . $constant_name;
+    if ( !defined( $constant_name ) )
+        define( $constant_name, $value );
+}
+specificfeedsicon_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
+specificfeedsicon_define_constants( 'BASE', plugin_basename( __FILE__ ) );
+specificfeedsicon_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
+specificfeedsicon_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
+specificfeedsicon_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
+specificfeedsicon_define_constants( 'NAME', $plugin_data['name'] );
+specificfeedsicon_define_constants( 'VERSION', $plugin_data['version'] );
+specificfeedsicon_define_constants( 'TEXT', $plugin_data['text'] );
+specificfeedsicon_define_constants( 'PREFIX', 'specificfeedsicon' );
+specificfeedsicon_define_constants( 'SETTINGS', 'RssFeedIconSF' );
 
 /**
  * Load the plugin modules
  *
- * @since 4.0
+ * @since 4.3
  */
 require_once( RFIFS_PATH . 'inc/php/core.php' );
-require_once( RFIFS_PATH . 'inc/php/enqueue.php' );
+require_once( RFIFS_PATH . 'inc/php/upgrade.php' );
 require_once( RFIFS_PATH . 'inc/php/version.php' );
+require_once( RFIFS_PATH . 'inc/php/enqueue.php' );
 require_once( RFIFS_PATH . 'inc/php/functional.php' );
 require_once( RFIFS_PATH . 'inc/php/page.php' );
 require_once( RFIFS_PATH . 'inc/php/messages.php' );
