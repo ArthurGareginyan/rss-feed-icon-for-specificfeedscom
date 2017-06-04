@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
 "POT-Creation-Date: 2017-06-04 13:32+0300\n"
-"PO-Revision-Date: 2017-06-04 13:32+0300\n"
+"PO-Revision-Date: 2017-06-04 13:39+0300\n"
 "Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: inc/php/settings.php:25
 msgid "Version"
-msgstr ""
+msgstr "Версия"
 
 #: inc/php/settings.php:32 inc/php/settings.php:221
 msgid ""
