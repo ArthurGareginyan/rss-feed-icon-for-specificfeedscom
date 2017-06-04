@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2017-06-04 13:32+0300\n"
-"PO-Revision-Date: 2017-06-04 13:39+0300\n"
+"POT-Creation-Date: 2017-06-04 20:38+0300\n"
+"PO-Revision-Date: 2017-06-04 20:38+0300\n"
 "Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -35,8 +35,8 @@ msgstr "Привет! Я Артур, автор этого плагина."
 
 #: inc/php/messages.php:32
 #, php-format
-msgid "Thank you for installing my plugin! I hope you will love it %s"
-msgstr "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
+msgid "Thank you for installing my plugin! I hope you will love it! %s"
+msgstr "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится! %s"
 
 #: inc/php/messages.php:67
 msgid "You have installed an old version of this plugin."
@@ -412,6 +412,10 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr "http://www.arthurgareginyan.com"
+
+#~ msgid "Thank you for installing my plugin! I hope you will love it %s"
+#~ msgstr ""
+#~ "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
 
 #~ msgid ""
 #~ "<b>C)</b> For add the button directly to a theme files, just add one of "

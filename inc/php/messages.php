@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 4.2
+ * @since 4.4
  */
 function specificfeedsicon_hello_message() {
 
@@ -29,7 +29,7 @@ function specificfeedsicon_hello_message() {
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p><?php _e( 'Hello. I\'m Arthur, the author of this plugin.', RFIFS_TEXT ); ?></p>
                         <p><?php printf(
-                                        __( 'Thank you for installing my plugin! I hope you will love it %s', RFIFS_TEXT ),
+                                        __( 'Thank you for installing my plugin! I hope you will love it! %s', RFIFS_TEXT ),
                                         '&#x1F603;'
                                         );
                             ?></p>
