@@ -65,3 +65,4 @@ function specificfeedsicon_upgrade_3_3() {
     }
 
 }
+specificfeedsicon_upgrade_3_3();

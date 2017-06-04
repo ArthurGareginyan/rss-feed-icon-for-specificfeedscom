@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.3
+ * @since 4.4
  */
 ?>
     <!-- SIDEBAR -->
@@ -22,6 +22,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.', RFIFS_TEXT ); ?></p>
                     <p><a href="http://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a><?php _e( ' allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', RFIFS_TEXT ); ?></p>
+                    <p class="version"><?php _e( 'Version', RFIFS_TEXT ); ?> <?php echo RFIFS_VERSION; ?></p>
                 </div>
             </div>
 
