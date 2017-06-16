@@ -10,9 +10,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.2
+ * @since 4.5
  */
 function specificfeedsicon_render_submenu_page() {
+
+    // Put value of constants to variables for easier access
+    $name = RFIFS_NAME;
+    $slug = RFIFS_SLUG;
+    $version = RFIFS_VERSION;
+    $text = RFIFS_TEXT;
 
     // Call messages
     specificfeedsicon_hello_message();
@@ -22,27 +28,28 @@ function specificfeedsicon_render_submenu_page() {
     ?>
     <div class="wrap">
         <h2>
-            <?php echo RFIFS_NAME; ?>
+            <?php echo $name; ?>
             <span>
                 <?php printf(
-                              __( 'by %s Arthur Gareginyan %s', RFIFS_TEXT ),
+                              __( 'by %s Arthur Gareginyan %s', $text ),
                                   '<a href="http://www.arthurgareginyan.com" target="_blank">',
                                   '</a>'
                              );
                 ?>
             </span>
+            <p class="version"><?php _e( 'Version', $text ); ?> <?php echo $version; ?></p>
         </h2>
 
         <div id="poststuff" class="metabox-holder has-right-sidebar">
 
             <!-- TABS NAVIGATION MENU -->
             <ul class="tabs-nav">
-                <li class="active"><a href="#tab-core" data-toggle="tab"><?php _e( 'Settings', RFIFS_TEXT ); ?></a></li>
-                <li><a href="#tab-usage" data-toggle="tab"><?php _e( 'Usage', RFIFS_TEXT ); ?></a></li>
-                <li><a href="#tab-faq" data-toggle="tab"><?php _e( 'F.A.Q.', RFIFS_TEXT ); ?></a></li>
-                <li><a href="#tab-author" data-toggle="tab"><?php _e( 'Author', RFIFS_TEXT ); ?></a></li>
-                <li><a href="#tab-support" data-toggle="tab"><?php _e( 'Support', RFIFS_TEXT ); ?></a></li>
-                <li><a href="#tab-family" data-toggle="tab"><?php _e( 'Family', RFIFS_TEXT ); ?></a></li>
+                <li class="active"><a href="#tab-core" data-toggle="tab"><?php _e( 'Settings', $text ); ?></a></li>
+                <li><a href="#tab-usage" data-toggle="tab"><?php _e( 'Usage', $text ); ?></a></li>
+                <li><a href="#tab-faq" data-toggle="tab"><?php _e( 'F.A.Q.', $text ); ?></a></li>
+                <li><a href="#tab-author" data-toggle="tab"><?php _e( 'Author', $text ); ?></a></li>
+                <li><a href="#tab-support" data-toggle="tab"><?php _e( 'Support', $text ); ?></a></li>
+                <li><a href="#tab-family" data-toggle="tab"><?php _e( 'Family', $text ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
@@ -57,24 +64,26 @@ function specificfeedsicon_render_submenu_page() {
             <!-- TAB 2 -->
             <div class="tab-page fade" id="tab-usage">
                 <div class="postbox">
-                    <h3 class="title"><?php _e( 'Usage', RFIFS_TEXT ); ?></h3>
+                    <h3 class="title"><?php _e( 'Usage', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'The plugin is based on the <a href="http://www.specificfeeds.com" target="_blank">SpecificFeeds.com</a> service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It\'s 100% free and also has several other benefits.', RFIFS_TEXT ); ?></p>
-                        <p><?php _e( 'To display the RSS feed icon that connected to the SpecificFeeds.com on the front end of your website, simply follow these steps:', RFIFS_TEXT ); ?></p>
+                        <p><?php _e( 'The plugin is based on the <a href="http://www.specificfeeds.com" target="_blank">SpecificFeeds.com</a> service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It\'s 100% free and also has several other benefits.', $text ); ?></p>
+                        <p><?php _e( 'To display the RSS feed icon that connected to the SpecificFeeds.com on the front end of your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
-                            <li><?php _e( 'Go to the "Settings" tab.', RFIFS_TEXT ); ?></li>
-                            <li><?php _e( 'Enter your personal link from the <a href="http://www.specificfeeds.com" target="_blank">SpecificFeeds.com</a>, select the desired settings and click the "Save Changes" button.', RFIFS_TEXT ); ?></li>
-                            <li><?php _e( 'Now you have several methods for display the RSS feed icon (further just "button"). Just choose the one that is more suitable for your case.', RFIFS_TEXT ); ?><br><br>
-                                <p><?php _e( '<b>A)</b> For add the button inside a post from WP Post/Page Editor use the following shortcode:', RFIFS_TEXT ); ?></p>
+                            <li><?php _e( 'Go to the "Settings" tab.', $text ); ?></li>
+                            <li><?php _e( 'Enter your personal link from the <a href="http://www.specificfeeds.com" target="_blank">SpecificFeeds.com</a>.', $text ); ?></li>
+                            <li><?php _e( 'Select the desired settings.', $text ); ?></li>
+                            <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
+                            <li><?php _e( 'Now you have several methods for display the RSS feed icon (further just "button"). Just choose the one that is more suitable for your case.', $text ); ?><br><br>
+                                <p><?php _e( '<b>A)</b> For add the button inside a post from WP Post/Page Editor use the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[specificfeeds-icon]'); ?></p>
-                                <p><?php _e( '<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', RFIFS_TEXT ); ?></p>
+                                <p><?php _e( '<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[specificfeeds-icon]'); ?></p>
-                                <p><?php _e( '<b>C)</b> For add the button directly to a theme files, just add the following code to needed place (where you want to display the button) in your theme files:', RFIFS_TEXT ); ?></p>
+                                <p><?php _e( '<b>C)</b> For add the button directly to a theme files, just add the following code to needed place (where you want to display the button) in your theme files:', $text ); ?></p>
                                 <p><?php highlight_string('<?php echo do_shortcode("[specificfeeds-icon]"); ?>'); ?></p>
                             </li>
-                            <li><?php _e( 'Enjoy your fancy SpecificFeeds icon.', RFIFS_TEXT ); ?> <?php _e( 'It\'s that simple!', RFIFS_TEXT ); ?></li>
+                            <li><?php _e( 'Enjoy your fancy SpecificFeeds icon.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
-                        <p class="note"><b><?php _e( 'Note!', RFIFS_TEXT ); ?></b> <?php _e( 'If you want more options then tell me and I will be happy to add it.', RFIFS_TEXT ); ?></p>
+                        <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'If you want more options then tell me and I will be happy to add it.', $text ); ?></p>
                     </div>
                 </div>
             </div>
@@ -83,12 +92,16 @@ function specificfeedsicon_render_submenu_page() {
             <!-- TAB 3 -->
             <div class="tab-page fade" id="tab-faq">
                 <div class="postbox">
-                    <h3 class="title"><?php _e( 'Frequently Asked Questions', RFIFS_TEXT ); ?></h3>
+                    <h3 class="title"><?php _e( 'Frequently Asked Questions', $text ); ?></h3>
                     <div class="inside">
+
+                        <p class="note">
+                            <?php _e( 'If you have a question, please read the Frequently Asked Questions below to see if the answer is here.', $text ); ?>
+                        </p>
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '10';
+                                $loopvalue = '11';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -105,55 +118,62 @@ function specificfeedsicon_render_submenu_page() {
                             ?>
                         </div>
 
-                        <div class="question-1"><?php _e( 'Will this plugin work on my WordPress.COM website?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-1"><?php _e( 'Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.', RFIFS_TEXT ); ?></div>
+                        <div class="question-1"><?php _e( 'Will this plugin work on my WordPress.COM website?', $text ); ?></div>
+                        <div class="answer-1"><?php _e( 'Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.', $text ); ?></div>
 
-                        <div class="question-2"><?php _e( 'Can I use this plugin on my language?', RFIFS_TEXT ); ?></div>
+                        <div class="question-2"><?php _e( 'Can I use this plugin on my language?', $text ); ?></div>
                         <div class="answer-2"><?php printf(
-                                                            __( 'Yes. But If your language is not available then you can make one. This plugin is ready for translation. The<code>.pot</code>file is included and placed in the <code>languages</code> folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (<code>*.po, *.mo</code>) to me at the %s and I will include the translation within the next plugin update.', RFIFS_TEXT ),
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=RSS Feed Icon for SpecificFeeds.com">arthurgareginyan@gmail.com</a>'
+                                                            __( 'Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the <code>languages</code> folder. Just send the PO file to me at the %s and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ),
+                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=New translation of the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
                                                           );
-                                              ?></div>
+                                              ?><br><br>
+                                              <?php _e( 'Maybe not all existed translations are up to date. You are welcome to contribute corrections!', $text ); ?></div>
 
-                        <div class="question-3"><?php _e( 'How does it work?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Settings" tab, select the desired settings and click the "Save Changes" button. Enjoy your fancy SpecificFeeds icon. It\'s that simple!', RFIFS_TEXT ); ?></div>
+                        <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Settings" tab, select the desired settings and click the "Save changes" button. Enjoy your fancy SpecificFeeds icon. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-4"><?php _e( 'Does this plugin requires any modification of the theme?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-4"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', RFIFS_TEXT ); ?></div>
+                        <div class="question-4"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
+                        <div class="answer-4"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
 
-                        <div class="question-5"><?php _e( 'Does this require any knowledge of HTML or CSS?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-5"><?php _e( 'Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.', RFIFS_TEXT ); ?></div>
+                        <div class="question-5"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
+                        <div class="answer-5"><?php _e( 'Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.', $text ); ?></div>
 
-                        <div class="question-6 question-red"><?php _e( 'It\'s not working. What could be wrong?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-6"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', RFIFS_TEXT ); ?><br><br>
-                                              <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, I\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', RFIFS_TEXT ); ?></div>
+                        <div class="question-6 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-6"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
+                                              <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, I\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
 
-                        <div class="question-7 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', RFIFS_TEXT ); ?></div>
-                        <div class="answer-7"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', RFIFS_TEXT ); ?></div>
+                        <div class="question-7 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
+                        <div class="answer-7"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
 
-                        <div class="question-8 question-red"><?php _e( 'Where to report bug if found?', RFIFS_TEXT ); ?></div>
+                        <div class="question-8 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
                         <div class="answer-8"><?php printf(
-                                                            __( 'Please visit the %s Dedicated Plugin Page on GitHub %s and report.', RFIFS_TEXT ),
-                                                                '<a href="https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom" target="_blank">',
+                                                            __( 'Please visit the %s Dedicated Plugin Page on GitHub %s and report.', $text ),
+                                                                '<a href="https://github.com/ArthurGareginyan/' . $slug . '" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-9"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', RFIFS_TEXT ); ?></div>
+                        <div class="question-9"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
                         <div class="answer-9"><?php printf(
-                                                            __( 'Any suggestions are very welcome! Please send me an email to %s arthurgareginyan@gmail.com %s. Thank you!', RFIFS_TEXT ),
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=RSS Feed Icon for SpecificFeeds.com">',
-                                                                '</a>'
+                                                            __( 'Any suggestions are very welcome! Please send me an email to %s. Thank you!', $text ),
+                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Suggestions about the ' . $name . '">arthurgareginyan@gmail.com</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-10"><?php _e( 'I love this plugin! Can I help somehow?', RFIFS_TEXT ); ?></div>
+                        <div class="question-10"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
                         <div class="answer-10"><?php printf(
-                                                            __( 'Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!', RFIFS_TEXT ),
+                                                            __( 'Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!', $text ),
                                                                 '<a href="http://www.arthurgareginyan.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>
+
+                        <div class="question-11"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
+                        <div class="answer-11"><?php printf(
+                                                            __( 'You can ask your question on the plugin support page %s. But please keep in mind that this plugin is free, and there is no a special support team, so I have no way to answer everyone.', $text ),
+                                                            '<a href="https://wordpress.org/support/plugin/' . $slug . '/" target="_blank">here</a>'
+                                                           );
+                                               ?></div>
 
                     </div>
                 </div>
@@ -163,7 +183,7 @@ function specificfeedsicon_render_submenu_page() {
             <!-- TAB 4 -->
             <div class="tab-page fade" id="tab-author">
                 <div class="postbox">
-                    <h3 class="title"><?php _e( 'Author', RFIFS_TEXT ); ?></h3>
+                    <h3 class="title"><?php _e( 'Author', $text ); ?></h3>
                     <div class="inside include-tab-author"></div>
                 </div>
             </div>
@@ -172,7 +192,7 @@ function specificfeedsicon_render_submenu_page() {
             <!-- TAB 5 -->
             <div class="tab-page fade" id="tab-support">
                 <div class="postbox">
-                    <h3 class="title"><?php _e( 'Support', RFIFS_TEXT ); ?></h3>
+                    <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                     <div class="inside include-tab-support"></div>
                 </div>
             </div>

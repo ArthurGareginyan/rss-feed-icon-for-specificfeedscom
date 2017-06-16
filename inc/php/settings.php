@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.4
+ * @since 4.5
  */
 ?>
     <!-- SIDEBAR -->
@@ -18,28 +18,26 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
             <div id="about" class="postbox">
-                <h3 class="title"><?php _e( 'About', RFIFS_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.', RFIFS_TEXT ); ?></p>
-                    <p><a href="http://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a><?php _e( ' allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', RFIFS_TEXT ); ?></p>
-                    <p class="version"><?php _e( 'Version', RFIFS_TEXT ); ?> <?php echo RFIFS_VERSION; ?></p>
+                    <p><?php _e( 'This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.', $text ); ?></p>
+                    <p><a href="http://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a><?php _e( ' allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', $text ); ?></p>
                 </div>
             </div>
 
             <div id="support" class="postbox">
-                <h3 class="title"><?php _e( 'Support', RFIFS_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', RFIFS_TEXT ); ?></p>
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', RFIFS_TEXT ); ?></a>
-                    <p><?php _e( 'Thanks for your support!', RFIFS_TEXT ); ?></p>
+                    <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', $text ); ?></a>
+                    <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                 </div>
             </div>
 
             <div id="help" class="postbox">
-                <h3 class="title"><?php _e( 'Help', RFIFS_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'Got something to say? Need help?', RFIFS_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo RFIFS_NAME; ?>">arthurgareginyan@gmail.com</a></p>
+                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
                 </div>
             </div>
 
@@ -64,15 +62,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     ?>
 
                     <div class="postbox" id="Settings">
-                        <h3 class="title"><?php _e( 'Main Settings', RFIFS_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Main Settings', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'There you can configure this plugin.', RFIFS_TEXT ); ?></p>
+                            <p class="note"><?php _e( 'There you can configure this plugin.', $text ); ?></p>
 
                             <table class="form-table">
 
                                 <?php specificfeedsicon_setting( 'sf_link',
-                                                                 __( 'Your SpecificFeeds link', RFIFS_TEXT ),
-                                                                 __( 'Enter your personal SpecificFeeds link that you get from the <a href="https://www.specificfeeds.com" target="_blank" rel="nofollow" >SpecificFeeds.com</a> website.', RFIFS_TEXT ),
+                                                                 __( 'Your SpecificFeeds link', $text ),
+                                                                 __( 'Enter your personal SpecificFeeds link that you get from the <a href="https://www.specificfeeds.com" target="_blank" rel="nofollow" >SpecificFeeds.com</a> website.', $text ),
                                                                  'field',
                                                                  'http://',
                                                                  '50'
@@ -81,7 +79,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                                 <tr>
                                     <th scope='row'>
-                                        <?php _e( 'SpecificFeeds icon', RFIFS_TEXT ); ?>
+                                        <?php _e( 'SpecificFeeds icon', $text ); ?>
                                     </th>
                                     <td>
                                         <div class="integrated-icons">
@@ -168,13 +166,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     <td>
                                     </td>
                                     <td class='help-text upload-help-text'>
-                                        <?php _e( 'Note: Two from above icons are white color with transparent background.', RFIFS_TEXT ); ?>
+                                        <?php _e( 'Note: Two from above icons are white color with transparent background.', $text ); ?>
                                     </td>
                                 </tr>
 
                                 <?php specificfeedsicon_setting( 'icon_size',
-                                                                 __( 'Icon size', RFIFS_TEXT ),
-                                                                 __( 'You can set the height of icon (in px).', RFIFS_TEXT ),
+                                                                 __( 'Icon size', $text ),
+                                                                 __( 'You can set the height of icon (in px).', $text ),
                                                                  'field',
                                                                  '48',
                                                                  '2'
@@ -182,15 +180,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 ?>
 
                                 <?php specificfeedsicon_setting( 'tooltip',
-                                                                 __( 'Tooltip', RFIFS_TEXT ),
-                                                                 __( 'Enable/disable a tooltip above button.', RFIFS_TEXT ),
+                                                                 __( 'Tooltip', $text ),
+                                                                 __( 'Enable/disable a tooltip above button.', $text ),
                                                                  'check'
                                                                 );
                                 ?>
 
                                 <?php specificfeedsicon_setting( 'tooltip_text',
-                                                                 __( 'Text of tooltip', RFIFS_TEXT ),
-                                                                 __( 'You can set a custom text of tooltip. Leave blank to use the default text.', RFIFS_TEXT ),
+                                                                 __( 'Text of tooltip', $text ),
+                                                                 __( 'You can set a custom text of tooltip. Leave blank to use the default text.', $text ),
                                                                  'field',
                                                                  'RSS Feed',
                                                                  '50'
@@ -199,15 +197,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                             </table>
 
-                            <?php submit_button( __( 'Save Changes', RFIFS_TEXT ), 'primary', 'submit', true ); ?>
+                            <?php submit_button( __( 'Save changes', $text ), 'primary', 'submit', true ); ?>
 
                         </div>
                     </div>
 
                     <div class="postbox" id="Preview">
-                        <h3 class="title"><?php _e( 'Preview', RFIFS_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Preview', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'Click the "Save Changes" button to update this preview.', RFIFS_TEXT ); ?></p>
+                            <p class="note"><?php _e( 'Click the "Save changes" button to update this preview.', $text ); ?></p>
                             <br>
                             <div class="preview-icon">
                                 <?php echo specificfeedsicon_shortcode(); ?>
@@ -216,11 +214,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </div>
 
                     <div class="postbox" id="support-addition">
-                        <h3 class="title"><?php _e( 'Support', RFIFS_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', RFIFS_TEXT ); ?></p>
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', RFIFS_TEXT ); ?></a>
-                            <p><?php _e( 'Thanks for your support!', RFIFS_TEXT ); ?></p>
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', $text ); ?></a>
+                            <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                         </div>
                     </div>
 

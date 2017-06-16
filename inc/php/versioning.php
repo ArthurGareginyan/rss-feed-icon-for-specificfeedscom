@@ -18,6 +18,7 @@ function specificfeedsicon_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
+    // Put value of constants to variables for easier access
     $version_files = RFIFS_VERSION;
     $settings = RFIFS_SETTINGS;
 

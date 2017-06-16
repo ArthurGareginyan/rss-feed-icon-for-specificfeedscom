@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.4
+Stable tag: 4.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -16,7 +16,7 @@ An easy to use, with intuitive interface WordPress plugin that lets you easily a
 
 The plugin is based on the [SpecificFeeds.com](http://www.specificfeeds.com) service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
 
-To use, enter your personal link from the [SpecificFeeds.com](http://www.specificfeeds.com), then on the plugin settings page select the desired settings and click the "Save Changes" button. Then you can put the [specificfeeds-icon] shortcode in any place on your website.
+To use, enter your personal link from the [SpecificFeeds.com](http://www.specificfeeds.com), then on the plugin settings page select the desired settings and click the "Save changes" button. Then you can put the [specificfeeds-icon] shortcode in any place on your website.
 
 If you want more options then tell me and I will be happy to add it.
 
@@ -44,10 +44,14 @@ If you want more options then tell me and I will be happy to add it.
 
 = Translation =
 
+This plugin is ready for translation and has already been translated into several languages.
+
 * English (default)
 * Russian
 
-If you would like to add a translation to this plugin then please head to our [Translating WordPress](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom) page.
+Maybe not all existed translations are up to date. You are welcome to contribute corrections!
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom).
 
 >**Contribution**
 >
@@ -76,9 +80,9 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "`SpecificFeeds`"  menu item will appear in the "`Settings`" section. Click on this in order to view plugin administration page.
+After installation and activation, the "`SpecificFeeds`"  menu item will appear in the "`Settings`" section. Click on this in order to view plugin administration page.
 
-[More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
+[More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
 
 == Frequently Asked Questions ==
@@ -86,10 +90,10 @@ After installation, a "`SpecificFeeds`"  menu item will appear in the "`Settings
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in the "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to me at the arthurgareginyan@gmail.com and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, select the desired settings and click the "Save Changes" button. Enjoy your fancy SpecificFeeds icon. It's that simple!
+A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy SpecificFeeds icon. It's that simple!
 You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`SpecificFeeds`".
 
 = Q. Does this plugin requires any modification of the theme? =
@@ -145,6 +149,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.5 =
+* On the plugin settings page, text of buttons are corrected.
+* On the plugin settings page, the information about the plugin version number moved to header section.
+* Some mention of constants replaced with variables for easier access.
+* Content of the "Usage" tab updated.
+* Content of the "FAQ" tab updated.
 
 = 4.4 =
 * To the plugin settings page added information about the plugin version number.

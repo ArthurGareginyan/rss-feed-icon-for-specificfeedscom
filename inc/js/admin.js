@@ -1,5 +1,5 @@
 /*
- * Plugin JavaScript and JQuery code for the admin pages of website
+ * Plugin JavaScript and jQuery code for the admin pages of website
  *
  * @package     RSS Feed Icon for SpecificFeeds.com
  * @uthor       Arthur Gareginyan
