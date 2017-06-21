@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.5
+ * @since 4.5.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.', $text ); ?></p>
-                    <p><a href="http://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a><?php _e( ' allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', $text ); ?></p>
+                    <p><a href="https://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a><?php _e( ' allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100% free and also has several other benefits.', $text ); ?></p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                  __( 'Your SpecificFeeds link', $text ),
                                                                  __( 'Enter your personal SpecificFeeds link that you get from the <a href="https://www.specificfeeds.com" target="_blank" rel="nofollow" >SpecificFeeds.com</a> website.', $text ),
                                                                  'field',
-                                                                 'http://',
+                                                                 'https://',
                                                                  '50'
                                                                 );
                                 ?>

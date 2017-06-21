@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.5
+Stable tag: 4.5.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,7 @@ Easily add the RSS feed icon by SpecificFeeds.com in any place on your website. 
 
 
 == Description ==
-An easy to use, with intuitive interface WordPress plugin that lets you easily add the RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
+An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
 
 The plugin is based on the [SpecificFeeds.com](http://www.specificfeeds.com) service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
 
@@ -49,15 +49,13 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian
 
-Maybe not all existed translations are up to date. You are welcome to contribute corrections!
-
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom).
 
 >**Contribution**
 >
 >Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 >
->* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 >* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon-for-specificfeedscom?rate=5#postform) this plugin.
 >* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) if you have any ideas or suggestions to make this plugin better.
 
@@ -117,7 +115,7 @@ A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurG
 A. Any suggestions are very welcome! Please send me an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [my website](http://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any financial contributions are welcome! Just visit [my website](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
 
 
 == Screenshots ==
@@ -127,7 +125,7 @@ A. Yes, any financial contributions are welcome! Just visit [my website](http://
 
 == Other Notes ==
 
-"RSS Feed Icon for SpecificFeeds.com" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+"RSS Feed Icon for SpecificFeeds.com" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
 **License**
 
@@ -136,19 +134,23 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
 * All SpecificFeeds.com icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
 
 **Links**
 
-* [Developer Website](http://www.arthurgareginyan.com)
+* [Developer Website](https://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom)
 
 
 == Changelog ==
+
+= 4.5.1 =
+* The HTTPS mixed content issue fixed by changing all links to HTTPS.
+* Content of the "FAQ" section updated.
 
 = 4.5 =
 * On the plugin settings page, text of buttons are corrected.
