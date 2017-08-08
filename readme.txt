@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.5.1
+Stable tag: 4.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,6 +12,7 @@ Easily add the RSS feed icon by SpecificFeeds.com in any place on your website. 
 
 
 == Description ==
+
 An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
 
 The plugin is based on the [SpecificFeeds.com](http://www.specificfeeds.com) service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
@@ -20,7 +21,7 @@ To use, enter your personal link from the [SpecificFeeds.com](http://www.specifi
 
 If you want more options then tell me and I will be happy to add it.
 
-= Features =
+**Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
@@ -42,7 +43,7 @@ If you want more options then tell me and I will be happy to add it.
 
 * Universal SpecificFeeds link (click-to-follow.me)
 
-= Translation =
+**Translation**
 
 This plugin is ready for translation and has already been translated into several languages.
 
@@ -51,16 +52,17 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom).
 
->**Contribution**
->
->Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
->
->* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon-for-specificfeedscom?rate=5#postform) this plugin.
->* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) if you have any ideas or suggestions to make this plugin better.
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon-for-specificfeedscom?rate=5#postform) this plugin.
+* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
+
 Install "RSS Feed Icon for SpecificFeeds.com" just as you would any other WordPress Plugin.
 
 Automatically via WordPress Admin Panel:
@@ -84,6 +86,7 @@ After installation and activation, the "`SpecificFeeds`"  menu item will appear 
 
 
 == Frequently Asked Questions ==
+
 = Q. Will this plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
@@ -119,11 +122,14 @@ A. Yes, any financial contributions are welcome! Just visit [my website](https:/
 
 
 == Screenshots ==
+
 1. Plugin page.
 2. Shortcode added to widget.
 
 
 == Other Notes ==
+
+****
 
 "RSS Feed Icon for SpecificFeeds.com" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
@@ -147,6 +153,18 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.6 =
+* Preview section on the settings page changed to live preview.
+* Stylesheet in the admin.css file improved.
+* The '!important' declarations in the admin.css file removed.
+* Code formatting in the admin.js file improved.
+* Code commenting improved.
+* Load of the additional remote CSS file removed from the admin.js file.
+* Some PHP 'if' statements replaced with shorthand.
+* Changed the sorting of enqueueing of scripts.
+* The ''Family' page tab renamed to 'Store'.
+* Added ad banner of my store website.
 
 = 4.5.1 =
 * The HTTPS mixed content issue fixed by changing all links to HTTPS.
@@ -238,7 +256,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Design of settings page improved.
 * The preview section added on settings page.
 * Added option for setting custom size of icon.
-* Table of settings that saved in DB optimized.
+* Table of settings that saved in database optimized.
 * Names of icons optimized.
 * Translations updated.
 * Readme for translations updated.

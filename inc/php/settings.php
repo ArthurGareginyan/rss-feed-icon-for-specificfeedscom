@@ -10,14 +10,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.5.1
+ * @since 4.6
  */
 ?>
     <!-- SIDEBAR -->
     <div class="inner-sidebar">
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
-            <div id="about" class="postbox">
+            <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.', $text ); ?></p>
@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
-            <div id="support" class="postbox">
+            <div class="postbox support">
                 <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
@@ -34,12 +34,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
-            <div id="help" class="postbox">
+            <div class="postbox help">
                 <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
                 </div>
             </div>
+
+            <div class="include-banner"></div>
 
         </div>
     </div>
@@ -61,7 +63,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $sf_icon = !empty( $options['sf_icon'] ) ? $options['sf_icon'] : '1';
                     ?>
 
-                    <div class="postbox" id="Settings">
+                    <div class="postbox" id="settings">
                         <h3 class="title"><?php _e( 'Main Settings', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'There you can configure this plugin.', $text ); ?></p>
@@ -181,7 +183,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                                 <?php specificfeedsicon_setting( 'tooltip',
                                                                  __( 'Tooltip', $text ),
-                                                                 __( 'Enable/disable a tooltip above button.', $text ),
+                                                                 __( 'Enable a tooltip above button.', $text ),
                                                                  'check'
                                                                 );
                                 ?>
@@ -202,11 +204,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="Preview">
-                        <h3 class="title"><?php _e( 'Preview', $text ); ?></h3>
+                    <div class="postbox" id="preview">
+                        <h3 class="title"><?php _e( 'Live Preview', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'Click the "Save changes" button to update this preview.', $text ); ?></p>
-                            <br>
                             <div class="preview-icon">
                                 <?php echo specificfeedsicon_shortcode(); ?>
                             </div>

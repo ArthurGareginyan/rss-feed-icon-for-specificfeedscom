@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Base for the _load_scripts hook
  *
- * @since 4.5
+ * @since 4.6
  */
 function specificfeedsicon_load_scripts_base( $options ) {
 
@@ -28,17 +28,11 @@ function specificfeedsicon_load_scripts_base( $options ) {
     // JavaScript
     wp_enqueue_script( $prefix . '-frontend-js', $url . 'inc/js/frontend.js' );
 
-    // Size of icon
-    if ( !empty( $options['icon_size'] ) ) {
-        $icon_size = $options['icon_size'];
-    } else {
-        $icon_size = '60';
-    }
-
     // Dynamic CSS. Create CSS and injected it into the stylesheet
+    $icon_size = !empty( $options['icon_size'] ) ? $options['icon_size'] : '60';
     $custom_css = "
                     .RssFeedIconSF {
-                        
+
                     }
                     .RssFeedIconSF img {
                         width: " . $icon_size . "px !important;
@@ -52,7 +46,7 @@ function specificfeedsicon_load_scripts_base( $options ) {
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 4.5
+ * @since 4.6
  */
 function specificfeedsicon_load_scripts_admin( $hook ) {
 
@@ -68,14 +62,8 @@ function specificfeedsicon_load_scripts_admin( $hook ) {
         return;
     }
 
-    // Read options from BD
+    // Read options from database
     $options = get_option( $settings . '_settings' );
-
-    // Style sheet
-    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
-
-    // JavaScript
-    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Bootstrap library
     wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
@@ -84,6 +72,19 @@ function specificfeedsicon_load_scripts_admin( $hook ) {
 
     // Other libraries
     wp_enqueue_script( $prefix . '-bootstrap-checkbox-js', $url . 'inc/lib/bootstrap-checkbox.js' );
+
+    // Style sheet
+    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
+
+    // Dynamic JS. Create JS object and injected it into the JS file
+    $plugin_url = RFIFS_URL;
+    $script_params = array(
+                           'plugin_url' => $plugin_url
+                           );
+    wp_localize_script( $prefix . '-admin-js', $prefix . '_scriptParams', $script_params );
 
     // Call the function that contain a basis of scripts
     specificfeedsicon_load_scripts_base( $options );
@@ -104,7 +105,7 @@ function specificfeedsicon_load_scripts_frontend() {
     $url = RFIFS_URL;
     $settings = RFIFS_SETTINGS;
 
-    // Read options from BD
+    // Read options from database
     $options = get_option( $settings . '_settings' );
 
     // Call the function that contain a basis of scripts

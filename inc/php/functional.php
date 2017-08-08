@@ -10,30 +10,21 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render checkboxes and fields for saving settings data to database
  *
- * @since 4.2
+ * @since 4.6
  */
 function specificfeedsicon_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
 
-    // Read options from BD
+    // Read options from database and declare variables
     $options = get_option( RFIFS_SETTINGS . '_settings' );
-
-    if ( !empty( $options[$name] ) ) {
-        $value = esc_textarea( $options[$name] );
-    } else {
-        $value = "";
-    }
+    $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
     // Generate the table
-    if ( !empty( $options[$name] ) ) {
-        $checked = "checked='checked'";
-    } else {
-        $checked = "";
-    }
+    $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
 
     if ( $field == "check" ) {
-        $input = "<input type='checkbox' name='" . RFIFS_SETTINGS . "_settings[$name]' id='" . RFIFS_SETTINGS . "_settings[$name]' $checked >";
+        $input = "<input type='checkbox' name='" . RFIFS_SETTINGS . "_settings[$name]' id='" . RFIFS_SETTINGS . "_settings[$name]' $checked class='$name' >";
     } elseif ( $field == "field" ) {
-        $input = "<input type='text' name='" . RFIFS_SETTINGS . "_settings[$name]' id='" . RFIFS_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' >";
+        $input = "<input type='text' name='" . RFIFS_SETTINGS . "_settings[$name]' id='" . RFIFS_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' class='$name' >";
     }
 
     // Put table to the variables $out and $help_out
@@ -63,39 +54,19 @@ function specificfeedsicon_setting( $name, $label, $help=null, $field=null, $pla
 /**
  * Generate the button and make shortcode
  *
- * @since 4.2
+ * @since 4.6
  */
 function specificfeedsicon_shortcode() {
 
-    // Read options from BD
+    // Read options from database and declare variables
     $options = get_option( RFIFS_SETTINGS . '_settings' );
-
-    // Set link to SpecificFeeds.com link
-    if ( !empty( $options['sf_link'] ) ) {
-        $sf_link = $options['sf_link'];
-    } else {
-        $sf_link = '';
-    }
-
-    // Set icon
+    $sf_link = !empty( $options['sf_link'] ) ? $options['sf_link'] : '';
+    $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
+    $tooltip_text = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
     if ( !empty( $options['sf_icon'] ) ) {
         $icon_src = RFIFS_URL . 'inc/img/icons/' . $options['sf_icon'] . '.png';
     } else {
         $icon_src = RFIFS_URL . 'inc/img/icons/1.png';
-    }
-
-    // Enable Tolltips
-    if ( !empty( $options['tooltip'] ) ) {
-        $tooltip = 'data-toggle="tooltip"';
-    } else {
-        $tooltip = '';
-    }
-
-    // Set text of tooltip
-    if ( !empty( $options['tooltip_text'] ) ) {
-        $tooltip_text = $options['tooltip_text'];
-    } else {
-        $tooltip_text = 'RSS Feed';
     }
 
     // Generating output code
