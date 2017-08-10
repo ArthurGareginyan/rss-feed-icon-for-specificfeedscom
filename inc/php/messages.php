@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 4.6
+ * @since 4.7
  */
 function specificfeedsicon_hello_message() {
 
@@ -25,7 +25,7 @@ function specificfeedsicon_hello_message() {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src="https://www.spacexchimp.com/assets/dynamic-content/images/avatar.png">
+                        <img src="<?php echo RFIFS_URL . 'inc/img/avatar.png'; ?>">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p><?php _e( 'Hello. I\'m Arthur, the author of this plugin.', RFIFS_TEXT ); ?></p>
                         <p><?php printf(
