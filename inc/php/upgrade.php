@@ -2,17 +2,13 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Upgrade plugin data in the database to version 3.3
- *
- * @since 4.3
  */
-function specificfeedsicon_upgrade_3_3() {
+function spacexchimp_p002_upgrade_3_3() {
 
     $link = get_option( 'specificfeedsicon_link' );
     $icon = get_option( 'specificfeedsicon_icon' );
@@ -65,4 +61,4 @@ function specificfeedsicon_upgrade_3_3() {
     }
 
 }
-specificfeedsicon_upgrade_3_3();
+spacexchimp_p002_upgrade_3_3();

@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.7
+Stable tag: 4.8
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -49,6 +49,7 @@ This plugin is ready for translation and has already been translated into severa
 
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* Spanish (translation by Patricio Toledo)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom).
 
@@ -153,6 +154,20 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.8 =
+* Added Spanish translation. (Thanks Patricio Toledo)
+* Function that render controls on the settings page is moved to a separate file 'controls.php'.
+* The '_setting' function divided into two functions: '_control_field' and '_control_switch'.
+* Added CSS class 'control-switch' to checkboxes with custom styles. Now the 'bootstrap-checkbox.js' plugin only applies to checkboxes with class 'control-switch'.
+* The group name of the '_service_info' option renamed to '_settings_group_si'.
+* The 'admin.css' file improved.
+* The "Font Awesome" library is integrated for use on the plugin settings page.
+* The save button is replaced by a new wider button.
+* Added an additional save button that fixed in the upper left corner.
+* The help text generating is moved to separate PHP function.
+* Prefixes of the PHP functions changed to ''spacexchimp_p002_.
+* Prefixes of the PHP constants changed to ''SPACEXCHIMP_P002_.
 
 = 4.7 =
 * Russian translation updated. (Thanks to Milena Kiseleva)
@@ -346,7 +361,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Beta version.
 
 = 0.1 =
-* Alfa version.
+* Alpha version.
 
 
 == Upgrade Notice ==

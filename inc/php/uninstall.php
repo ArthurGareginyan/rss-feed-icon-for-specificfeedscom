@@ -2,17 +2,13 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Delete options on uninstall
- *
- * @since 4.2
  */
-function specificfeedsicon_uninstall() {
-    delete_option( RFIFS_SETTINGS . '_settings' );
+function spacexchimp_p002_uninstall() {
+    delete_option( SPACEXCHIMP_P002_SETTINGS . '_settings' );
 }
-register_uninstall_hook( __FILE__, RFIFS_PREFIX . '_uninstall' );
+register_uninstall_hook( __FILE__, 'spacexchimp_p002_uninstall' );

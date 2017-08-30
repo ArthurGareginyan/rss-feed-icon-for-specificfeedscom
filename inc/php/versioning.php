@@ -2,25 +2,21 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Function for managing information about the version number of the plugin
- *
- * @since 4.4
  */
-function specificfeedsicon_versioning() {
+function spacexchimp_p002_versioning() {
 
     ///////////////////////////////////////////////////////////////////
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
     // Put value of constants to variables for easier access
-    $version_files = RFIFS_VERSION;
-    $settings = RFIFS_SETTINGS;
+    $version_files = SPACEXCHIMP_P002_VERSION;
+    $settings = SPACEXCHIMP_P002_SETTINGS;
 
     // Read the plugin service information from the database and put it into an array
     $info = get_option( $settings . '_service_info' );
@@ -105,4 +101,4 @@ function specificfeedsicon_versioning() {
     }
 
 }
-specificfeedsicon_versioning();
+spacexchimp_p002_versioning();
