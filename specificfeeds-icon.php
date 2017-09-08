@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.8
+ * Version: 4.9
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -71,8 +71,8 @@ spacexchimp_p002_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) 
 spacexchimp_p002_define_constants( 'NAME', $plugin_data['name'] );
 spacexchimp_p002_define_constants( 'VERSION', $plugin_data['version'] );
 spacexchimp_p002_define_constants( 'TEXT', $plugin_data['text'] );
-spacexchimp_p002_define_constants( 'PREFIX', 'specificfeedsicon' );
-spacexchimp_p002_define_constants( 'SETTINGS', 'RssFeedIconSF' );
+spacexchimp_p002_define_constants( 'PREFIX', 'spacexchimp_p002' );
+spacexchimp_p002_define_constants( 'SETTINGS', 'spacexchimp_p002' );
 
 /**
  * Load the plugin modules

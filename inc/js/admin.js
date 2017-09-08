@@ -53,7 +53,7 @@ jQuery(document).ready(function($) {
     });
 
     // Live preview
-    var plugin_url = specificfeedsicon_scriptParams["plugin_url"];
+    var plugin_url = spacexchimp_p002_scriptParams["plugin_url"];
     $('.sf_link').change(function() {
         var val = $(this).val() || 'http://';
         $('#preview .preview-icon a').attr('href',val);
