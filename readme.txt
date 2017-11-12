@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner alternative, иконка, значок, кнопка
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.8
-Stable tag: 4.13
+Tested up to: 4.9
+Stable tag: 4.14
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -53,6 +53,16 @@ This plugin is ready for translation and has already been translated into severa
 * Spanish (translation by Patricio Toledo)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom).
+
+**System requirements**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommendations:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
 
 **Contribution**
 
@@ -155,6 +165,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.14 =
+* The plugin is fully tested for compatibility with WordPress version 4.9.
+* CSS code improved.
 
 = 4.13 =
 * German translation added. (Thanks to Michael)
