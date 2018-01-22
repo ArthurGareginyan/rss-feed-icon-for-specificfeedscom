@@ -24,6 +24,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
+            <div class="postbox help">
+                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
+                <div class="inside">
+                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
+                </div>
+            </div>
+
             <div class="postbox support">
                 <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
@@ -38,17 +45,10 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
-            <div class="postbox help">
-                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
-                <div class="inside">
-                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
-                </div>
-            </div>
-
             <div class="postbox banner">
                 <div class="inside">
                     <a href="https://www.spacexchimp.com/" target="_blank">
-                        <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/banner.png'; ?>" alt="Space X-Chimp Studio">
+                        <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/banner.png'; ?>" alt="Space X-Chimp">
                     </a>
                 </div>
             </div>
