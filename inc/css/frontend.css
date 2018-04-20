@@ -1,5 +1,5 @@
 /*
- * WP plugin 'RSS Feed Icon for SpecificFeeds.com' by Arthur Gareginyan ( https://www.arthurgareginyan.com ).
+ * WP plugin RSS Feed Icon for SpecificFeeds.com by Space X-Chimp ( https://www.spacexchimp.com ).
  *
  * @package     RSS Feed Icon for SpecificFeeds.com
  * @author      Arthur Gareginyan

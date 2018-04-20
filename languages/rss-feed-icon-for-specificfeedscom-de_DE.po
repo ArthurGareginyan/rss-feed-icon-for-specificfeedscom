@@ -3,16 +3,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development (trunk)\n"
-"POT-Creation-Date: 2018-01-19 15:11+0300\n"
-"PO-Revision-Date: 2018-01-20 07:37+0300\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2018-04-20 01:36+0300\n"
+"PO-Revision-Date: 2018-04-20 01:36+0300\n"
+"Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: specificfeeds-icon.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: inc/php/messages.php:26
 msgid "Hello. We are the team of Space X-Chimp."
-msgstr "Hallo! Ich bin Space X-Chimp, der Autor dieses plugins."
+msgstr "Hallo! Wir sind das Team von Space X-Chimp."
 
 #: inc/php/messages.php:28
 #, php-format
@@ -183,7 +183,7 @@ msgstr ""
 
 #: inc/php/page.php:144
 msgid "Does this plugin requires any modification of the theme?"
-msgstr "Benötigt das Plugin Veränderungen am Theme."
+msgstr "Benötigt das Plugin Veränderungen am Theme?"
 
 #: inc/php/page.php:145
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
@@ -210,7 +210,7 @@ msgid "It's impossible to tell what could be wrong exactly, but if you post a su
 msgstr ""
 
 #: inc/php/page.php:154
-msgid "The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this?"
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr "Das letzte WordPress-Update hindert mich daran, meine Webseite, die dieses Plugin verwendet, zu bearbeiten. Warum ist das so?"
 
 #: inc/php/page.php:155
@@ -223,7 +223,7 @@ msgstr "Wo kann ich eine Fehler melden?"
 
 #: inc/php/page.php:159
 #, php-format
-msgid "Please visit %s this page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
+msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:165
@@ -232,7 +232,7 @@ msgstr "Wo können Sie Ideen oder Vorschläge loswerden, um das Plugin besser zu
 
 #: inc/php/page.php:167
 #, php-format
-msgid "Any suggestions are very welcome! Just contact us %s here %s. Please do not forget to specify the name of the plugin. Thank you!"
+msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:173
@@ -241,7 +241,7 @@ msgstr "Ich liebe dieses Plugin! Kann ich Irgendwie helfen?"
 
 #: inc/php/page.php:175
 #, php-format
-msgid "Yes, any financial contributions are welcome! Just visit %s the website of the creator %s, click on the donate button, and thank you!"
+msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr "Ja, jede finanzielle Unterstützung ist Willkommen! Besuchen Sie %s meine Webseite %s, klicken Sie auf den Spenden Button und Danke!"
 
 #: inc/php/page.php:181
@@ -377,9 +377,12 @@ msgid "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
 msgstr "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
 
 #. Author of the plugin/theme
-msgid "Arthur Gareginyan"
-msgstr "Arthur Gareginyan"
+msgid "Space X-Chimp"
+msgstr "Space X-Chimp"
 
 #. Author URI of the plugin/theme
-msgid "https://www.arthurgareginyan.com"
-msgstr "https://www.arthurgareginyan.com"
+msgid "https://www.spacexchimp.com"
+msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Arthur Gareginyan"
+#~ msgstr "Arthur Gareginyan"
