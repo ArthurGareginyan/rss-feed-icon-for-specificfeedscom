@@ -20,7 +20,7 @@ add_action( 'init', 'spacexchimp_p002_textdomain' );
  * and inserts a link to the plugin admin page
  */
 function spacexchimp_p002_settings_link( $links ) {
-    $page = '<a href="' . admin_url( 'options-general.php?page=' . SPACEXCHIMP_P002_SLUG . '.php' ) .'">' . __( 'Settings', SPACEXCHIMP_P002_TEXT ) . '</a>';
+    $page = '<a href="' . admin_url( 'options-general.php?page=' . SPACEXCHIMP_P002_SLUG ) . '">' . __( 'Settings', SPACEXCHIMP_P002_TEXT ) . '</a>';
     array_unshift( $links, $page );
     return $links;
 }
