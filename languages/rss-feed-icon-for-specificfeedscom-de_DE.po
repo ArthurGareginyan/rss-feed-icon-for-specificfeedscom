@@ -108,7 +108,7 @@ msgid "Now you have several methods for display the RSS feed icon (further just 
 msgstr ""
 
 #: inc/php/page.php:77
-msgid "<b>A)</b> For add the button inside a post from WP Post/Page Editor use the following shortcode:"
+msgid "<b>A)</b> For add the button inside a post from WordPress Post/Page Editor use the following shortcode:"
 msgstr ""
 
 #: inc/php/page.php:79

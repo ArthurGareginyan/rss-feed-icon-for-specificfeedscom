@@ -74,7 +74,7 @@ function spacexchimp_p002_render_submenu_page() {
                             <li><?php _e( 'Select the desired settings.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Now you have several methods for display the RSS feed icon (further just "button"). Just choose the one that is more suitable for your case.', $text ); ?><br><br>
-                                <p><?php _e( '<b>A)</b> For add the button inside a post from WP Post/Page Editor use the following shortcode:', $text ); ?></p>
+                                <p><?php _e( '<b>A)</b> For add the button inside a post from WordPress Post/Page Editor use the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[specificfeeds-icon]'); ?></p>
                                 <p><?php _e( '<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[specificfeeds-icon]'); ?></p>

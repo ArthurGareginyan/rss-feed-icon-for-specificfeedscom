@@ -108,8 +108,8 @@ msgid "Now you have several methods for display the RSS feed icon (further just 
 msgstr "Теперь у вас есть несколько способов отображения значка RSS-канала (далее просто «кнопка»). Просто выберите ту, которая больше подходит для вашего дела."
 
 #: inc/php/page.php:77
-msgid "<b>A)</b> For add the button inside a post from WP Post/Page Editor use the following shortcode:"
-msgstr "<b>А)</b> Чтобы добавить кнопку внутри записи из WP Post/Page Editor используйте следующий короткий код:"
+msgid "<b>A)</b> For add the button inside a post from WordPress Post/Page Editor use the following shortcode:"
+msgstr "<b>А)</b> Чтобы добавить кнопку внутри записи из WordPress Post/Page Editor используйте следующий короткий код:"
 
 #: inc/php/page.php:79
 msgid "<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
