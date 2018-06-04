@@ -5,7 +5,7 @@
  * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.19
+ * Version: 4.20
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
@@ -78,4 +78,3 @@ require_once( SPACEXCHIMP_P002_PATH . 'inc/php/functional.php' );
 require_once( SPACEXCHIMP_P002_PATH . 'inc/php/controls.php' );
 require_once( SPACEXCHIMP_P002_PATH . 'inc/php/page.php' );
 require_once( SPACEXCHIMP_P002_PATH . 'inc/php/messages.php' );
-require_once( SPACEXCHIMP_P002_PATH . 'inc/php/uninstall.php' );
