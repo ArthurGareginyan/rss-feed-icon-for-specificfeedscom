@@ -1,6 +1,6 @@
 # RSS Feed Icon for SpecificFeeds.com
 
-**Free Premium WordPress Plugin**
+**Free WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)
 
