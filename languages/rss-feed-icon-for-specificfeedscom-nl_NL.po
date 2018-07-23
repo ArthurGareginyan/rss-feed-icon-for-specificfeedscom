@@ -1,4 +1,4 @@
-# Translation of plugin - RSS Feed Icon for SpecificFeeds.com - in German (Germany)
+# Translation of plugin - RSS Feed Icon for SpecificFeeds.com - in Dutch (Netherlands)
 # This file is distributed under the same license as the plugin - RSS Feed Icon for SpecificFeeds.com.
 msgid ""
 msgstr ""
@@ -6,12 +6,12 @@ msgstr ""
 "POT-Creation-Date: 2018-07-24 00:37+0300\n"
 "PO-Revision-Date: 2018-07-24 00:37+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
-"Language-Team: German\n"
-"Language: de_DE\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: specificfeeds-icon.php\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: inc/php/core.php:23 inc/php/page.php:43
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr "Instellingen"
 
 #: inc/php/core.php:37
 msgid "Donate"
-msgstr "Spende"
+msgstr "Doe een gift"
 
 #: inc/php/core.php:52
 msgid "SpecificFeeds Icon"
@@ -34,33 +34,33 @@ msgstr ""
 
 #: inc/php/messages.php:26
 msgid "Hello. We are the team of Space X-Chimp."
-msgstr "Hallo! Wir sind das Team von Space X-Chimp."
+msgstr "Hallo. Wij zijn het team van Space X-Chimp."
 
 #: inc/php/messages.php:28
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
-msgstr "Danke, dass Sie mein Plugin installiert haben. Ich hoffe, sie werden es mögen. %s"
+msgstr "Bedankt voor het installeren van onze plug-in! We hopen dat je het geweldig zult vinden! %s"
 
 #: inc/php/messages.php:68
 msgid "You have installed an old version of this plugin."
-msgstr "Sie haben eine veraltete Version dieses Plugin installiert."
+msgstr "Je hebt een oudere versie van deze plug-in geïnstalleerd."
 
 #: inc/php/messages.php:69
 msgid "Please update the plugin to the latest version, and all will be fine."
-msgstr "Bitte installieren Sie die aktuelle Version des Plugins und alles wir gut."
+msgstr "Update de plug-in naar de nieuwste versie en alles komt goed."
 
 #: inc/php/page.php:30
 #, php-format
 msgid "by %s Space X-Chimp %s"
-msgstr "by %s Space X-Chimp %s"
+msgstr "door %s Space X-Chimp %s"
 
 #: inc/php/page.php:36
 msgid "Version"
-msgstr "Version"
+msgstr "Versie"
 
 #: inc/php/page.php:44
 msgid "Usage"
-msgstr "Verwendung"
+msgstr "Gebruik"
 
 #: inc/php/page.php:45
 msgid "F.A.Q."
@@ -68,15 +68,15 @@ msgstr "F.A.Q."
 
 #: inc/php/page.php:46 inc/php/settings.php:170 inc/php/sidebar.php:44
 msgid "Support"
-msgstr "Support"
+msgstr "Ondersteuning"
 
 #: inc/php/page.php:47
 msgid "Store"
-msgstr "Store"
+msgstr "Winkel"
 
 #: inc/php/page.php:63
 msgid "Usage Instructions"
-msgstr "Anleitung"
+msgstr "Gebruiksinstructies"
 
 #: inc/php/page.php:66
 #, php-format
@@ -89,7 +89,7 @@ msgstr ""
 
 #: inc/php/page.php:72
 msgid "Go to the \"Settings\" tab."
-msgstr "Gehen Sie zum Tab \"Einstellungen\"."
+msgstr ""
 
 #: inc/php/page.php:73
 msgid "Enter your personal link from the <a href=\"https://www.specificfeeds.com\" target=\"_blank\">SpecificFeeds.com</a>."
@@ -97,11 +97,11 @@ msgstr ""
 
 #: inc/php/page.php:74
 msgid "Select the desired settings."
-msgstr "Wählen Sie die gewünschten Einstellungen aus."
+msgstr ""
 
 #: inc/php/page.php:75
 msgid "Click the \"Save changes\" button."
-msgstr "Klicken Sie den \"Änderungen speichern\" button."
+msgstr "Klik op de knop \"Wijzigingen opslaan\"."
 
 #: inc/php/page.php:76
 msgid "Now you have several methods for display the RSS feed icon (further just \"button\"). Just choose the one that is more suitable for your case."
@@ -125,57 +125,57 @@ msgstr ""
 
 #: inc/php/page.php:84
 msgid "It's that simple!"
-msgstr "Es ist ganz einfach!"
+msgstr "Zo eenvoudig is het!"
 
 #: inc/php/page.php:86
 msgid "Note!"
-msgstr "Achtung!"
+msgstr "Opmerking!"
 
 #: inc/php/page.php:87
 #, php-format
 msgid "If you want more options then %s tell us %s and we will be happy to add it."
-msgstr "Wenn Sie mehr Optionen benötigen, %s teilen Sie uns %s dies mit und wir werden sie gerne hinzufügen."
+msgstr "Wilt u meer opties dan %s vertel ons %s en wij zullen graag toevoegen."
 
 #: inc/php/page.php:101
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Veel voorkomende vragen (FAQ)"
 
 #: inc/php/page.php:105
 msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
-msgstr "Wenn Sie Fragen haben, lesen Sie bitte die F.A.Q.s und schauen Sie nach, ob Ihre Antwort dabei ist."
+msgstr "Als je een vraag hebt, lees dan eerst de Veel voorkomende vragen (FAQ) hieronder. Misschien staat het antwoord ertussen."
 
 #: inc/php/page.php:127
 msgid "Will this plugin work on my WordPress.COM website?"
-msgstr "Funktioniert dieses Plugin auf meiner WordPress.COM Webseite?"
+msgstr "Werkt deze plugin op mijn WordPress.COM website?"
 
 #: inc/php/page.php:128
 msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
-msgstr "Leider nicht. Dieses Plugin ist nur verfügbar auf self-hosted (WordPress.ORG) Webseiten."
+msgstr "Sorry, deze plug-in is alleen beschikbaar voor gebruik op zelf-gehoste (WordPress.ORG) websites."
 
 #: inc/php/page.php:130
 msgid "Can I use this plugin on my language?"
-msgstr "Kann ich das Plugin in meiner Sprache verwenden?"
+msgstr "Kan ik deze plug-in in mijn eigen taal gebruiken?"
 
 #: inc/php/page.php:131
 msgid "Yes. This plugin is ready for translation and has already been translated into several languages."
-msgstr "Ja, dieses Plugin übersetzbar und bereits in mehreren Sprachen verfügbar."
+msgstr "Ja. Deze plug-in is klaar voor vertaling en is reeds in verschillende talen vertaald."
 
 #: inc/php/page.php:133
 #, php-format
 msgid "If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to us at the %s and we will include this translation within the next plugin update."
-msgstr ""
+msgstr "Als je wilt helpen deze plug-in te vertalen, bezoek dan de %s. Je kunt ook het POT-bestand gebruiken, dat is inbegrepen en in de map “languages” is geplaatst om een PO-bestand met vertalingen te maken. Stuur het PO-bestand naar ons op de %s en we zullen deze vertaling opnemen in de volgende plug-in update."
 
 #: inc/php/page.php:138
 msgid "Maybe not all existed translations are up to date. You are welcome to contribute corrections!"
-msgstr "Vielleicht sind nicht alle vorhandenen Übersetzungen aktuell. Gerne können Sie an den Korrekturen mitwirken."
+msgstr "Misschien zijn niet alle bestaande vertalingen up-to-date of correct. Je bent van harte welkom om correcties bij te dragen!"
 
 #: inc/php/page.php:139
 msgid "Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
-msgstr "Viele Benutzer des Plugins freuen sich darüber, wenn Sie Ihre Übersetzung mit der Öffentlichkeit teilen. Danke für Ihre Mithilfe!"
+msgstr "Veel plugin-gebruikers zouden blij zijn als je je vertaling met de community deelt. Bedankt voor je bijdrage!"
 
 #: inc/php/page.php:141
 msgid "How does it work?"
-msgstr "Wie arbeitet das Plugin?"
+msgstr "Hoe werkt het?"
 
 #: inc/php/page.php:142
 msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button. Enjoy your fancy SpecificFeeds icon. It's that simple!"
@@ -183,83 +183,83 @@ msgstr ""
 
 #: inc/php/page.php:144
 msgid "Does this plugin requires any modification of the theme?"
-msgstr "Benötigt das Plugin Veränderungen am Theme?"
+msgstr "Heeft deze plug-in enige aanpassing van het thema nodig?"
 
 #: inc/php/page.php:145
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
-msgstr "Absolut nicht. Alle Konfigurationen des Plugins finden Sie auf Einstellungsseite des Plugins."
+msgstr "Absoluut niet. Deze plug-in kan volledig worden geconfigureerd via de pagina met plugin-instellingen."
 
 #: inc/php/page.php:147
 msgid "Does this require any knowledge of HTML or CSS?"
-msgstr "Brauche ich HTML oder CCS Kenntnisse?"
+msgstr "Vereist dit enige kennis van HTML of CSS?"
 
 #: inc/php/page.php:148
 msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
-msgstr "Absolut nicht. Dieses Plugin kann ohne Kenntnisse von HTML oder CSS konfiguriert werden."
+msgstr ""
 
 #: inc/php/page.php:150
 msgid "It's not working. What could be wrong?"
-msgstr "Es funktioniert nicht. Was könnte falsch sein?"
+msgstr "Het werkt niet. Wat kan er fout zijn?"
 
 #: inc/php/page.php:151
 msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
-msgstr "Wie bei jedem Plugin ist es möglich, dass nicht alles funktioniert. Der häufigste Grund dafür ist der Cache Ihres Webbrowsers. Jeder Webbrowser speichert den Cache der besuchten Webseite (Seiten, Bilder, usw.) um die Bandbreite zu reduzieren. Das nennt man den Browser Cache. Wenn Sie den Cache Ihres Browsers löschen, könnte das Problem behoben sein."
+msgstr "Zoals met elke plug-in, is het mogelijk dat dingen niet werken. De meest voorkomende reden hiervoor is de cache van een webbrowser. Elke webbrowser slaat een cache op van de websites die u bezoekt (pagina's, afbeeldingen en enz.) Om het bandbreedte-gebruik en de serverbelasting te verminderen. Dit wordt de cache van de browser genoemd. Het wissen van de cache van uw browser kan het probleem oplossen."
 
 #: inc/php/page.php:152
 msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
-msgstr ""
+msgstr "Het is onmogelijk om precies te vertellen wat er precies mis zou kunnen zijn, maar als je een ondersteuningsverzoek post in het ondersteuningsforum van de plug-in op WordPress.org, willen we graag een kijkje nemen en proberen te helpen. Voeg zoveel mogelijk informatie toe, inclusief een link naar uw website waar het probleem kan worden gezien."
 
 #: inc/php/page.php:154
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
-msgstr "Das letzte WordPress-Update hindert mich daran, meine Webseite, die dieses Plugin verwendet, zu bearbeiten. Warum ist das so?"
+msgstr "De laatste Wordpress update zorgt ervoor dat ik mijn website niet kan bewerken als ik deze plugin gebruik. Waarom is dit?"
 
 #: inc/php/page.php:155
 msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
-msgstr "Dieses Plugin kann ein solches Problem nicht verursachen. Wahrscheinlich hängt das Problem mit den Einstellungen der Webseite zusammen. Es könnte einfach nur ein Cache sein. Versuchen Sie daher, den Cache Ihrer Webseite zu löschen (möglicherweise verwenden Sie ein Caching-Plugin oder einen Webservice wie CloudFlare) und danach den Cache Ihres Webbrowsers. Versuchen Sie auch, sich erneut auf der Webseite anzumelden, auch dies kann helfen."
+msgstr "Deze plug-in kan zo’n probleem niet veroorzaken. Waarschijnlijker is het probleem gerelateerd aan de instellingen van de website. Het kan gewoon een cache-probleem zijn, dus probeer de cache van je website te wissen (mogelijk gebruik je een caching-plug-in of een webservice zoals de CloudFlare) en vervolgens de cache van je webbrowser. Probeer ook opnieuw in te loggen op de website, ook dit kan helpen."
 
 #: inc/php/page.php:157
 msgid "Where to report bug if found?"
-msgstr "Wo kann ich eine Fehler melden?"
+msgstr "Waar kan een bug gerapporteerd worden indien gevonden?"
 
 #: inc/php/page.php:159
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
-msgstr ""
+msgstr "Bugrapporten zijn van harte welkom! Ga naar %s onze contactpagina %s en rapporteer. Vergeet alsjeblieft niet om de naam van de plug-in te specificeren. Dank je!"
 
 #: inc/php/page.php:165
 msgid "Where to share any ideas or suggestions to make the plugin better?"
-msgstr "Wo können Sie Ideen oder Vorschläge loswerden, um das Plugin besser zu machen?"
+msgstr "Waar kan ik ideeën of suggesties delen om de plug-in beter te maken?"
 
 #: inc/php/page.php:167
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
-msgstr ""
+msgstr "Alle suggesties zijn van harte welkom! Ga naar %s onze contactpagina %s. Vergeet alsjeblieft niet om de naam van de plug-in te specificeren. Dank je!"
 
 #: inc/php/page.php:173
 msgid "I love this plugin! Can I help somehow?"
-msgstr "Ich liebe dieses Plugin! Kann ich Irgendwie helfen?"
+msgstr "Ik ben dol op deze plug-in! Kan ik op de een of andere manier helpen?"
 
 #: inc/php/page.php:175
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
-msgstr "Ja, jede finanzielle Unterstützung ist Willkommen! Besuchen Sie %s meine Webseite %s, klicken Sie auf den Spenden Button und Danke!"
+msgstr "Ja, alle bijdragen zijn van harte welkom! Ga naar %s onze donatiepagina %s. Dank je!"
 
 #: inc/php/page.php:181
 msgid "My question wasn't answered here."
-msgstr "Meine Fragen wurden nicht beantwortet."
+msgstr "Mij vraag is hier niet beantwoord."
 
 #: inc/php/page.php:183
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
-msgstr ""
+msgstr "Je kunt je vraag op %s deze pagina %s stellen. Maar houd er rekening mee dat deze plug-in gratis is en er geen speciaal ondersteuningsteam is, dus we kunnen niet iedereen antwoorden."
 
 #: inc/php/page.php:197
 msgid "Support Us"
-msgstr "Unterstütze uns"
+msgstr "Ondersteun ons"
 
 #: inc/php/page.php:205 inc/php/settings.php:177 inc/php/sidebar.php:51
 msgid "Donate with PayPal"
-msgstr "Spende mit PayPal"
+msgstr "Doneer via PayPal"
 
 #: inc/php/page.php:210
 #, php-format
@@ -272,19 +272,19 @@ msgstr ""
 
 #: inc/php/page.php:219
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Ich habe viel Zeit und Mühe darauf verwendet sicherzustellen, dass die Themes, Plugins und andere Dinge, die ich entwickle, nützlich sind. Der ultimative Beweis für mich ist, dass Sie sie tatsächlich verwenden. Aber Jeder kleine Beitrag trägt dazu bei, meine Kosten zu decken und schenkt mir mehr Zeit damit zu verbringen, Dinge für Leute wie Sie zu gestalten."
+msgstr "Ik besteed veel tijd en moeite om ervoor te zorgen dat de thema’s, plug-ins en andere dingen die ik maak nuttig zijn, en het ultieme bewijs daarvan is dat je ze echt wilt gebruiken. Maar ik ben een onafhankelijke ontwikkelaar, zonder een vast inkomen, dus elke kleine bijdrage helpt mij mijn kosten te dekken en laat me meer tijd besteden aan het bouwen van dingen voor mensen zoals jij om van te genieten."
 
 #: inc/php/page.php:220
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
-msgstr "Wenn Ihnen meine Arbeit gefällt, können Sie mir gerne einen Kaffee kaufen!"
+msgstr "Als je mijn werk waardeert, kun je een koffie voor me kopen!"
 
 #: inc/php/page.php:221
 msgid "Thank you for your support!"
-msgstr "Danke für Ihre Unterstützung!"
+msgstr "Bedankt voor je ondersteuning!"
 
 #: inc/php/settings.php:29 inc/php/settings.php:158
 msgid "Save changes"
-msgstr "Änderungen speichern"
+msgstr "Wijzigingen opslaan"
 
 #: inc/php/settings.php:33
 msgid "Main Settings"
@@ -292,7 +292,7 @@ msgstr ""
 
 #: inc/php/settings.php:35
 msgid "Here you can configure this plugin."
-msgstr "Hier können Sie das Plugin konfigurieren."
+msgstr ""
 
 #: inc/php/settings.php:39
 msgid "Your SpecificFeeds link"
@@ -312,7 +312,7 @@ msgstr ""
 
 #: inc/php/settings.php:140
 msgid "Icon size"
-msgstr "Icon Grösse"
+msgstr ""
 
 #: inc/php/settings.php:141
 msgid "You can set the height of icon (in pixels)."
@@ -336,15 +336,15 @@ msgstr ""
 
 #: inc/php/settings.php:161
 msgid "Live Preview"
-msgstr "Live Vorschau"
+msgstr ""
 
 #: inc/php/settings.php:172 inc/php/sidebar.php:46
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Jeder kleine Beitrag trägt dazu bei, unsere Kosten zu decken und wir kann mehr Zeit damit verbringen, Dinge für Leute wie Sie zu entwickeln."
+msgstr "Ik ben een onafhankelijke ontwikkelaar, zonder een vast inkomen, dus elke kleine bijdrage helpt mij mijn kosten te dekken en laat me meer tijd spenderen aan het bouwen van dingen voor mensen zoals jij om van te genieten."
 
 #: inc/php/settings.php:179 inc/php/sidebar.php:53
 msgid "Thanks for your support!"
-msgstr "Danke für Ihre Unterstützung!"
+msgstr "Bedankt voor uw steun!"
 
 #: inc/php/sidebar.php:16
 msgid "We are «Space X-Chimp»"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: inc/php/sidebar.php:25
 msgid "About"
-msgstr "Über"
+msgstr "Over"
 
 #. Description of the plugin/theme
 #: inc/php/sidebar.php:27
@@ -366,19 +366,19 @@ msgstr ""
 
 #: inc/php/sidebar.php:37
 msgid "Help"
-msgstr "Hilfe"
+msgstr "Help"
 
 #: inc/php/sidebar.php:39
 msgid "If you have a question, please read the information in the FAQ section."
-msgstr "Wenn Sie Fragen haben, lesen Sie bitte auch die Fragen im FAQ Bereich."
+msgstr "Als je een vraag hebt, lees dan de informatie in de FAQ-sectie."
 
 #. Plugin Name of the plugin/theme
 msgid "RSS Feed Icon for SpecificFeeds.com"
-msgstr ""
+msgstr "Mijn Persoonlijke Functies"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
-msgstr "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
+msgstr ""
 
 #. Author of the plugin/theme
 msgid "Space X-Chimp"
@@ -389,7 +389,7 @@ msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
 #~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Hallo! Meine name ist %s Arthur Gareginyan %s und ich bin der Gründer von %s Space X-Chimp %s."
+#~ msgstr "Hallo! Mijn naam is %s Arthur Gareginyan %s en ik ben de oprichter van %s Space X-Chimp %s."
 
 #~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
-#~ msgstr "Meine Absicht ist es, Projekte zu entwickeln, die diese Welt zu einem besseren Ort machen. Ich bin begeistert von meiner Arbeit, ich mag, was ich tue, und hoffe, dass Sie auch von meinen Projekten bereichert werden."
+#~ msgstr "Het is mijn bedoeling om projecten te maken die van deze wereld een betere plek maken. Ik ben echt gepassioneerd over mijn werk, ik vind het leuk wat ik doe en hoop dat je ook verrijkt zult worden door mijn projecten."
