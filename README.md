@@ -4,26 +4,66 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom/blob/master/assets/banner-772x250.png)
 
-An easy to use and lightweight WordPress plugin that lets you easily add RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
+An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon which connected to SpecificFeeds.com with the shortcode in any place of your website.
 
-The plugin is based on the service [SpecificFeeds.com](http://www.specificfeeds.com). SpecificFeeds allows your visitors to receive messages from your Blog/RSS Feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
+The plugin is based on the [SpecificFeeds.com](http://www.specificfeeds.com) service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100% free and also has several other benefits.
 
-To use, enter your personal link from SpecificFeeds.com, choose icon and click "Save Changes". Then you can put shortcode [specificfeeds-icon] in needed place. It's that simple! If you want more options then tell me and I will be happy to add it.
+To use, enter your personal link from the [SpecificFeeds.com](http://www.specificfeeds.com), then on the plugin settings page select the desired settings and click the "Save changes" button. Then you can put the [specificfeeds-icon] shortcode in any place on your website.
 
+If you want more options, let us know and we will be happy to add them.
 
-## Features
+**Features**
 
-* Responsive
+* Lightweight and fast
+* Secure code with using clear coding standards
+* Intuitive interface with many settings
+* Cross browser compatible (work smooth in any modern browser)
+* Compatible with all WordPress themes
+* RTL compatible (right to left)
+* Translation ready
+* Published on [WordPess.org](http://wordpess.org/)
+
+**Key features include...**
+
 * Retina support
-* Cross Browser Compatible (work smooth in any modern browser)
 * Simple shortcode for displaying the SpecificFeeds icon
 * 13 official icons from SpecificFeeds.com
 * Ability to set the size of icon
-* Ready for translation (POT file included)
-* Russian translation
-* Published on [WordPess.org](http://wordpess.org/)
+* And much, much more!
 
-**Got more ideas? Tell me!**
+**Coming soon:**
+
+* Universal SpecificFeeds link (click-to-follow.me)
+
+**Translation**
+
+This plugin is ready for translation and has already been translated into several languages.
+
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
+* Spanish (translation by Patricio Toledo)
+* Dutch (translation by Peter Leenders)
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon-for-specificfeedscom).
+
+**Minimum system requirements:**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommended system requirements:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
+
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon-for-specificfeedscom?rate=5#postform) this plugin.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) if you have any ideas or suggestions to make this plugin better.
 
 
 ## Contributing
