@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.22
+Stable tag: 4.23
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,7 +19,7 @@ The plugin is based on the [SpecificFeeds.com](http://www.specificfeeds.com) ser
 
 To use, enter your personal link from the [SpecificFeeds.com](http://www.specificfeeds.com), then on the plugin settings page select the desired settings and click the "Save changes" button. Then you can put the [specificfeeds-icon] shortcode in any place on your website.
 
-If you want more options then tell us and we will be happy to add it.
+If you want more options, then let us know and we will be happy to add them.
 
 **Features**
 
@@ -163,9 +163,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom)
+* [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/rss-feed-icon-for-specificfeedscom/)
 
 
 == Changelog ==
+
+= 4.23 =
+* Content of the "Usage Instructions" section updated.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* Code commenting improved.
+* Translation files are updated.
 
 = 4.22 =
 * Dutch translation added. (Thanks to Peter Leenders)
@@ -275,7 +282,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Load of the additional remote CSS file removed from the admin.js file.
 * Some PHP 'if' statements replaced with shorthand.
 * Changed the sorting of enqueueing of scripts.
-* The ''Family' page tab renamed to 'Store'.
+* The 'Family' page tab renamed to 'Store'.
 * Added ad banner of my store website.
 
 = 4.5.1 =
