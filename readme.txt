@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.23
+Stable tag: 4.24
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,7 +31,7 @@ If you want more options, then let us know and we will be happy to add them.
 * RTL compatible (right to left)
 * Translation ready
 
-**Key features include...**
+**Key features include**
 
 * Retina support
 * Simple shortcode for displaying the SpecificFeeds icon
@@ -39,7 +39,7 @@ If you want more options, then let us know and we will be happy to add them.
 * Ability to set the size of icon
 * And much, much more!
 
-**Coming soon:**
+**Coming soon**
 
 * Universal SpecificFeeds link (click-to-follow.me)
 
@@ -167,6 +167,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.24 =
+* Improvement: Design of the plugin settings page is improved.
 
 = 4.23 =
 * Content of the "Usage Instructions" section updated.
