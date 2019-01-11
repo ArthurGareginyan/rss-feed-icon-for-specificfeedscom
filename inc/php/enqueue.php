@@ -61,7 +61,7 @@ function spacexchimp_p002_load_scripts_admin( $hook ) {
     $settings_page = 'settings_page_' . $slug;
     if ( $settings_page != $hook ) return;
 
-    // Read options from database
+    // Retrieve options from database
     $options = get_option( $settings . '_settings' );
 
     // Load jQuery library
@@ -106,7 +106,7 @@ function spacexchimp_p002_load_scripts_frontend() {
     $settings = SPACEXCHIMP_P002_SETTINGS;
     $version = SPACEXCHIMP_P002_VERSION;
 
-    // Read options from database
+    // Retrieve options from database
     $options = get_option( $settings . '_settings' );
 
     // Load jQuery library

@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p002_shortcode() {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P002_SETTINGS . '_settings' );
     $sf_link = !empty( $options['sf_link'] ) ? $options['sf_link'] : '';
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';

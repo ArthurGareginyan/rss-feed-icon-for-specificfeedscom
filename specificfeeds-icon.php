@@ -5,12 +5,12 @@
  * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.25
+ * Version: 4.26
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
  *
- * Copyright 2014-2018 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2014-2019 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
