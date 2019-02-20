@@ -41,7 +41,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                     'https://'
                                                                   );
                                 ?>
-
                                 <tr>
                                     <th scope='row'>
                                         <?php _e( 'SpecificFeeds icon', $text ); ?>
@@ -59,7 +58,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/icons/4.png'; ?>" width='48' height='48' align='absmiddle'/>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <input type="radio" name="spacexchimp_p002_settings[sf_icon]" value="2" <?php checked( '2', $sf_icon ); ?>>
@@ -70,7 +68,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/icons/5.png'; ?>" width='48' height='48' align='absmiddle'/>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <input type="radio" name="spacexchimp_p002_settings[sf_icon]" value="3" <?php checked( '3', $sf_icon ); ?>>
@@ -81,7 +78,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/icons/6.png'; ?>" width='48' height='48' align='absmiddle'/>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <input type="radio" name="spacexchimp_p002_settings[sf_icon]" value="7" <?php checked( '7', $sf_icon ); ?>>
@@ -92,7 +88,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/icons/8.png'; ?>" width='48' height='48' align='absmiddle'/>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <input type="radio" name="spacexchimp_p002_settings[sf_icon]" value="9" <?php checked( '9', $sf_icon ); ?>>
@@ -103,7 +98,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/icons/10.png'; ?>" width='48' height='48' align='absmiddle'/>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <input type="radio" name="spacexchimp_p002_settings[sf_icon]" value="11" <?php checked( '11', $sf_icon ); ?>>
@@ -114,7 +108,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/icons/12.png'; ?>" width='48' height='48' align='absmiddle'/>
                                                     </td>
                                                 </tr>
-
                                                 <tr>
                                                     <td>
                                                         <input type="radio" name="spacexchimp_p002_settings[sf_icon]" value="13" <?php checked( '13', $sf_icon ); ?>>
@@ -134,7 +127,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                         <?php _e( 'You can choose the one of the thirteen icons above. They are all official SpecificFeeds icons. <br>Note: Two from above icons are white color with transparent background.', $text ); ?>
                                     </td>
                                 </tr>
-
                                 <?php
                                     spacexchimp_p002_control_number( 'icon_size',
                                                                      __( 'Icon size', $text ),
@@ -171,11 +163,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <div class="inside">
                             <p><?php _e( 'Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy.', $text ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
-                                                        <span class="btn-label">
-                                                            <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
-                                                        </span>
-                                                        <?php _e( 'Donate with PayPal', $text ); ?>
-                                                </a>
+                                <span class="btn-label">
+                                    <img src="<?php echo SPACEXCHIMP_P002_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                </span>
+                                <?php _e( 'Donate with PayPal', $text ); ?>
+                            </a>
                             <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                         </div>
                     </div>

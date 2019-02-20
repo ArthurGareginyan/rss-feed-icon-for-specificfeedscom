@@ -2,10 +2,10 @@
 /**
  * Plugin Name: RSS Feed Icon for SpecificFeeds.com
  * Plugin URI: https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom
- * Description: This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.
+ * Description: Easily and safely add a RSS feed icon by SpecificFeeds.com to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.26
+ * Version: 4.27
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2019-01-11 20:43+0200\n"
-"PO-Revision-Date: 2019-01-11 20:43+0200\n"
+"POT-Creation-Date: 2019-02-20 23:22+0300\n"
+"PO-Revision-Date: 2019-02-20 23:22+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:23 inc/php/page.php:43
+#: inc/php/core.php:23 inc/php/page.php:44
 msgid "Settings"
 msgstr "Настройки"
 
@@ -32,253 +32,495 @@ msgstr "Поддержать"
 msgid "SpecificFeeds Icon"
 msgstr "SpecificFeeds Icon"
 
-#: inc/php/messages.php:26
-msgid "Hello. We are the team of Space X-Chimp."
-msgstr "Привет! Мы - команда Space X-Chimp."
+#: inc/php/messages.php:27 inc/php/page.php:402
+msgid "Hello!"
+msgstr "Привет!"
 
 #: inc/php/messages.php:28
+msgid "We are the team of Space X-Chimp."
+msgstr "Мы - команда Space X-Chimp."
+
+#: inc/php/messages.php:33
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Благодарим вас за установку нашего плагина! Надеемся, он вам полюбится! %s"
 
-#: inc/php/messages.php:68
+#: inc/php/messages.php:74
 msgid "You have installed an old version of this plugin."
 msgstr "Вы установили устаревшую версию этого плагина."
 
-#: inc/php/messages.php:69
+#: inc/php/messages.php:75
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
 
-#: inc/php/page.php:30
+#: inc/php/page.php:31
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "от %s Space X-Chimp %s"
 
-#: inc/php/page.php:36
+#: inc/php/page.php:37
 msgid "Version"
 msgstr "Версия"
 
-#: inc/php/page.php:44
+#: inc/php/page.php:45
 msgid "Usage"
 msgstr "Применение"
 
-#: inc/php/page.php:45
+#: inc/php/page.php:46
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/settings.php:170 inc/php/sidebar.php:44
+#: inc/php/page.php:47 inc/php/settings.php:162 inc/php/sidebar.php:47
 msgid "Support"
 msgstr "Поддержка"
 
-#: inc/php/page.php:47
+#: inc/php/page.php:48
 msgid "Store"
 msgstr "Магазин"
 
-#: inc/php/page.php:63
+#: inc/php/page.php:64
 msgid "Usage Instructions"
 msgstr "Инструкция по использованию"
 
-#: inc/php/page.php:66
+#: inc/php/page.php:69
 #, php-format
-msgid "The plugin is based on the %s service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100&percnt; free and also has several other benefits."
+msgid "This plugin is based on, but not affiliated with, the %s service. The SpecificFeeds allows your visitors to receive messages from your Blog/RSS feed by email. You can access all information (such as emails and statistics) about your subscribers if you connect your feed to a SpecificFeeds account. It's 100&percnt; free and also has several other benefits."
 msgstr "Этот плагин основан на сервисе %s .SpecificFeeds позволяет вашим посетителям получать сообщения из вашего Блога/RSS-канала по электронной почте. Вы можете получить доступ ко всей информации (такой как адреса электронной почты и статистика) о ваших подписчиках, если вы подключите ваш канал к учетной записи. Это 100&percnt; бесплатно, а также имеет несколько других преимуществ."
 
-#: inc/php/page.php:70
+#: inc/php/page.php:74
 msgid "To display the RSS feed icon that connected to the SpecificFeeds.com on the front end of your website, simply follow these steps:"
 msgstr "Чтобы отобразить значок RSS-канала, который подключен к SpecificFeeds.com на передней панели вашего веб-сайта, выполните следующие действия:"
 
-#: inc/php/page.php:72
+#: inc/php/page.php:76
 msgid "Go to the \"Settings\" tab on this page."
 msgstr "Перейдите на вкладку «Настройки»."
 
-#: inc/php/page.php:73
+#: inc/php/page.php:77
 msgid "Enter your personal link from the <a href=\"https://www.specificfeeds.com\" target=\"_blank\">SpecificFeeds.com</a>."
 msgstr "Введите свою личную ссылку полученную на <a href=\"https://www.specificfeeds.com\" target=\"_blank\">SpecificFeeds.com</a>."
 
-#: inc/php/page.php:74
+#: inc/php/page.php:78
 msgid "Select the desired settings."
 msgstr "Выберите нужные настройки."
 
-#: inc/php/page.php:75
+#: inc/php/page.php:79
 msgid "Click the \"Save changes\" button."
 msgstr "Нажмите кнопку «Сохранить изменения»."
 
-#: inc/php/page.php:76
-msgid "Now you have several methods for display the RSS feed icon (further just \"button\"). Just choose the one that is more suitable for your case."
-msgstr "Теперь у вас есть несколько способов отображения значка RSS-канала (далее просто «кнопка»). Просто выберите ту, которая больше подходит для вашего дела."
+#: inc/php/page.php:81
+msgid "Now you have several methods for display the RSS feed icon (further just \"button\")."
+msgstr "Теперь у вас есть несколько способов отображения значка RSS-канала (далее просто «кнопка»)."
 
-#: inc/php/page.php:77
+#: inc/php/page.php:82
+msgid "Just choose the one that is more suitable for your case."
+msgstr "Просто выберите тот, который больше подходит для вашего случая."
+
+#: inc/php/page.php:84
 msgid "<b>A)</b> For add the button inside a post from WordPress Post/Page Editor use the following shortcode:"
 msgstr "<b>А)</b> Чтобы добавить кнопку внутри записи из WordPress Post/Page Editor используйте следующий короткий код:"
 
-#: inc/php/page.php:79
+#: inc/php/page.php:86
 msgid "<b>B)</b> For add the button to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
 msgstr "<b>Б)</b> Для добавления кнопки в область виджетов (в боковой панели, нижнем колонтитуле и т.д.) используйте виджет «Текст» и добавьте в него следующий короткий код:"
 
-#: inc/php/page.php:81
+#: inc/php/page.php:88
 msgid "<b>C)</b> For add the button directly to a theme files, just add the following code to needed place (where you want to display the button) in your theme files:"
 msgstr "<b>В)</b> Чтобы добавить кнопку непосредственно в файлы темы, просто добавьте следующий код в нужное место (где вы хотите отобразить кнопку) в своих файлах темы:"
 
-#: inc/php/page.php:84
-msgid "Enjoy your fancy SpecificFeeds icon."
+#: inc/php/page.php:91 inc/php/page.php:222
+msgid "Enjoy your fancy RSS feed icon."
 msgstr "Наслаждайтесь вашим модным значком SpecificFeeds."
 
-#: inc/php/page.php:84
+#: inc/php/page.php:91 inc/php/page.php:223
 msgid "It's that simple!"
-msgstr "Вот так просто!"
+msgstr "Это так просто!"
 
-#: inc/php/page.php:87
+#: inc/php/page.php:96
 #, php-format
 msgid "If you want more options, then %s let us know %s and we will be happy to add them."
 msgstr "Если вы хотите больше вариантов, то %s сообщите нам %s и мы будем рады добавить их."
 
-#: inc/php/page.php:101
+#: inc/php/page.php:110
 msgid "Frequently Asked Questions"
 msgstr "Часто задаваемые вопросы"
 
-#: inc/php/page.php:105
+#: inc/php/page.php:114
 msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
 msgstr "Если у вас есть вопрос, пожалуйста, прочтите часто задаваемые вопросы."
 
-#: inc/php/page.php:127
-msgid "Will this plugin work on my WordPress.COM website?"
-msgstr "Этот плагин будет работать на моем сайте WordPress.COM?"
+#: inc/php/page.php:139
+msgid "Where can I find a documentation for this plugin?"
+msgstr ""
 
-#: inc/php/page.php:128
-msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
-msgstr "К сожалению, этот плагин доступен для использования только на самостоятельно размещённых веб-сайтах (WordPress.ORG)."
+#: inc/php/page.php:144
+#, php-format
+msgid "Please visit our %s Documentation site %s to view documentation."
+msgstr ""
 
-#: inc/php/page.php:130
+#: inc/php/page.php:152
+msgid "Will this plugin work on my wordpress.COM website?"
+msgstr "Будет ли этот плагин работать на моем веб-сайте wordpress.COM?"
+
+#: inc/php/page.php:155
+msgid "Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites."
+msgstr "К сожалению, этот плагин доступен для использования только на самостоятельно размещённых веб-сайтах (wordpress.ORG)."
+
+#: inc/php/page.php:157
+msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
+msgstr ""
+
+#: inc/php/page.php:158
+msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
+msgstr ""
+
+#: inc/php/page.php:161
+#, php-format
+msgid "You can learn more about the difference here: %s ."
+msgstr ""
+
+#: inc/php/page.php:168
+msgid "Will this plugin work/compatible with the theme I use?"
+msgstr ""
+
+#: inc/php/page.php:171
+msgid "This plugin is compatible with most themes."
+msgstr ""
+
+#: inc/php/page.php:172
+msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
+msgstr ""
+
+#: inc/php/page.php:173
+msgid "We constantly check this plugin for compatibility with third-party themes."
+msgstr ""
+
+#: inc/php/page.php:174
+msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/page.php:176
+msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/page.php:180
+msgid "Will this plugin work/compatible with other plugins that I use?"
+msgstr ""
+
+#: inc/php/page.php:183
+msgid "This plugin is compatible with most plugins."
+msgstr ""
+
+#: inc/php/page.php:184
+msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
+msgstr ""
+
+#: inc/php/page.php:185
+msgid "We constantly check this plugin for compatibility with third-party plugins."
+msgstr ""
+
+#: inc/php/page.php:186
+msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/page.php:188
+msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/page.php:192
 msgid "Can I use this plugin on my language?"
 msgstr "Можно ли использовать этот плагин на моём языке?"
 
-#: inc/php/page.php:131
-msgid "Yes. This plugin is ready for translation and has already been translated into several languages."
-msgstr "Да. Этот плагин готов к переводу и уже переведен на несколько языков."
+#: inc/php/page.php:195
+msgid "Yes."
+msgstr "Да."
 
-#: inc/php/page.php:133
+#: inc/php/page.php:196
+msgid "This plugin is ready for translation and has already been translated into several languages."
+msgstr "Этот плагин готов к переводу и уже переведен на несколько языков."
+
+#: inc/php/page.php:197
+msgid "But If your language is not available then you can make one."
+msgstr ""
+
+#: inc/php/page.php:198
+msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
+msgstr ""
+
+#: inc/php/page.php:199
+msgid "Many of plugin users would be delighted if you share your translation with the community."
+msgstr "Многие пользователи плагинов будут рады, если вы поделитесь своим переводом с сообществом."
+
+#: inc/php/page.php:200
+msgid "Thanks for your contribution!"
+msgstr "Спасибо за ваш вклад!"
+
+#: inc/php/page.php:204
 #, php-format
-msgid "If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to us at the %s and we will include this translation within the next plugin update."
-msgstr "Если вы хотите помочь перевести этот плагин, пожалуйста, посетите %s. Вы также можете использовать файл POT, который включён в плагин и помещён в папку «languages», чтобы создать PO файл перевода. Просто отправьте нам файл PO на %s и мы включим этот перевод в следующее обновление плагина."
+msgid "If you want to help translate this plugin, please visit the %s."
+msgstr "Если вы хотите помочь перевести этот плагин, пожалуйста, посетите %s."
 
-#: inc/php/page.php:138
-msgid "Maybe not all existed translations are up to date. You are welcome to contribute corrections!"
-msgstr "Может быть, не все переводы обновлены. Вы можете внести исправления!"
+#: inc/php/page.php:208
+msgid "You can also use the POT file that is included and placed in the \"languages\" folder to create a translation PO file."
+msgstr "Вы также можете использовать файл POT, который включён в плагин и помещён в папку «languages», чтобы создать PO файл перевода."
 
-#: inc/php/page.php:139
-msgid "Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
-msgstr "Многие пользователи плагинов будут рады, если вы поделитесь своим переводом с сообществом. Спасибо за ваш вклад!"
+#: inc/php/page.php:211
+#, php-format
+msgid "Just send the PO file to us ( %s ) and we will include this translation within the next plugin update."
+msgstr "Просто отправьте нам файл PO на %s и мы включим этот перевод в следующее обновление плагина."
 
-#: inc/php/page.php:141
+#: inc/php/page.php:218
 msgid "How does it work?"
-msgstr "Как оно работает?"
+msgstr "Как это работает?"
 
-#: inc/php/page.php:142
-msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button. Enjoy your fancy SpecificFeeds icon. It's that simple!"
-msgstr "На вкладке «Настройки» выберите нужные параметры и нажмите кнопку «Сохранить изменения». Наслаждайтесь своим модным значком SpecificFeeds. Это так просто!"
+#: inc/php/page.php:221
+msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button."
+msgstr "На вкладке «Настройки» выберите нужные параметры и нажмите кнопку «Сохранить изменения»."
 
-#: inc/php/page.php:144
+#: inc/php/page.php:227
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Этот плагин требует изменения темы?"
 
-#: inc/php/page.php:145
-msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
-msgstr "Абсолютно нет. Этот плагин настраивается полностью на странице настроек плагина."
+#: inc/php/page.php:230 inc/php/page.php:238
+msgid "Absolutely not."
+msgstr "Абсолютно нет."
 
-#: inc/php/page.php:147
+#: inc/php/page.php:231
+msgid "This plugin is configurable entirely from the plugin settings page."
+msgstr "Этот плагин настраивается полностью на странице настроек плагина."
+
+#: inc/php/page.php:235
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Требуются ли какие-либо знания HTML или CSS?"
 
-#: inc/php/page.php:148
-msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
-msgstr "Абсолютно нет. Этот плагин можно настроить без знания HTML или CSS, с помощью простой в использовании страницы настройки плагина."
+#: inc/php/page.php:239
+msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
+msgstr "Этот плагин можно настроить без знания HTML или CSS, с помощью простой в использовании страницы настройки плагина."
 
-#: inc/php/page.php:150
-msgid "It's not working. What could be wrong?"
-msgstr "Оно не работает. Что может быть не так?"
+#: inc/php/page.php:243
+msgid "It's not working."
+msgstr "Оно не работает."
 
-#: inc/php/page.php:151
-msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
-msgstr "Как и в случае с любым другим плагином, что-то может не работать. Наиболее распространенной причиной этого является кеш веб-браузера. Каждый веб-браузер хранит кеш веб-сайтов, которые вы посещаете (страницы, изображения и т. д.) для того, чтобы уменьшить использование интернет канала и нагрузку на сервер. Это называется кешем браузера. Очистка кеша браузера может решить проблему."
+#: inc/php/page.php:244
+msgid "What could be wrong?"
+msgstr "Что может быть не так?"
 
-#: inc/php/page.php:152
-msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
-msgstr "Невозможно точно сказать, что может быть неправильно, но если вы разместите запрос поддержки на форуме поддержки плагина на WordPress.org, то мы с радостью посмотрим и попытаемся помочь. Пожалуйста, укажите как можно больше информации, включая ссылку на ваш сайт, на котором можно увидеть проблему."
+#: inc/php/page.php:247
+msgid "As with every plugin, it's possible that things don't work."
+msgstr "Как и в случае с любым другим плагином, что-то может не работать."
 
-#: inc/php/page.php:154
-msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
-msgstr "Последнее обновление WordPress не позволяет мне редактировать мой сайт, который использует этот плагин. Почему так?"
+#: inc/php/page.php:248
+msgid "It's impossible to tell what could be wrong exactly."
+msgstr "Невозможно точно сказать, что может быть не так."
 
-#: inc/php/page.php:155
-msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
-msgstr "Этот плагин не может вызвать такую проблему. Скорее всего, проблема связана с настройками веб-сайта. Это может быть кеш, поэтому попробуйте очистить кеш вашего сайта (возможно, вы используете плагин для кеширования или какой-либо веб-сервис, такой как CloudFlare), а затем кеш вашего веб-браузера. Также попробуйте повторно войти на сайт, это тоже может помочь."
+#: inc/php/page.php:249
+msgid "The most common reason for this is a web browser's cache."
+msgstr "Наиболее распространённой причиной этого является кеш веб-браузера."
 
-#: inc/php/page.php:157
+#: inc/php/page.php:250
+msgid "Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load."
+msgstr "Каждый веб-браузер хранит кеш веб-сайтов, которые вы посещаете (страницы, изображения и т. д.) для того, чтобы уменьшить использование интернет канала и нагрузку на сервер."
+
+#: inc/php/page.php:251
+msgid "This is called the browser's cache."
+msgstr "Это называется кешем браузера."
+
+#: inc/php/page.php:252
+msgid "Clearing your browser's cache may solve the problem."
+msgstr "Очистка кеша браузера может решить проблему."
+
+#: inc/php/page.php:254
+msgid "If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out."
+msgstr "Если вы разместите запрос поддержки на форуме поддержки плагина на WordPress.org, то мы с радостью посмотрим и попытаемся помочь."
+
+#: inc/php/page.php:255 inc/php/page.php:284
+msgid "Please include as much information as possible, including a link to your website where the problem can be seen."
+msgstr "Пожалуйста, укажите как можно больше информации, включая ссылку на ваш веб-сайт, на котором можно увидеть проблему."
+
+#: inc/php/page.php:259
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin."
+msgstr "Последнее обновление WordPress не позволяет мне редактировать мой веб-сайт, на котором используется этот плагин."
+
+#: inc/php/page.php:260
+msgid "Why is this?"
+msgstr "Почему так?"
+
+#: inc/php/page.php:263
+msgid "This plugin can not cause such problem."
+msgstr "Этот плагин не может вызвать такую проблему."
+
+#: inc/php/page.php:264
+msgid "More likely, the problem are related to the settings of the website."
+msgstr "Скорее всего, проблема связана с настройками веб-сайта."
+
+#: inc/php/page.php:265
+msgid "It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser."
+msgstr "Это может быть кеш, поэтому попробуйте очистить кеш вашего веб-сайта (возможно, вы используете плагин для кеширования или какой-либо веб-сервис, такой как CloudFlare), а затем кеш вашего веб-браузера."
+
+#: inc/php/page.php:266
+msgid "Also please try to re-login to the website, this too can help."
+msgstr "Также, пожалуйста, попробуйте повторно войти на веб-сайт, это тоже может помочь."
+
+#: inc/php/page.php:270
 msgid "Where to report bug if found?"
 msgstr "Где можно сообщить об ошибке?"
 
-#: inc/php/page.php:159
-#, php-format
-msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
-msgstr "Посетите %s эту страницу %s и сообщите. Не забудьте указать название плагина. Спасибо!"
+#: inc/php/page.php:273
+msgid "Bug reports are very welcome!"
+msgstr ""
 
-#: inc/php/page.php:165
+#: inc/php/page.php:276
+#, php-format
+msgid "Please visit our %s contact page %s and report."
+msgstr ""
+
+#: inc/php/page.php:281 inc/php/page.php:309
+msgid "Please do not forget to specify the name of the plugin."
+msgstr "Пожалуйста не забудьте указать название плагина."
+
+#: inc/php/page.php:282 inc/php/page.php:310 inc/php/page.php:326
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: inc/php/page.php:285
+msgid "Describe in more detail what exactly you are seeing."
+msgstr ""
+
+#: inc/php/page.php:286
+msgid "Here are some examples:"
+msgstr ""
+
+#: inc/php/page.php:289
+msgid "Elements of the plugin settings page are not working."
+msgstr ""
+
+#: inc/php/page.php:290
+msgid "An error message is displayed on the plugin settings page."
+msgstr ""
+
+#: inc/php/page.php:291
+msgid "An error message is displayed on the front end of website."
+msgstr ""
+
+#: inc/php/page.php:292
+msgid "An error message is displayed on the back end of website."
+msgstr ""
+
+#: inc/php/page.php:293
+msgid "Website is crashed."
+msgstr ""
+
+#: inc/php/page.php:298
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
 
-#: inc/php/page.php:167
+#: inc/php/page.php:301
+msgid "Any suggestions are very welcome!"
+msgstr "Любые предложения приветствуются!"
+
+#: inc/php/page.php:304
 #, php-format
-msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
-msgstr "Любые предложения приветствуются! Просто свяжитесь с нами %s здесь %s. Не забудьте указать название плагина. Спасибо!"
+msgid "Please visit our %s contact page %s."
+msgstr ""
 
-#: inc/php/page.php:173
-msgid "I love this plugin! Can I help somehow?"
-msgstr "Мне нравится этот плагин! Могу Я чем-то помочь?"
+#: inc/php/page.php:314
+msgid "I love this plugin!"
+msgstr "Мне нравится этот плагин!"
 
-#: inc/php/page.php:175
+#: inc/php/page.php:315
+msgid "Can I help somehow?"
+msgstr "Могу Я чем-то помочь?"
+
+#: inc/php/page.php:318
+msgid "Yes, any contributions are very welcome!"
+msgstr "Да, любой вклад приветствуется!"
+
+#: inc/php/page.php:321
 #, php-format
-msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
-msgstr "Да, любые финансовые взносы приветствуются! Просто посетите %s мой сайт %s, нажмите на кнопку пожертвования. Спасибо!"
+msgid "Please visit our %s Support Us %s page."
+msgstr "Пожалуйста, посетите нашу страницу %s Поддержите нас %s ."
 
-#: inc/php/page.php:181
+#: inc/php/page.php:330
+msgid "Where can I find information about your licenses, payment process and refunds?"
+msgstr ""
+
+#: inc/php/page.php:335
+#, php-format
+msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/page.php:343
+msgid "Where can I find information about your customer support?"
+msgstr ""
+
+#: inc/php/page.php:348
+#, php-format
+msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/page.php:356
+msgid "Where can I find information about your affiliate program?"
+msgstr ""
+
+#: inc/php/page.php:361
+#, php-format
+msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/page.php:369
 msgid "My question wasn't answered here."
-msgstr "Моего вопроса здесь нет."
+msgstr "На мой вопрос здесь не было ответа."
 
-#: inc/php/page.php:183
+#: inc/php/page.php:374
 #, php-format
-msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
-msgstr "Вы можете задать ваш вопрос на %s этой странице %s. Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
+msgid "You can ask your question on %s this page %s."
+msgstr "Вы можете задать ваш вопрос на %s этой странице %s."
 
-#: inc/php/page.php:197
+#: inc/php/page.php:379
+msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
+msgstr "Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
+
+#: inc/php/page.php:390
 msgid "Support Us"
 msgstr "Поддержать нас"
 
-#: inc/php/page.php:205 inc/php/settings.php:177 inc/php/sidebar.php:51
+#: inc/php/page.php:398 inc/php/settings.php:169 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
-#: inc/php/page.php:210
+#: inc/php/page.php:405
 #, php-format
-msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgstr "Меня зовут %s Артур %s и Я основатель %s Space X-Chimp %s, который объединяет небольшую международную команду молодых людей."
+
+#: inc/php/page.php:414
+msgid "Our intention is to create projects that will make this world a better place."
 msgstr ""
 
-#: inc/php/page.php:218
-msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+#: inc/php/page.php:415
+msgid "Our motto is - «Follow your dreams and don’t give up»."
 msgstr ""
 
-#: inc/php/page.php:219
-msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Мы тратим много времени и усилий, пытаясь убедиться в том, что темы, плагины и другие вещи, которые мы создаём, полезны, и окончательное доказательство этого для нас то, что вы на самом деле хотите их использовать. Но мы независимые разработчики, без регулярного дохода, поэтому каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей для таких замечательных людей, как вы."
+#: inc/php/page.php:416
+msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+msgstr ""
 
-#: inc/php/page.php:220
+#: inc/php/page.php:419
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
+msgstr "Мы тратим много времени и усилий, пытаясь убедиться в том, что темы, плагины и другие вещи, которые мы создаём, полезны, и окончательное доказательство этого для нас то, что вы на самом деле хотите их использовать."
+
+#: inc/php/page.php:420
+msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Но мы независимые разработчики, без регулярного дохода, так что каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей, которыми могут наслаждаться удивительные люди, такие как вы."
+
+#: inc/php/page.php:423
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Если вы цените мою работу, то вы можете купить мне кофе!"
 
-#: inc/php/page.php:221
+#: inc/php/page.php:426
 msgid "Thank you for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings.php:29 inc/php/settings.php:158
+#: inc/php/settings.php:29 inc/php/settings.php:150
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
@@ -298,73 +540,72 @@ msgstr "Ваша ссылка SpecificFeeds"
 msgid "Enter your personal SpecificFeeds link that you get from the <a href=\"https://www.specificfeeds.com\" target=\"_blank\" rel=\"nofollow\" >SpecificFeeds.com</a> website."
 msgstr "Введите вашу личную SpecificFeeds ссылку, которую вы получили от <a href=\"https://www.specificfeeds.com\" target=\"_blank\" rel=\"nofollow\" >SpecificFeeds.com</a>."
 
-#: inc/php/settings.php:47
+#: inc/php/settings.php:46
 msgid "SpecificFeeds icon"
 msgstr "SpecificFeeds иконка"
 
-#: inc/php/settings.php:134
+#: inc/php/settings.php:127
 msgid "You can choose the one of the thirteen icons above. They are all official SpecificFeeds icons. <br>Note: Two from above icons are white color with transparent background."
 msgstr "Вы можете выбрать один из тринадцати значков выше. Все они являются официальными значками SpecificFeeds. <br>Примечание: Два значка сверху имеют белый цвет с прозрачным фоном."
 
-#: inc/php/settings.php:140
+#: inc/php/settings.php:132
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings.php:141
+#: inc/php/settings.php:133
 msgid "You can set the height of icon (in pixels)."
-msgstr "Вы можете установить высоту иконки (в px)."
+msgstr "Вы можете установить высоту иконки (в пикселях)."
 
-#: inc/php/settings.php:145
+#: inc/php/settings.php:137
 msgid "Tooltip"
 msgstr "Подсказка"
 
-#: inc/php/settings.php:146
+#: inc/php/settings.php:138
 msgid "Enable a tooltip above button."
 msgstr "Включить подсказку над кнопкой."
 
-#: inc/php/settings.php:149
+#: inc/php/settings.php:141
 msgid "Text of tooltip"
 msgstr "Текст подсказки"
 
-#: inc/php/settings.php:150
+#: inc/php/settings.php:142
 msgid "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr "Вы можете задать произвольный текст всплывающей подсказки. Оставьте пустым для того, чтобы использовать текст по умолчанию."
 
-#: inc/php/settings.php:161
+#: inc/php/settings.php:153
 msgid "Live Preview"
 msgstr "Просмотр в реальном времени"
 
-#: inc/php/settings.php:172 inc/php/sidebar.php:46
+#: inc/php/settings.php:164 inc/php/sidebar.php:49
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Я независимый разработчик, без регулярного дохода, так что каждый маленький вклад помогает мне покрыть затраты и позволяет тратить больше времени на создание программ для людей как вы."
+msgstr "Каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей, которыми могут наслаждаться удивительные люди, такие как вы."
 
-#: inc/php/settings.php:179 inc/php/sidebar.php:53
+#: inc/php/settings.php:171 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
 #: inc/php/sidebar.php:16
 msgid "We are «Space X-Chimp»"
-msgstr ""
+msgstr "Мы «Space X-Chimp»"
 
 #: inc/php/sidebar.php:25
 msgid "About"
 msgstr "О плагине"
 
-#. Description of the plugin/theme
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website."
-msgstr "Этот плагин позволяет легко добавить RSS feed иконку от SpecificFeeds.com в любое место на вашем веб-сайте."
+msgid "This plugin gives you the ability to easily and safely add a RSS feed icon by SpecificFeeds.com to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website."
+msgstr "Этот плагин даёт вам возможность легко добавить RSS feed иконку от SpecificFeeds.com в любое место (post content, page content, widget, sidebar, header, footer) вашего WordPress веб-сайта."
 
-#: inc/php/sidebar.php:29
+#: inc/php/sidebar.php:31
 #, php-format
-msgid "%s allows your visitors to receive messages from your Blog/RSS Feed by email. It's 100&percnt; free and also has several other benefits."
+msgid "%s allows your visitors to receive messages from your Blog/RSS feed by email. It's 100&percnt; free and also has several other benefits."
 msgstr "%s позволяет вашим посетителям получать сообщения из вашего Блога/RSS канала по электронной почте. Это 100&percnt; бесплатно, а также имеет ряд других преимуществ."
 
-#: inc/php/sidebar.php:37
+#: inc/php/sidebar.php:40
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/sidebar.php:39
+#: inc/php/sidebar.php:42
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
@@ -376,6 +617,10 @@ msgstr "RSS Feed Icon for SpecificFeeds.com"
 msgid "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
 msgstr "https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom"
 
+#. Description of the plugin/theme
+msgid "Easily and safely add a RSS feed icon by SpecificFeeds.com to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website."
+msgstr "Легко и безопасно добавьте иконку RSS канала от SpecificFeeds.com в любое место (post content, page content, widget, sidebar, header, footer) вашего WordPress веб-сайта."
+
 #. Author of the plugin/theme
 msgid "Space X-Chimp"
 msgstr "Space X-Chimp"
@@ -383,12 +628,3 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
-
-#~ msgid "Note!"
-#~ msgstr "Примечание!"
-
-#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Привет! Меня зовут %s Артур %s и Я основатель %s Space X-Chimp %s."
-
-#~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
-#~ msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."

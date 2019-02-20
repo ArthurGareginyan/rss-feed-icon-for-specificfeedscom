@@ -24,12 +24,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily add the RSS feed icon by SpecificFeeds.com in any place on your website.', $text ); ?></p>
-                    <p><?php printf(
-                                     __( '%s allows your visitors to receive messages from your Blog/RSS Feed by email. It\'s 100&percnt; free and also has several other benefits.', $text ),
-                                     '<a href="https://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a>'
-                                    );
-                       ?></p>
+                    <p><?php _e( 'This plugin gives you the ability to easily and safely add a RSS feed icon by SpecificFeeds.com to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.', $text ); ?></p>
+                    <p>
+                        <?php
+                            printf(
+                                __( '%s allows your visitors to receive messages from your Blog/RSS feed by email. It\'s 100&percnt; free and also has several other benefits.', $text ),
+                                '<a href="https://www.specificfeeds.com/" target="_blank" rel="nofollow">SpecificFeeds.com</a>'
+                            );
+                       ?>
+                   </p>
                 </div>
             </div>
 
