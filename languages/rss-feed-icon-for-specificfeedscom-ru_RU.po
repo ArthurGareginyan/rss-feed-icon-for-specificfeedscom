@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2019-03-01 06:50+0300\n"
-"PO-Revision-Date: 2019-03-01 06:50+0300\n"
+"POT-Creation-Date: 2019-03-18 21:15+0300\n"
+"PO-Revision-Date: 2019-03-18 21:15+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:23 inc/php/page.php:46
+#: inc/php/core.php:23 inc/php/page.php:47
 msgid "Settings"
 msgstr "Настройки"
 
@@ -32,49 +32,53 @@ msgstr "Поддержать"
 msgid "SpecificFeeds Icon"
 msgstr "SpecificFeeds Icon"
 
-#: inc/php/messages.php:27 inc/php/tabs/support.php:25
+#: inc/php/messages.php:35 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "Привет!"
 
-#: inc/php/messages.php:28
+#: inc/php/messages.php:36
 msgid "We are the team of Space X-Chimp."
 msgstr "Мы - команда Space X-Chimp."
 
-#: inc/php/messages.php:33
+#: inc/php/messages.php:41
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Благодарим вас за установку нашего плагина! Надеемся, он вам полюбится! %s"
 
-#: inc/php/messages.php:74
+#: inc/php/messages.php:93
 msgid "You have installed an old version of this plugin."
 msgstr "Вы установили устаревшую версию этого плагина."
 
-#: inc/php/messages.php:75
+#: inc/php/messages.php:94
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
 
-#: inc/php/page.php:33
+#: inc/php/messages.php:129
+msgid "Settings saved successfully."
+msgstr ""
+
+#: inc/php/page.php:34
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "от %s Space X-Chimp %s"
 
-#: inc/php/page.php:39
+#: inc/php/page.php:40
 msgid "Version"
 msgstr "Версия"
 
-#: inc/php/page.php:47
+#: inc/php/page.php:48
 msgid "Usage"
 msgstr "Применение"
 
-#: inc/php/page.php:48
+#: inc/php/page.php:49
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:49 inc/php/sidebar.php:47 inc/php/tabs/settings.php:162
+#: inc/php/page.php:50 inc/php/sidebar.php:47 inc/php/tabs/settings.php:161
 msgid "Support"
 msgstr "Поддержка"
 
-#: inc/php/page.php:50
+#: inc/php/page.php:51
 msgid "Store"
 msgstr "Магазин"
 
@@ -103,16 +107,16 @@ msgstr "Помощь"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:164
+#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:163
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей, которыми могут наслаждаться удивительные люди, такие как вы."
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:169
+#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:168
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:171
+#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:170
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -463,7 +467,7 @@ msgstr "Вы можете задать ваш вопрос на %s этой ст
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
 
-#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:150
+#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:149
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
@@ -515,7 +519,7 @@ msgstr "Текст подсказки"
 msgid "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr "Вы можете задать произвольный текст всплывающей подсказки. Оставьте пустым для того, чтобы использовать текст по умолчанию."
 
-#: inc/php/tabs/settings.php:153
+#: inc/php/tabs/settings.php:152
 msgid "Live Preview"
 msgstr "Просмотр в реальном времени"
 

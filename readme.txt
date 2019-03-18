@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, rss2email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 4.29
+Stable tag: 4.30
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -60,12 +60,12 @@ If you want to help translate this plugin, please visit the [translation page](h
 
 **Minimum system requirements:**
 
-* [PHP](https://php.net) version **5.2** or higher.
+* [PHP](https://secure.php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**
 
-* [PHP](https://php.net) version **7.0** or higher.
+* [PHP](https://secure.php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
 
 **Contribution**
@@ -73,7 +73,7 @@ If you want to help translate this plugin, please visit the [translation page](h
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
 * [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
-* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon-for-specificfeedscom?rate=5#postform) this plugin.
+* [Rate and Review](https://wordpress.org/support/plugin/rss-feed-icon-for-specificfeedscom/reviews/#new-post) this plugin.
 * [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon-for-specificfeedscom) if you have any ideas or suggestions to make this plugin better.
 
 
@@ -96,7 +96,7 @@ Manually via FTP access:
 4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`SpecificFeeds Icon`"  menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
+After installation and activation, the "`SpecificFeeds Icon`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -173,6 +173,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.30 - 2019-03-18 =
+* Improvement: Notification display system updated
+* Code commenting improved.
+* Style sheet for the back end is optimised.
+
 = 4.29 - 2019-03-01 =
 * Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".
 * Framework updated: The files "settings.php", "usage.php", "faq.php", "support.php" are moved to the subfolder "tabs".
@@ -221,7 +226,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * All translation files are updated.
 
 = 4.21 =
-* The extra mention of the constant '_SLUG'  is removed from the file 'enqueue.php'.
+* The extra mention of the constant '_SLUG' is removed from the file 'enqueue.php'.
 * All translation files are updated.
 
 = 4.20 =

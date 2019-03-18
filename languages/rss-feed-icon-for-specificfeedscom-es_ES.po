@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2019-03-01 06:49+0300\n"
-"PO-Revision-Date: 2019-03-01 06:49+0300\n"
+"POT-Creation-Date: 2019-03-18 21:15+0300\n"
+"PO-Revision-Date: 2019-03-18 21:15+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:23 inc/php/page.php:46
+#: inc/php/core.php:23 inc/php/page.php:47
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -32,49 +32,53 @@ msgstr "Donar"
 msgid "SpecificFeeds Icon"
 msgstr "SpecificFeeds Icon"
 
-#: inc/php/messages.php:27 inc/php/tabs/support.php:25
+#: inc/php/messages.php:35 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "¡Hola!"
 
-#: inc/php/messages.php:28
+#: inc/php/messages.php:36
 msgid "We are the team of Space X-Chimp."
 msgstr "Somos el equipo de Space X-Chimp."
 
-#: inc/php/messages.php:33
+#: inc/php/messages.php:41
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Gracias por instalar este complemento! Espero que te encante! %s"
 
-#: inc/php/messages.php:74
+#: inc/php/messages.php:93
 msgid "You have installed an old version of this plugin."
 msgstr "Has instalado una versión antigua de este complemento."
 
-#: inc/php/messages.php:75
+#: inc/php/messages.php:94
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Actualiza el complemento a la versión más reciente y todo estará bien."
 
-#: inc/php/page.php:33
+#: inc/php/messages.php:129
+msgid "Settings saved successfully."
+msgstr ""
+
+#: inc/php/page.php:34
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "por %s Space X-Chimp %s"
 
-#: inc/php/page.php:39
+#: inc/php/page.php:40
 msgid "Version"
 msgstr "Versión"
 
-#: inc/php/page.php:47
+#: inc/php/page.php:48
 msgid "Usage"
 msgstr "Uso"
 
-#: inc/php/page.php:48
+#: inc/php/page.php:49
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:49 inc/php/sidebar.php:47 inc/php/tabs/settings.php:162
+#: inc/php/page.php:50 inc/php/sidebar.php:47 inc/php/tabs/settings.php:161
 msgid "Support"
 msgstr "Soporte"
 
-#: inc/php/page.php:50
+#: inc/php/page.php:51
 msgid "Store"
 msgstr "Tienda"
 
@@ -103,16 +107,16 @@ msgstr "Ayuda"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:164
+#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:163
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:169
+#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:168
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:171
+#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:170
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -220,7 +224,7 @@ msgstr ""
 
 #: inc/php/tabs/faq.php:101
 msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
-msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones!"
+msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones."
 
 #: inc/php/tabs/faq.php:102
 msgid "Many of plugin users would be delighted if you share your translation with the community."
@@ -463,7 +467,7 @@ msgstr "Puede hacer su pregunta en %s esta página %s."
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tenemos forma de responder a todos."
 
-#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:150
+#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:149
 msgid "Save changes"
 msgstr "Guardar cambios"
 
@@ -515,7 +519,7 @@ msgstr ""
 msgid "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr ""
 
-#: inc/php/tabs/settings.php:153
+#: inc/php/tabs/settings.php:152
 msgid "Live Preview"
 msgstr "Vista Previa"
 

@@ -146,7 +146,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             </table>
                         </div>
                     </div>
-
                     <input type="submit" name="submit" id="submit" class="btn btn-default btn-lg button-save-main" value="<?php _e( 'Save changes', $text ); ?>">
 
                     <div class="postbox" id="preview">
