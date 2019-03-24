@@ -8,26 +8,30 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Callback for the dynamic JavaScript
  */
-function spacexchimp_p002_load_scripts_dynamic_js( $options, $prefix ) {
+function spacexchimp_p002_load_scripts_dynamic_js() {
 
-    // Get settings and put them in variables
-    $plugin_url = SPACEXCHIMP_P002_URL;
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p002_plugin();
 
     // Create an array (JS object) with all the settings
     $script_params = array(
-                           'plugin_url' => $plugin_url
+                           'plugin_url' => $plugin['url']
                            );
 
     // Inject the array into the JavaScript file
-    wp_localize_script( $prefix . '-admin-js', $prefix . '_scriptParams', $script_params );
+    wp_localize_script( $plugin['prefix'] . '-admin-js', $plugin['prefix'] . '_scriptParams', $script_params );
 }
 
 /**
  * Callback for the dynamic CSS
  */
-function spacexchimp_p002_load_scripts_dynamic_css( $options, $prefix ) {
+function spacexchimp_p002_load_scripts_dynamic_css() {
 
-    // Get settings and put them in variables
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p002_plugin();
+
+    // Retrieve options from database and declare variables
+    $options = get_option( $plugin['settings'] . '_settings' );
     $icon_size = !empty( $options['icon_size'] ) ? $options['icon_size'] : '60';
 
     // Create an array with all the settings (CSS code)
@@ -42,7 +46,7 @@ function spacexchimp_p002_load_scripts_dynamic_css( $options, $prefix ) {
                   ";
 
     // Inject the array into the stylesheet
-    wp_add_inline_style( $prefix . '-frontend-css', $custom_css );
+    wp_add_inline_style( $plugin['prefix'] . '-frontend-css', $custom_css );
 }
 
 /**
@@ -50,80 +54,69 @@ function spacexchimp_p002_load_scripts_dynamic_css( $options, $prefix ) {
  */
 function spacexchimp_p002_load_scripts_admin( $hook ) {
 
-    // Put value of constants to variables for easier access
-    $slug = SPACEXCHIMP_P002_SLUG;
-    $prefix = SPACEXCHIMP_P002_PREFIX;
-    $url = SPACEXCHIMP_P002_URL;
-    $settings = SPACEXCHIMP_P002_SETTINGS;
-    $version = SPACEXCHIMP_P002_VERSION;
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p002_plugin();
 
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'settings_page_' . $slug;
-    if ( $settings_page != $hook ) return;
-
-    // Retrieve options from database
-    $options = get_option( $settings . '_settings' );
+    $settings_page = 'settings_page_' . $plugin['slug'];
+    if ( $settings_page != $hook ) {
+        return;
+    }
 
     // Load jQuery library
     wp_enqueue_script( 'jquery' );
 
     // Bootstrap library
-    wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css', array(), $version, 'all' );
-    wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css', array(), $version, 'all' );
-    wp_enqueue_script( $prefix . '-bootstrap-js', $url . 'inc/lib/bootstrap/bootstrap.js', array(), $version, false );
+    wp_enqueue_style( $plugin['prefix'] . '-bootstrap-css', $plugin['url'] . 'inc/lib/bootstrap/bootstrap.css', array(), $plugin['version'], 'all' );
+    wp_enqueue_style( $plugin['prefix'] . '-bootstrap-theme-css', $plugin['url'] . 'inc/lib/bootstrap/bootstrap-theme.css', array(), $plugin['version'], 'all' );
+    wp_enqueue_script( $plugin['prefix'] . '-bootstrap-js', $plugin['url'] . 'inc/lib/bootstrap/bootstrap.js', array(), $plugin['version'], false );
 
     // Font Awesome library
-    wp_enqueue_style( $prefix . '-font-awesome-css', $url . 'inc/lib/font-awesome/css/font-awesome.css', array(), $version, 'screen' );
+    wp_enqueue_style( $plugin['prefix'] . '-font-awesome-css', $plugin['url'] . 'inc/lib/font-awesome/css/font-awesome.css', array(), $plugin['version'], 'screen' );
 
     // Other libraries
-    wp_enqueue_script( $prefix . '-bootstrap-checkbox-js', $url . 'inc/lib/bootstrap-checkbox.js', array(), $version, false );
+    wp_enqueue_script( $plugin['prefix'] . '-bootstrap-checkbox-js', $plugin['url'] . 'inc/lib/bootstrap-checkbox.js', array(), $plugin['version'], false );
 
     // Style sheet
-    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css', array(), $version, 'all' );
-    wp_enqueue_style( $prefix . '-frontend-css', $url . 'inc/css/frontend.css', array(), $version, 'all' );
+    wp_enqueue_style( $plugin['prefix'] . '-admin-css', $plugin['url'] . 'inc/css/admin.css', array(), $plugin['version'], 'all' );
+    wp_enqueue_style( $plugin['prefix'] . '-frontend-css', $plugin['url'] . 'inc/css/frontend.css', array(), $plugin['version'], 'all' );
 
     // JavaScript
-    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), $version, true );
-    wp_enqueue_script( $prefix . '-frontend-js', $url . 'inc/js/frontend.js', array(), $version, false );
+    wp_enqueue_script( $plugin['prefix'] . '-admin-js', $plugin['url'] . 'inc/js/admin.js', array(), $plugin['version'], true );
+    wp_enqueue_script( $plugin['prefix'] . '-frontend-js', $plugin['url'] . 'inc/js/frontend.js', array(), $plugin['version'], false );
 
     // Call the function that contains the dynamic JavaScript
-    spacexchimp_p002_load_scripts_dynamic_js( $options, $prefix );
+    spacexchimp_p002_load_scripts_dynamic_js();
 
     // Call the function that contains the dynamic CSS
-    spacexchimp_p002_load_scripts_dynamic_css( $options, $prefix );
+    spacexchimp_p002_load_scripts_dynamic_css();
 
 }
-add_action( 'admin_enqueue_scripts', 'spacexchimp_p002_load_scripts_admin' );
+add_action( 'admin_enqueue_scripts', $plugin['prefix'] . '_load_scripts_admin' );
 
 /**
  * Load scripts and style sheet for front end of website
  */
 function spacexchimp_p002_load_scripts_frontend() {
 
-    // Put value of constants to variables for easier access
-    $prefix = SPACEXCHIMP_P002_PREFIX;
-    $url = SPACEXCHIMP_P002_URL;
-    $settings = SPACEXCHIMP_P002_SETTINGS;
-    $version = SPACEXCHIMP_P002_VERSION;
-
-    // Retrieve options from database
-    $options = get_option( $settings . '_settings' );
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p002_plugin();
 
     // Load jQuery library
     wp_enqueue_script( 'jquery' );
 
     // Other libraries
-    wp_enqueue_style( $prefix . '-bootstrap-tooltip-css', $url . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.css', array(), $version, 'all' );
-    wp_enqueue_script( $prefix . '-bootstrap-tooltip-js', $url . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.js', array(), $version, false );
+    wp_enqueue_style( $plugin['prefix'] . '-bootstrap-tooltip-css', $plugin['url'] . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.css', array(), $plugin['version'], 'all' );
+    wp_enqueue_script( $plugin['prefix'] . '-bootstrap-tooltip-js', $plugin['url'] . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.js', array(), $plugin['version'], false );
 
     // Style sheet
-    wp_enqueue_style( $prefix . '-frontend-css', $url . 'inc/css/frontend.css', array(), $version, 'all' );
+    wp_enqueue_style( $plugin['prefix'] . '-frontend-css', $plugin['url'] . 'inc/css/frontend.css', array(), $plugin['version'], 'all' );
 
     // JavaScript
-    wp_enqueue_script( $prefix . '-frontend-js', $url . 'inc/js/frontend.js', array(), $version, false );
+    wp_enqueue_script( $plugin['prefix'] . '-frontend-js', $plugin['url'] . 'inc/js/frontend.js', array(), $plugin['version'], false );
 
     // Call the function that contains the dynamic CSS
-    spacexchimp_p002_load_scripts_dynamic_css( $options, $prefix );
+    spacexchimp_p002_load_scripts_dynamic_css();
 
 }
-add_action( 'wp_enqueue_scripts', 'spacexchimp_p002_load_scripts_frontend' );
+add_action( 'wp_enqueue_scripts', $plugin['prefix'] . '_load_scripts_frontend' );
