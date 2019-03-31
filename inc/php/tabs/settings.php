@@ -24,10 +24,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $sf_icon = !empty( $options['sf_icon'] ) ? $options['sf_icon'] : '1';
                     ?>
 
+                    <!-- SUBMIT -->
                     <button type="submit" name="submit" id="submit" class="btn btn-info btn-lg button-save-top">
                         <i class="fa fa-save" aria-hidden="true"></i>
                         <span><?php _e( 'Save changes', $plugin['text'] ); ?></span>
                     </button>
+                    <!-- END SUBMIT -->
 
                     <div class="postbox" id="settings">
                         <h3 class="title"><?php _e( 'Main Settings', $plugin['text'] ); ?></h3>
@@ -124,7 +126,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     <td>
                                     </td>
                                     <td class='help-text upload-help-text'>
-                                        <?php _e( 'You can choose the one of the thirteen icons above. They are all official SpecificFeeds icons. <br>Note: Two from above icons are white color with transparent background.', $plugin['text'] ); ?>
+                                        <?php _e( 'You can choose the one of the thirteen icons above.', $plugin['text'] ); ?>
+                                        <?php _e( 'They are all official SpecificFeeds icons.', $plugin['text'] ); ?>
+                                        <br>
+                                        <?php _e( 'Note:', $plugin['text'] ); ?>
+                                        <?php _e( 'Two from above icons are white color with transparent background.', $plugin['text'] ); ?>
                                     </td>
                                 </tr>
                                 <?php
@@ -147,8 +153,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
+                    <!-- SUBMIT -->
                     <input type="submit" name="submit" id="submit" class="btn btn-default btn-lg button-save-main" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
+                    <!-- END SUBMIT -->
 
+                    <!-- PREVIEW -->
                     <div class="postbox" id="preview">
                         <h3 class="title"><?php _e( 'Live Preview', $plugin['text'] ); ?></h3>
                         <div class="inside">
@@ -157,7 +166,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             </div>
                         </div>
                     </div>
+                    <!-- END PREVIEW -->
 
+                    <!-- SUPPORT -->
                     <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', $plugin['text'] ); ?></h3>
                         <div class="inside">
@@ -171,6 +182,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <p><?php _e( 'Thanks for your support!', $plugin['text'] ); ?></p>
                         </div>
                     </div>
+                    <!-- END SUPPORT -->
 
                 </form>
 

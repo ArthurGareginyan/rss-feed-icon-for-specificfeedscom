@@ -12,6 +12,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
     <div class="inner-sidebar">
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
+            <!-- SPACEXCHIMP -->
             <div class="postbox banner">
                 <h3 class="title"><?php _e( 'We are «Space X-Chimp»', $plugin['text'] ); ?></h3>
                 <div class="inside">
@@ -20,7 +21,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </a>
                 </div>
             </div>
+            <!-- END SPACEXCHIMP -->
 
+            <!-- ABOUT -->
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $plugin['text'] ); ?></h3>
                 <div class="inside">
@@ -35,14 +38,18 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                    </p>
                 </div>
             </div>
+            <!-- END ABOUT -->
 
+            <!-- HELP -->
             <div class="postbox help">
                 <h3 class="title"><?php _e( 'Help', $plugin['text'] ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $plugin['text'] ); ?></p>
                 </div>
             </div>
+            <!-- END HELP -->
 
+            <!-- SUPPORT -->
             <div class="postbox support">
                 <h3 class="title"><?php _e( 'Support', $plugin['text'] ); ?></h3>
                 <div class="inside">
@@ -56,6 +63,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <p><?php _e( 'Thanks for your support!', $plugin['text'] ); ?></p>
                 </div>
             </div>
+            <!-- END SUPPORT -->
 
         </div>
     </div>

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon for SpecificFeeds.com\n"
-"POT-Creation-Date: 2019-03-23 04:32+0300\n"
+"POT-Creation-Date: 2019-03-31 16:15+0300\n"
 "PO-Revision-Date: 2015-08-30 14:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -71,7 +71,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:162
+#: inc/php/page.php:46 inc/php/sidebar.php:54 inc/php/tabs/settings.php:173
 msgid "Support"
 msgstr ""
 
@@ -79,41 +79,41 @@ msgstr ""
 msgid "Store"
 msgstr ""
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr ""
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:28
 msgid "About"
 msgstr ""
 
-#: inc/php/sidebar.php:27
+#: inc/php/sidebar.php:30
 msgid "This plugin gives you the ability to easily and safely add a RSS feed icon by SpecificFeeds.com to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website."
 msgstr ""
 
-#: inc/php/sidebar.php:31
+#: inc/php/sidebar.php:34
 #, php-format
 msgid "%s allows your visitors to receive messages from your Blog/RSS feed by email. It's 100&percnt; free and also has several other benefits."
 msgstr ""
 
-#: inc/php/sidebar.php:40
+#: inc/php/sidebar.php:45
 msgid "Help"
 msgstr ""
 
-#: inc/php/sidebar.php:42
+#: inc/php/sidebar.php:47
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:164
+#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:175
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:169
+#: inc/php/sidebar.php:61 inc/php/tabs/settings.php:180
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:171
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:182
 msgid "Thanks for your support!"
 msgstr ""
 
@@ -464,59 +464,71 @@ msgstr ""
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
-#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:150
+#: inc/php/tabs/settings.php:30 inc/php/tabs/settings.php:157
 msgid "Save changes"
 msgstr ""
 
-#: inc/php/tabs/settings.php:33
+#: inc/php/tabs/settings.php:35
 msgid "Main Settings"
 msgstr ""
 
-#: inc/php/tabs/settings.php:35
+#: inc/php/tabs/settings.php:37
 msgid "Here you can configure this plugin."
 msgstr ""
 
-#: inc/php/tabs/settings.php:39
+#: inc/php/tabs/settings.php:41
 msgid "Your SpecificFeeds link"
 msgstr ""
 
-#: inc/php/tabs/settings.php:40
+#: inc/php/tabs/settings.php:42
 msgid "Enter your personal SpecificFeeds link that you get from the <a href=\"https://www.specificfeeds.com\" target=\"_blank\" rel=\"nofollow\" >SpecificFeeds.com</a> website."
 msgstr ""
 
-#: inc/php/tabs/settings.php:46
+#: inc/php/tabs/settings.php:48
 msgid "SpecificFeeds icon"
 msgstr ""
 
-#: inc/php/tabs/settings.php:127
-msgid "You can choose the one of the thirteen icons above. They are all official SpecificFeeds icons. <br>Note: Two from above icons are white color with transparent background."
+#: inc/php/tabs/settings.php:129
+msgid "You can choose the one of the thirteen icons above."
+msgstr ""
+
+#: inc/php/tabs/settings.php:130
+msgid "They are all official SpecificFeeds icons."
 msgstr ""
 
 #: inc/php/tabs/settings.php:132
-msgid "Icon size"
+msgid "Note:"
 msgstr ""
 
 #: inc/php/tabs/settings.php:133
-msgid "You can set the height of icon (in pixels)."
-msgstr ""
-
-#: inc/php/tabs/settings.php:137
-msgid "Tooltip"
+msgid "Two from above icons are white color with transparent background."
 msgstr ""
 
 #: inc/php/tabs/settings.php:138
+msgid "Icon size"
+msgstr ""
+
+#: inc/php/tabs/settings.php:139
+msgid "You can set the height of icon (in pixels)."
+msgstr ""
+
+#: inc/php/tabs/settings.php:143
+msgid "Tooltip"
+msgstr ""
+
+#: inc/php/tabs/settings.php:144
 msgid "Enable a tooltip above button."
 msgstr ""
 
-#: inc/php/tabs/settings.php:141
+#: inc/php/tabs/settings.php:147
 msgid "Text of tooltip"
 msgstr ""
 
-#: inc/php/tabs/settings.php:142
+#: inc/php/tabs/settings.php:148
 msgid "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr ""
 
-#: inc/php/tabs/settings.php:153
+#: inc/php/tabs/settings.php:162
 msgid "Live Preview"
 msgstr ""
 
