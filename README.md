@@ -23,7 +23,7 @@ If you want more options, let us know and we will be happy to add them.
 * Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Key features include...**
+**Key features include**
 
 * Retina support
 * Simple shortcode for displaying the SpecificFeeds icon
