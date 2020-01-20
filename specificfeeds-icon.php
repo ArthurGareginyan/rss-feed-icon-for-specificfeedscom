@@ -5,12 +5,12 @@
  * Description: Easily and safely add a RSS feed icon by SpecificFeeds.com to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.35
+ * Version: 4.36
  * License: GPL3
  * Text Domain: rss-feed-icon-for-specificfeedscom
  * Domain Path: /languages/
  *
- * Copyright 2014-2019 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2014-2020 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
