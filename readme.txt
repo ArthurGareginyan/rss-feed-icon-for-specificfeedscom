@@ -2,7 +2,7 @@
 Contributors: Arthur Gareginyan
 Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, rss2email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner alternative
 Donate link: https://www.spacexchimp.com/donate.html
-Requires at least: 3.9
+Requires at least: 4.9
 Tested up to: 5.3
 Stable tag: 4.36
 License: GPL3
@@ -60,11 +60,13 @@ If you want to help translate this plugin, please visit the [translation page](h
 
 **Minimum system requirements:**
 
+* [WordPress](https://wordpress.org) version **4.9** or higher.
 * [PHP](https://secure.php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**
 
+* [WordPress](https://wordpress.org) version **5.0** or higher.
 * [PHP](https://secure.php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
 
