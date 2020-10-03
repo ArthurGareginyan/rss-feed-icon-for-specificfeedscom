@@ -147,6 +147,27 @@ function spacexchimp_p002_control_number( $name, $label, $help=null, $default=nu
 }
 
 /**
+ * Generator of the hidden option for saving plugin settings to database
+ */
+function spacexchimp_p002_control_hidden( $name, $value ) {
+
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p002_plugin();
+
+    // Generate a part of table
+    $out = "<input
+                type='hidden'
+                name='" . $plugin['settings'] . "_settings[$name]'
+                id='" . $plugin['settings'] . "_settings[$name]'
+                value='$value'
+                class='control-hidden $name'
+            >";
+
+    // Print the generated part of table
+    echo $out;
+}
+
+/**
  * Generator of the separator between option groups
  */
 function spacexchimp_p002_control_separator( $text=null ) {
