@@ -161,9 +161,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
-* All SpecificFeeds.com icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
+* The icon of this plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The banner of this plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* Unless otherwise stated, all images are created by the [Space X-Chimp](https://www.spacexchimp.com) team and are copyrighted. (C) All rights reserved.
+* The SpecificFeeds icons are the property of the [SpecificFeeds.com](http://www.specificfeeds.com).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
 * [Font Awesome](https://fontawesome.com) is an open source-project created by Dave Gandy. Font released under the [SIL OFL 1.1 license](http://scripts.sil.org/OFL). Code released under the [MIT License](http://opensource.org/licenses/mit-license.html).
