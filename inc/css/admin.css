@@ -617,10 +617,10 @@ td.help-text {
  -------------------------------------------------------------- */
 
 /* Preview section */
-.preview-icon {
+#preview .preview-icon {
     text-align: center;
 }
-.preview-icon a {
+#preview .preview-icon a {
     margin: 20px;
 }
 
