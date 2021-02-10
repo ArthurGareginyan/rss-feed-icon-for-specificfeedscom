@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Generate the button and make shortcode
+ * @return string
  */
 function spacexchimp_p002_shortcode() {
 
@@ -24,7 +25,7 @@ function spacexchimp_p002_shortcode() {
         $icon_src = $plugin['url'] . 'inc/img/icons/1.png';
     }
 
-    // Generating output code
+    // Generate button
     return '<a
                 href="' . $sf_link . '"
                 ' . $tooltip . '
