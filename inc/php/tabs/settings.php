@@ -183,7 +183,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <h3 class="title"><?php _e( 'Live preview', $plugin['text'] ); ?></h3>
                         <div class="inside">
                             <div class="preview-icon">
-                                <?php echo spacexchimp_p002_shortcode(); ?>
+                                <?php echo spacexchimp_p002_generator(); ?>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  * Generate the button and make shortcode
  * @return string
  */
-function spacexchimp_p002_shortcode() {
+function spacexchimp_p002_generator() {
 
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p002_plugin();
@@ -40,7 +40,7 @@ function spacexchimp_p002_shortcode() {
             />
             </a>';
 }
-add_shortcode( 'specificfeeds-icon', 'spacexchimp_p002_shortcode' );
+add_shortcode( 'specificfeeds-icon', 'spacexchimp_p002_generator' );
 
 /**
  * Allow shortcodes in the text widget
