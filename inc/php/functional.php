@@ -6,7 +6,7 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Generate the button and make shortcode
+ * Generate the button
  * @return string
  */
 function spacexchimp_p002_generator() {
@@ -14,8 +14,10 @@ function spacexchimp_p002_generator() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p002_plugin();
 
-    // Retrieve options from database and declare variables
+    // Retrieve options from database
     $options = get_option( $plugin['settings'] . '_settings' );
+
+    // Declare variables
     $sf_link = !empty( $options['sf_link'] ) ? $options['sf_link'] : '';
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
     $tooltip_text = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
@@ -40,6 +42,10 @@ function spacexchimp_p002_generator() {
             />
             </a>';
 }
+
+/**
+ * Create the shortcode "[specificfeeds-icon]"
+ */
 add_shortcode( 'specificfeeds-icon', 'spacexchimp_p002_generator' );
 
 /**
