@@ -96,6 +96,7 @@ $plugin = spacexchimp_p002_plugin();
  * Load the plugin modules
  */
 require_once( $plugin['path'] . 'inc/php/core.php' );
+require_once( $plugin['path'] . 'inc/php/options.php' );
 require_once( $plugin['path'] . 'inc/php/upgrade.php' );
 require_once( $plugin['path'] . 'inc/php/versioning.php' );
 require_once( $plugin['path'] . 'inc/php/enqueue.php' );
