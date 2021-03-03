@@ -14,8 +14,8 @@ function spacexchimp_p002_generator() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p002_plugin();
 
-    // Retrieve options from database
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p002_options();
 
     // Declare variables
     $sf_link = !empty( $options['sf_link'] ) ? $options['sf_link'] : '';
