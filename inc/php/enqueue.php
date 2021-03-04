@@ -34,7 +34,7 @@ function spacexchimp_p002_load_scripts_dynamic_css() {
     $options = spacexchimp_p002_options();
 
     // Declare variables
-    $icon_size = !empty( $options['icon_size'] ) ? $options['icon_size'] : '60';
+    $icon_size = $options['icon_size'];
 
     // Create an array with all the settings (CSS code)
     $custom_css = "

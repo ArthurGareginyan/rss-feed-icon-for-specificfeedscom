@@ -18,9 +18,9 @@ function spacexchimp_p002_generator() {
     $options = spacexchimp_p002_options();
 
     // Declare variables
-    $sf_link = !empty( $options['sf_link'] ) ? $options['sf_link'] : '';
+    $sf_link = $options['sf_link'];
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
-    $tooltip_text = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
+    $tooltip_text = $options['tooltip_text'];
     if ( ! empty( $options['sf_icon'] ) ) {
         $icon_src = $plugin['url'] . 'inc/img/icons/' . $options['sf_icon'] . '.png';
     } else {
