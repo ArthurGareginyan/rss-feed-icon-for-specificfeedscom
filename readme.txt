@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, rss2email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner alternative
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 4.42
 License: GPL3
