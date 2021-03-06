@@ -18,11 +18,17 @@ function spacexchimp_p002_generator() {
     $options = spacexchimp_p002_options();
 
     // Declare variables
-    $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
     if ( ! empty( $options['sf_icon'] ) ) {
         $icon_src = $plugin['url'] . 'inc/img/icons/' . $options['sf_icon'] . '.png';
     } else {
         $icon_src = $plugin['url'] . 'inc/img/icons/1.png';
+    }
+
+    // Generate tolltips
+    if ( $options['tooltip'] === true ) {
+        $tooltips = 'data-toggle="tooltip"';
+    } else {
+        $tooltips = ''; // Empty value
     }
 
     // Generate button

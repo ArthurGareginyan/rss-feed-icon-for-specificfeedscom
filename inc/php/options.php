@@ -25,6 +25,7 @@ function spacexchimp_p002_options() {
         'hidden_scrollto' => '0',
         'icon_size' => '60',
         'sf_link' => '',
+        'tooltip' => '',
         'tooltip_text' => 'RSS Feed',
     );
     foreach ( $list as $name => $default ) {
@@ -35,7 +36,7 @@ function spacexchimp_p002_options() {
 
 
     // Modify data
-
+    $array['tooltip'] = ( $array['tooltip'] == 'on' ) ? true : false ;
 
     // Return the processed data
     return $array;
