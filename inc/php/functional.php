@@ -18,9 +18,7 @@ function spacexchimp_p002_generator() {
     $options = spacexchimp_p002_options();
 
     // Declare variables
-    $sf_link = $options['sf_link'];
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
-    $tooltip_text = $options['tooltip_text'];
     if ( ! empty( $options['sf_icon'] ) ) {
         $icon_src = $plugin['url'] . 'inc/img/icons/' . $options['sf_icon'] . '.png';
     } else {
@@ -29,16 +27,16 @@ function spacexchimp_p002_generator() {
 
     // Generate button
     return '<a
-                href="' . $sf_link . '"
+                href="' . $options['sf_link'] . '"
                 ' . $tooltip . '
-                title="' . $tooltip_text . '"
+                title="' . $options['tooltip_text'] . '"
                 target="_blank"
                 rel="nofollow"
                 class="RssFeedIconSF"
             >
             <img
                 src="' . $icon_src . '"
-                alt="' . $tooltip_text . '"
+                alt="' . $options['tooltip_text'] . '"
             />
             </a>';
 }
