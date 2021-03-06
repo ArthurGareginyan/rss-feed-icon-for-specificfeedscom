@@ -13,7 +13,7 @@ function spacexchimp_p002_upgrade_3_3() {
     $link = get_option( 'specificfeedsicon_link' );
     $icon = get_option( 'specificfeedsicon_icon' );
 
-    if ( !empty( $link ) ) {
+    if ( ! empty( $link ) ) {
 
         // Get value from old setting and set it in array
         $array = array();
@@ -26,7 +26,7 @@ function spacexchimp_p002_upgrade_3_3() {
         delete_option( 'specificfeedsicon_link' );
 
     }
-    if ( !empty( $icon ) ) {
+    if ( ! empty( $icon ) ) {
 
         // Get value from old setting and set it in array
         $array = array();
