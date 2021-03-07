@@ -25,6 +25,7 @@ function spacexchimp_p002_options() {
         'hidden_scrollto' => '0',
         'icon_size' => '60',
         'sf_link' => '',
+        'sf_icon' => '1',
         'tooltip' => '',
         'tooltip_text' => 'RSS Feed',
     );
