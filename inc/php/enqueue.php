@@ -33,17 +33,14 @@ function spacexchimp_p002_load_scripts_dynamic_css() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p002_options();
 
-    // Declare variables
-    $icon_size = $options['icon_size'];
-
     // Create an array with all the settings (CSS code)
     $custom_css = "
                     .RssFeedIconSF {
 
                     }
                     .RssFeedIconSF img {
-                        width: " . $icon_size . "px !important;
-                        height: " . $icon_size . "px !important;
+                        width: " . $options['icon_size'] . "px !important;
+                        height: " . $options['icon_size'] . "px !important;
                     }
                   ";
 
