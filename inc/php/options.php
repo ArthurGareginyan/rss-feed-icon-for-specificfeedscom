@@ -24,10 +24,10 @@ function spacexchimp_p002_options() {
     $list = array(
         'hidden_scrollto' => '0',
         'icon_size' => '60',
-        'sf_link' => '',
         'sf_icon' => '1',
-        'tooltip' => '',
+        'sf_link' => '',
         'tooltip_text' => 'RSS Feed',
+        'tooltip' => '',
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
