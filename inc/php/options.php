@@ -37,7 +37,7 @@ function spacexchimp_p002_options() {
 
 
     // Modify data
-    $array['tooltip'] = ( $array['tooltip'] == 'on' ) ? true : false ;
+    $array['tooltip'] = ( $array['tooltip'] == 'on' || $array['tooltip'] == '1' || $array['tooltip'] == 'true' ) ? true : false;
 
     // Return the processed data
     return $array;
