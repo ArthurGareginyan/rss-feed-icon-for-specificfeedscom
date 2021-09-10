@@ -35,8 +35,8 @@ function spacexchimp_p002_control_field( $name, $label, $help=null, $placeholder
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p002_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p002_options();
     $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
     // Generate a part of table
@@ -71,8 +71,8 @@ function spacexchimp_p002_control_switch( $name, $label, $help=null ) {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p002_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p002_options();
     $option = !empty( $options[$name] ) ? $options[$name] : 'false';
     $checked = ( $option == 'on' || $option == '1' || $option == 'true' ) ? "checked='checked'" : '';
 
@@ -108,8 +108,8 @@ function spacexchimp_p002_control_number( $name, $label, $help=null, $default=nu
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p002_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p002_options();
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
 
     // Generate a part of table
