@@ -24,8 +24,6 @@ function spacexchimp_p002_options() {
 
     // Create an array with options
     $array = $options;
-
-    // Set default value if option is empty
     $list = array(
         'hidden_scrollto' => (integer) '0', // _control_hidden
         'icon_size' => (integer) '60', // _control_number
@@ -35,6 +33,8 @@ function spacexchimp_p002_options() {
         'tooltip' => (boolean) '', // _control_switch
     );
     foreach ( $list as $name => $default ) {
+
+        // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 
