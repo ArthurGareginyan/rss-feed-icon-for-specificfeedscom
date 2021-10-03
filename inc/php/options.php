@@ -48,8 +48,8 @@ function spacexchimp_p002_options() {
     }
 
     // Sanitize data
-    //$array['sf_link'] = esc_textarea( $array['sf_link'] );
-    //$array['tooltip_text'] = esc_textarea( $array['tooltip_text'] );
+    $array['sf_link'] = esc_url( $array['sf_link'] );
+    $array['tooltip_text'] = sanitize_text_field( $array['tooltip_text'] );
 
     // Modify data
 
