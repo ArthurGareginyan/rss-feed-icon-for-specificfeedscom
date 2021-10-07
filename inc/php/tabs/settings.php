@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $options = spacexchimp_p002_options();
 
                         // Set default value if option is empty
-                        $sf_icon = !empty( $options['sf_icon'] ) ? $options['sf_icon'] : '1';
+                        $sf_icon = $options['sf_icon'];
                     ?>
 
                     <!-- SUBMIT -->
